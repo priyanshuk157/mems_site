@@ -1,0 +1,22 @@
+.card-body{
+   
+    margin-top: 40px;
+    background: white;
+
+}
+.cards{
+    background: white;
+display: grid; 
+justify-items: center;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+   padding-left: 200px;
+   padding-right: 200px;
+   row-gap: 100px;
+   column-gap: -40px;
+}
+.color-button{
+    background-color: darkslategray ;
+    
+}

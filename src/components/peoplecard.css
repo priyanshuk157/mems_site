@@ -1,0 +1,10 @@
+.main-img{
+    display: flex;
+    justify-content: center;
+}
+.img-hgt  {
+    
+    width: 80%;
+  height: auto;
+  
+}
