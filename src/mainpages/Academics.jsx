@@ -5,11 +5,13 @@ import Footer from '../components/footer'
 const Academics = () => {
   return (
     <>
+    <div className="body">
     <div>
       <Navbar/>
     </div>
     <div>
       <Footer/>
+    </div>
     </div>
     </>
   )

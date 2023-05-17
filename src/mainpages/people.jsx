@@ -7,6 +7,7 @@ import Peoplecard from '../components/peoplecard'
 const people = () => {
   return (
     <>
+    <div className='body'>
     <div>
         <Navbar/>
     </div>
@@ -19,6 +20,7 @@ const people = () => {
     </div>
     <div>
         <Footer/>
+    </div>
     </div>
     </>
   )

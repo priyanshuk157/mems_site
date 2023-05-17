@@ -1,15 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
-import "./Slider.css";
+import "./Slider.css"
 
-function IndividualIntervalsExample() {
+function CarouselFadeExample() {
   return (
     <>
-    
-    <Carousel fade>
-      <Carousel.Item interval={2000}>
+    <div className='carousel-main'>
+    <Carousel fade >
+      <Carousel.Item interval={4000}> 
         <img
-          className="d-block w-100  img1"
-          src="https://capabilitydevelopment.org/assets/upload/Course/571b136748cbf0d8ca86c20938ed2a96.jpg"
+          className="d-block w-100 img-hgt"
+          src="https://wallpaperaccess.com/full/2379729.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,24 +17,25 @@ function IndividualIntervalsExample() {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100 img2"
-          src="https://c1.wallpaperflare.com/preview/7/100/24/iron-melt-furnace-metal.jpg    "
+          className="d-block w-100 img-hgt"
+          src="https://wallpaperaccess.com/full/109672.jpg"
           alt="Second slide"
         />
+
         <Carousel.Caption>
           <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2000}>
-        
+      <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100 img3"
-          src="https://www.indcareer.com/files/Metallurgical%20Engineering%20&%20Materials%20Science%20.jpg"
+          className="d-block w-100 img-hgt"
+          src="https://wallpaperaccess.com/full/945950.jpg"
           alt="Third slide"
         />
+
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -43,9 +44,9 @@ function IndividualIntervalsExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
- 
+    </div>
     </>
   );
 }
 
-export default IndividualIntervalsExample;
+export default CarouselFadeExample;
