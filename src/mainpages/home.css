@@ -1,0 +1,5 @@
+.slider-main{
+    position: relative;
+    top: -150px;
+    z-index: -1;
+}

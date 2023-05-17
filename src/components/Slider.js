@@ -43,7 +43,7 @@ function IndividualIntervalsExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    
+ 
     </>
   );
 }

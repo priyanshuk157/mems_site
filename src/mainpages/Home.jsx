@@ -3,6 +3,8 @@ import Navbar from '../components/navbar'
 import Slider from '../components/Slider'
 import Cards from '../components/cards'
 import Footer from '../components/footer'
+import "./home.css"
+
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
     <div>
       <Navbar/>
     </div>
-    <div>
+    <div className='slider-main'>
       <Slider/>
     </div>
     <div className='cards'>
