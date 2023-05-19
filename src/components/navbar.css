@@ -191,9 +191,7 @@
     .logo {
         display: none;
     }
-    .cards{
-
-    }
+    
     .sec{
         display: flex;
         flex-direction: column;

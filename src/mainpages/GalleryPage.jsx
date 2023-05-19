@@ -6,7 +6,7 @@ import Gallery from '../components/gallery';
 const GalleryPage = () => {
   return (
     <>
-    <div className="body">
+  
     <div>
       <Navbar/>
     </div>
@@ -14,7 +14,7 @@ const GalleryPage = () => {
     <div>
       <Footer/>
     </div>
-    </div>
+  
     </>
   )
 }
