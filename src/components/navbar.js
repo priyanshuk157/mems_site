@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { FaBars } from 'react-icons/fa';
+import { useRef } from "react";
 
 
 
@@ -8,6 +9,12 @@ import { FaBars } from 'react-icons/fa';
 
 
 const Navbar = () => {
+  const navRef = useRef (); 
+
+  const showNavbar =()=>{
+
+    navRef.current.classList.toggle("responsive-nav")
+  }
   
   return (
     <>
@@ -26,8 +33,8 @@ const Navbar = () => {
      </div>
      
      </div>
-     <div className='menu-link' >
-       <ul className='menu-link-ul  '  >
+     <div className='menu-link'  >
+       <ul className='menu-link-ul   ' ref={navRef}  >
         <li> <a href='/'> about </a> </li>
         <li> <a href='people '> People </a> </li>
         <li> <a href='academics '> academics </a> </li>
@@ -39,7 +46,7 @@ const Navbar = () => {
         </ul>
          
        </div>
-          <div className="nav-ham" >
+       <div className="nav-ham"  onClick={showNavbar}>
            <FaBars /> 
           </div> 
      </div>

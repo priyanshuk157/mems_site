@@ -20,9 +20,6 @@
 
 }
 
-.main-nav .active{
-    
-}
 
 .logo {
     position: relative;
@@ -173,7 +170,7 @@
 
 
     }
-     .responsive-nav{
+    .responsive-nav{
         transform: none;
     }
 
