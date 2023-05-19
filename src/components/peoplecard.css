@@ -1,10 +1,77 @@
-.main-img{
-    display: flex;
-    justify-content: center;
+p{
+  margin: 0;
+  padding: 0;
 }
-.img-hgt  {
+.hodimg{  
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+.hodsec{
+  height: 350px;  
+}
+.peoplecont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hodtext{
+  background-color: white;  
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:30px;
+  padding-right:30px;
+}
+.faculty{ 
+  border-radius: 8px;
+  height: 300px;
+  background-color: white;
+  width: 30%;
+}
+.staff{
+  border-radius: 8px;
+  height: 300px;
+  margin-left: auto;
+  background-color: white;
+  width: 30%;
+}
+.students{
+  border-radius: 8px;
+  height: 300px;
+  margin-left: auto;
+  background-color: white;
+  width: 30%;
+}
+
+@media (max-width:600px){
+  .hodsec{
+    height: 200px;
+  }
+  .hodimg{
+    width: 30%;
     
-    width: 80%;
-  height: auto;
-  
+  }
+  .hodtext{
+    font-size: 10px;  
+  }
+  .peoplecont{    
+    flex-direction: column;    
+    gap: 20px;
+  }
+
+  .faculty{
+    height: 150px;
+    width: 70%;
+  }
+  .staff{
+    height: 150px;
+    width: 70%;
+    margin-left: 0;
+  }
+  .students{
+    height: 150px;
+    width: 70%;
+    margin-left: 0;
+  }
 }
