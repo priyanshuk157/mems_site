@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-
+import { FaBars } from 'react-icons/fa';
 
 
 
@@ -8,12 +8,13 @@ import "./navbar.css";
 
 
 const Navbar = () => {
+  
   return (
     <>
     <nav >
 
       
-     <div className='main-nav '>
+     <div className='main-nav active'>
      <div className="nav-2">
      <div className='logo'>
          <div className="mems">
@@ -25,9 +26,9 @@ const Navbar = () => {
      </div>
      
      </div>
-     <div className='menu-link'>
-       <ul className='menu-link-ul' >
-        <li> <a href='/ '> about </a> </li>
+     <div className='menu-link' >
+       <ul className='menu-link-ul  '  >
+        <li> <a href='/'> about </a> </li>
         <li> <a href='people '> People </a> </li>
         <li> <a href='academics '> academics </a> </li>
         <li> <a href='research '> research </a> </li>
@@ -35,9 +36,12 @@ const Navbar = () => {
         
         <li> <a href='resources '> resources </a> </li>
         <li> <a href='contact '> contact us </a> </li>
-        
-       </ul>
+        </ul>
+         
        </div>
+       <div className="nav-ham" >
+           <FaBars /> 
+          </div> 
      </div>
     
   
