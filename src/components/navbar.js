@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
          
        </div>
-       <div className="nav-ham" >
+          <div className="nav-ham" >
            <FaBars /> 
           </div> 
      </div>
