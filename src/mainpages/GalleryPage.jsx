@@ -6,15 +6,21 @@ import Gallery from '../components/gallery';
 const GalleryPage = () => {
   return (
     <>
-  
+   <div className="body">
     <div>
       <Navbar/>
     </div>
+    <div className="head">
+     
+GALLERY
+      
+      </div>
+
     <Gallery />
     <div>
       <Footer/>
     </div>
-  
+    </div>
     </>
   )
 }

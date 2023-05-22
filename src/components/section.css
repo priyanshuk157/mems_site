@@ -1,0 +1,32 @@
+.table-main{
+    background-color: white;
+    border: 3px linear-gradient(white , );
+    color: black;
+}
+.sec-3{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+.eve-pos{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+
+    gap: 5rem;
+    width: 400px;
+}
+.open-pos{
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 5rem;
+    width: 400px;
+}

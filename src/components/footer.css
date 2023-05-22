@@ -5,7 +5,7 @@
     margin-top: 60px;
     background-color: #105297;
 
-    height: 400px;
+    height: fit-content;
 }
 .footer-main{
     padding: 60px;

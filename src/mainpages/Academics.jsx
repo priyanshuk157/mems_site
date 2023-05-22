@@ -9,6 +9,11 @@ const Academics = () => {
     <div>
       <Navbar/>
     </div>
+    <div className="head">
+     
+      ACADEMICS
+      
+      </div>
     <div>
       <Footer/>
     </div>

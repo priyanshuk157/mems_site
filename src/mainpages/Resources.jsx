@@ -9,6 +9,9 @@ const Resources = () => {
     <div>
       <Navbar/>
     </div>
+    <div className="head">
+     RESOURCES  
+      </div>
     <div>
       <Footer/>
     </div>
