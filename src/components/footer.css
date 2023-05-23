@@ -4,15 +4,27 @@
     top: 100%;
     margin-top: 60px;
     background-color: #105297;
-
-    height: 400px;
+    height: fit-content;
 }
 .footer-main{
-    padding: 60px;
+  padding: 60px;
     display: flex;
+    flex-wrap: wrap;
     gap: 10rem;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    
     align-content: center;
     color: white;
+}
+.footer-head{
+    font-size: 30px;
+}
+.foot-img{
+        height: 30px    ;
+        width: auto;
+    }
+.footer-logos{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
 }

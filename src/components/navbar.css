@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     --nav-height: 18rem;
+    /* color: black !important; */
 
 
 }
@@ -191,9 +192,7 @@
     .logo {
         display: none;
     }
-    .cards{
-
-    }
+    
     .sec{
         display: flex;
         flex-direction: column;

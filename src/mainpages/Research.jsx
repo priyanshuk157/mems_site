@@ -9,6 +9,11 @@ const Research = () => {
     <div>
         <Navbar/>
         </div>
+        <div className="head">
+     
+     RESEARCH
+      
+      </div>
     <div>
         <Footer/>
         </div>

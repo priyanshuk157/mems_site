@@ -11,6 +11,11 @@ const people = () => {
     <div>
         <Navbar/>
     </div>
+    <div className="head">
+     
+       PEOPLE
+      
+      </div>
     <div>
        <Peoplecard/>
     </div>
