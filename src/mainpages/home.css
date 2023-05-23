@@ -24,7 +24,7 @@
 .sec-cont{
     display: flex;
     align-items: center;
-    width: 800px;
+    width: auto;
     color: white;
     text-align: justify;
 }

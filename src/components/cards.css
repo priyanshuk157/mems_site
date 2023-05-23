@@ -4,6 +4,9 @@
     background: white;
 
 }
+.card-height{
+    height:20px;
+}
 .cards{
     margin-top: 100px;
 display: grid; 
@@ -34,4 +37,9 @@ gap: 20px;
        column-gap: -40px;
     }
     
+}
+@media (max-width:600px){
+    .card-height{
+        height: 10rem;
+    }
 }

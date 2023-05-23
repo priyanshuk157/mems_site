@@ -162,9 +162,9 @@
         width: 100%;
         z-index: 3;
 
-        transition: 1s;
+        transition: .8s ease-in-out;
         transform: translateY(-100vh);
-        background: rgba(0, 0, 0, .5);
+        background: rgba(0, 0, 0, .7 );
 
 
 
@@ -187,3 +187,23 @@
 
     }
 }
+@media (max-width:600px){
+    .logo {
+        display: none;
+    }
+    .cards{
+
+    }
+    .sec{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sec-img{
+        width: 200px;
+    }
+    .sec-cont{
+        width: 200px;
+    }
+}
+
