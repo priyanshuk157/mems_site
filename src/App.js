@@ -9,9 +9,10 @@ import {Routes , Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import Academics from './mainpages/Academics'
 import Research from './mainpages/Research'
-import Gallery from './mainpages/Gallery'
+import GalleryPage from './mainpages/GalleryPage';
 import Contact from './mainpages/Contact'
 import Resources from './mainpages/Resources'
+import Faculty from './components/faculty'
 // import Home from './components/Home'
 const App = () => {
   return (
@@ -30,9 +31,10 @@ const App = () => {
         <Route path='people' element={<People/>}></Route>
         <Route path='academics' element={<Academics/>}></Route>
         <Route path='research' element={<Research/>}></Route>
-        <Route path='gallery' element={<Gallery/>}></Route>
+        <Route path='gallery' element={<GalleryPage/>}></Route>
         <Route path='contact' element={<Contact/>}></Route>
         <Route path='resources' element={<Resources/>}></Route>
+        <Route path='faculty' element={<Faculty/>}></Route>
       </Routes>
      
       {/* <div> <Footer/></div> */}
