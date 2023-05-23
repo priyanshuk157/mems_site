@@ -4,27 +4,46 @@
     z-index: 0;
 }
 .body{
-   background:linear-gradient(#001965,#1944C5);
+   background:linear-gradient(#000c31,#1944C5);
+   /* background: white; */
    z-index: -7;
+   color: #000 ;
 }
 .sec {
     
     display: flex;
     justify-content: center;
-    padding: 60px;
+    padding: 160px;
     gap: 10rem;
     }
 
 .sec-img img{
    
     height: auto;
-    width:200px;
+    width:300px;
     border-radius: 10px;
 }
 .sec-cont{
     display: flex;
     align-items: center;
-    width: 800px;
+    width: auto;
     color: white;
     text-align: justify;
 }
+.vision{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    padding: 0 10rem;
+    color: white;
+    
+}
+.item-cor{
+    height: 350px;
+    background-color: white;
+    
+}
+
+
+

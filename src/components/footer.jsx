@@ -1,18 +1,32 @@
 import React from 'react'
 import './footer.css'
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 const footer = () => {
   return (
     <div className='footer-body'>
-      <div className="container footer-main ">
-        <div className="row">
-            <div className="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, porro dolores blanditiis officia rerum, perspiciatis necessitatibus ea placeat dolorum qui explicabo, soluta possimus quidem doloremque ab voluptatibus? Reiciendis, architecto quia!</div>
-            <div className="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam vel molestiae iure inventore, tempore, enim non similique eius distinctio labore provident odio laborum facere minus porro hic dicta laudantium!</div>
-            <div className="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, porro dolores blanditiis officia rerum, perspiciatis necessitatibus ea placeat dolorum qui explicabo, soluta possimus quidem doloremque ab voluptatibus? Reiciendis, architecto quia!</div>
-            <div className="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam vel molestiae iure inventore, tempore, enim non similique eius distinctio labore provident odio laborum facere minus porro hic dicta laudantium!</div>
+      <div className=" footer-main ">
+        
+            <div className=""><span className='footer-head'> Office of Head of the Department</span><br />
+            Metallurgical Engineering and Materials Science <br />
+Indian Institute of Technology Indore <br />
+Khandwa Road, Simrol-453552 <br />
+Indore, Madhya Pradesh, INDIA
+           
+</div>  
+           
+            <div className=""> </div>
+            <div className=""> </div>
+            <div className=" footer-logos">
+           <div> <i>< FaPhoneAlt/> </i>  : +91-7324-306 819</div> 
+            <div><i>< FaEnvelope/></i> : memsoffice@iiti.ac.in</div> 
+
+             
+            </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 

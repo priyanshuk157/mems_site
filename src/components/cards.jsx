@@ -7,7 +7,7 @@ function BasicExample() {
     <>
    
    
-    <Card style={{ width: '20rem' }}>
+    <Card className='card-height'>
       <Card.Img variant="top" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
