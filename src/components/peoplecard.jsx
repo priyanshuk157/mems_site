@@ -6,7 +6,7 @@ const peoplecard = () => {
   return (
     <>
 
-      <div className="hodsec container ">
+      <div className="hodsec container  ">
      
         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" className="hodimg" alt="okf" />
         

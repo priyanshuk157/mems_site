@@ -35,12 +35,15 @@
     flex-direction: column;
     text-align: justify;
     align-items: center;
-    padding: 0 180px;
+    padding: 0 10rem;
     color: white;
+    
 }
 .item-cor{
     height: 350px;
     background-color: white;
+    
 }
+
 
 
