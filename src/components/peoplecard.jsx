@@ -81,7 +81,7 @@ const peoplecard = () => {
             STUDENTS
             <br />
             <small>
-              <i>Get to know our best in class staff</i>
+              <i>Get to know our best in class students</i>
             </small>
             
           </div>
