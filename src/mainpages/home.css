@@ -4,10 +4,11 @@
     z-index: 0;
 }
 .body{
-   background:linear-gradient(#000c31,#1944C5);
+    background:linear-gradient(#000c31,#1944C5);
+  
    /* background: white; */
    z-index: -7;
-   color: #000 ;
+  
 }
 .sec {
     
@@ -28,6 +29,7 @@
     align-items: center;
     width: auto;
     color: white;
+    
     text-align: justify;
 }
 .vision{
