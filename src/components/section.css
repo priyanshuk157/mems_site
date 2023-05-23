@@ -1,0 +1,52 @@
+.table-main{
+    background-color: white;
+   
+}
+.sec-3{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+.eve-pos{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    color: white;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+
+    gap: 5rem;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow:  0px 10px 20px black;
+}
+.open-pos{
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 5rem;
+    width: 400px;
+}
+.ranking-main{
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+    
+.ranking{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+    padding: 5rem 10rem;
+    color: white;
+
+   
+
+}
