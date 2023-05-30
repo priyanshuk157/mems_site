@@ -1,0 +1,50 @@
+.profile-img{
+    display: flex;  
+    flex-direction: column  ;
+    gap: 5px;
+   
+    
+    
+
+}
+.profileimg-name{
+    position: relative;
+    font-size: 30px;
+}
+.profile-img img{
+    height: 450px;
+    width: auto;
+    border-radius: 10px;
+}
+.profile-section-1{
+    display: flex; 
+    justify-content: space-evenly;  
+}
+.pc1{
+    padding: 0 60px;
+    font-size: 20px;
+    position: relative;
+    left:-50px;
+    
+}
+.back-button a  {
+    position: relative;
+    left: -280%;
+    top: -5%;
+    color: red;
+}
+.pc1 ul{
+   
+    line-height: 45px   ;
+    
+}
+.pc1-head{
+    font-size: 40px;
+    color: brown;
+}
+.profile-main{
+    padding: 60px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    margin: 0 8rem;
+}

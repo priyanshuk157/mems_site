@@ -1,22 +1,18 @@
 import React from 'react'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+
+
+import Researchcomponent1 from '../components/researchcomponent1'
+
 
 const Research = () => {
   return (
     <>
     <div className='body'>
-    <div>
-        <Navbar/>
-        </div>
-        <div className="head">
-     
-     RESEARCH
-      
+    
+      <div>
+        <Researchcomponent1/>
       </div>
-    <div>
-        <Footer/>
-        </div>
+    
         </div>
         </>
   )

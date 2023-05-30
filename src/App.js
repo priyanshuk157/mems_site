@@ -13,6 +13,13 @@ import GalleryPage from './mainpages/GalleryPage';
 import Contact from './mainpages/Contact'
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
+import Staff from './components/staff'
+import Researchcomponent4 from './components/researchcomponent4'
+import Researchcomponent2 from './components/researchcomponent2'
+import Researchcomponent3 from './components/researchcomponent3'
+import Researchcomponent1 from './components/researchcomponent1'
+import Profile1 from './components/profiles/profile1'
+
 // import Home from './components/Home'
 const App = () => {
   return (
@@ -35,6 +42,12 @@ const App = () => {
         <Route path='contact' element={<Contact/>}></Route>
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
+        <Route path='staff' element={<Staff/>}></Route>
+        <Route path='akm' element={<Researchcomponent4/>}></Route>
+        <Route path='ann' element={<Researchcomponent2/>}></Route>
+        <Route path='adan' element={<Researchcomponent3/>}></Route>
+        <Route path='ajkj' element={<Researchcomponent1/>}></Route>
+        <Route path='profile2' element={<Profile1/>}></Route>
       </Routes>
      
       {/* <div> <Footer/></div> */}

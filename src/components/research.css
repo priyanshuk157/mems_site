@@ -1,0 +1,58 @@
+.research-heads{
+    display: flex;
+   flex-direction: column;
+  gap: 5px;
+ 
+   align-items: right;
+   font-size: 25px;
+ background-color: rgba(58, 62, 138, 0.5);
+   height: 100%;
+   width: 20%;
+   height: auto;
+   padding: 30px;
+  
+
+}
+.research-heads a{
+    position: relative;
+    left: 20px;
+    
+    text-decoration: none;
+    color: white;
+
+    
+    
+}
+.indicator1{
+    z-index: index 1; ;
+    position: absolute;
+    left: -2rem}
+.research-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.research-content{
+    width: 40vw;
+    text-align: justify;
+
+}
+.research-content-head{
+    font-size: 3rem;
+}
+.prof-names{
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+
+   
+}
+.prof-names ul {
+    margin-right: 50px;
+    list-style: none;
+ 
+}
+

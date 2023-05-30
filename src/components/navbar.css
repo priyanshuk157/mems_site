@@ -1,15 +1,17 @@
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
 
 
 * {
-    /* font-family: 'Montserrat', sans-serif; */
-
+    /* font-family: 'Ysabeau', sans-serif; */
     margin: 0;  
     padding: 0;
-    --nav-height: 18rem;
+    --nav-height: 14rem;
     /* color: black !important; */
-    font-weight: 700;
+    font-weight: 500;
 
 
 }
@@ -23,8 +25,9 @@
     display: grid;
     grid-template-columns: 10rem 2fr 3fr 3rem;
     background: transparent;
-    color: white;
+    /* color: white; */
     /* border: 1px solid; */
+  
 
 }
 
@@ -37,7 +40,7 @@
     height: 9rem;
     background: transparent;
     display: flex;
-    color: white;
+    
     flex-direction: column;
     align-items: left;
     justify-content: center;
@@ -54,8 +57,9 @@
 
 .mems {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 40px;
+    /* text-shadow: 0px 2px  5px black;  */
 
 }
 
@@ -83,7 +87,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
+    
+    /* color: white; */
+    color: blue;
 
 
 }
@@ -103,6 +109,7 @@
     
   position: relative;
  font-size: x-large;
+ /* text-shadow: 0 10px 5px black; */
   
     /* font-size: x-large ; */
 
@@ -110,10 +117,11 @@
 
 .typo {
     font-size: 45px;
+    font-weight: 700;
 }
 
 .menu-link-ul li a {
-    color: rgb(255, 255, 255);
+    color: blue;
     text-decoration: none;
     font-size: larger;
 }
