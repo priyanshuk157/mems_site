@@ -92,9 +92,10 @@
     }
     .back-button a  {
         font-size: 40px;
-        position: fixed;
+        position: absolute ;
         left: 10%;
-        top:20% ;
+        top: 20%;
+        z-index: 8;
         color: red;
     }
 }
