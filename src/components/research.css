@@ -9,14 +9,15 @@
    height: 100%;
    width: 20%;
    height: auto;
+  
    padding: 30px;
   
 
 }
-.research-heads a{
+.heads-1{
     position: relative;
     left: 20px;
-    
+    cursor: pointer;
     text-decoration: none;
     color: white;
 
@@ -24,17 +25,27 @@
     
 }
 .indicator1{
+    display: none;
     z-index: index 1; ;
     position: absolute;
     left: -2rem}
+    .active-indicator{
+        display: block;
+        z-index: index 1; ;
+        position: absolute;
+        left: -2rem
+    }
 .research-main{
     display: flex;
-    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 40px;
     justify-content: space-evenly;
+  
 }
 .research-content{
     width: 40vw;
     text-align: justify;
+    display: none;
 
 }
 .research-content-head{
@@ -56,3 +67,9 @@
  
 }
 
+.active-content1{
+    width: 40vw;
+    text-align: justify;
+    justify-content: space-evenly;
+   
+}
