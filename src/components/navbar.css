@@ -227,6 +227,12 @@
       
     
     }
+    .menu-link-ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: x-large;
+        font-weight: 900;
+    }
     .nav-ham {
         
         visibility: visible;
@@ -247,12 +253,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1.5rem;
+        gap: 2rem;
         height: 100%;
         /* width: 100%; */
         z-index: 3;
+        
 
-        transition: .8s ease-in-out;
+        transition: .6s ease-in-out;
         transform: translateY(-200vh);
         background: rgba(0, 0, 0, .7 );
     }   
