@@ -14,7 +14,7 @@ const faculty = () => {
                 <div className="faculty-head-2"><a href="people"><i><FaAngleLeft /></i></a> Faculty</div>
                 <div className='faculty-main'>
 
-                    <a href="profile2">
+                    
                         <div className="hodsec  ">
 
 
@@ -23,7 +23,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -31,9 +33,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -42,7 +41,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -50,9 +51,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -61,7 +59,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -69,9 +69,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -80,7 +77,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -88,9 +87,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -99,7 +95,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -107,9 +105,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -118,7 +113,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -126,9 +123,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -137,7 +131,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -145,9 +141,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -156,7 +149,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -164,9 +159,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -175,7 +167,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -183,9 +177,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -194,7 +185,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -202,9 +195,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -213,7 +203,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -221,9 +213,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -232,7 +221,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -240,9 +231,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -251,7 +239,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -259,9 +249,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -270,7 +257,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -278,9 +267,6 @@ const faculty = () => {
                             </div>
 
                         </div>
-
-                    </a>
-                    <a href="profile2">
                         <div className="hodsec  ">
 
 
@@ -289,7 +275,9 @@ const faculty = () => {
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
+                                    <div className="post"> akk@iiti.ac.in </div>
+                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    
 
 
                                 </div>
@@ -298,45 +286,8 @@ const faculty = () => {
 
                         </div>
 
-                    </a>
-                    <a href="profile2">
-                        <div className="hodsec  ">
-
-
-                            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" className="hodimg" alt="okf" />
-
-                            <div className="hodtext">
-                                <div className="hodtext1">
-                                    <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </a>
-                    <a href="profile2">
-                        <div className="hodsec  ">
-
-
-                            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" className="hodimg" alt="okf" />
-
-                            <div className="hodtext">
-                                <div className="hodtext1">
-                                    <div className="name">Dr. Ajay Kumar Kushwaha</div>
-                                    <div className="post"> Associate Professor and HoD </div>
-
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </a>
+                    
+                  
 
                 </div>
 

@@ -88,6 +88,21 @@ p {
 .faculty-head-2{
   font-size: 8rem;
 }
+.post-button{
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 247);
+  color: white;
+}
+.post-button a{
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 247);
+  color: white;
+  text-decoration: none;
+}
 
 .staff {
   display: flex;
@@ -171,4 +186,79 @@ p {
     width: 70%;
     margin-left: 0;
   }
+  
+.head {
+  display: flex;
+  margin: 0;
+  justify-content: space-evenly;
+  width: auto;
+  font-weight: bolder;
+  color: red;
+  font-size: 3rem;
+  height: 6rem;
+}
+.faculty-head-2{
+  font-size: 4rem;
+}
+.faculty-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 20px;
+  row-gap: 5rem;
+  padding: 1rem;
+}
+.hodsec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px #000;
+  padding: 10px;
+}
+
+.name {
+
+  font-weight: bolder;
+  font-size: 10px;
+  color: red;
+}
+.hodimg {
+  height: 140px;
+  width: auto;
+  /* width: 250px; */
+  border-radius: 10px;
+}
+.hodtext {
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  justify-content: left;
+  align-items: center;
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hodtext1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+
+}
+.post-button{
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 247);
+  color: white;
+}
 }

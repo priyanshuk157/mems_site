@@ -13,11 +13,12 @@ const profile1 = () => {
             </div>
 
             <div className="head">
-                <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
+             
 
                 PROFILE
 
             </div>
+            <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
             <div className='profile-main'>
                 <div className="profile-section-1">
                     <div className="profile-img">
@@ -31,17 +32,11 @@ const profile1 = () => {
                     </div>
                     {/* pc=profile content */}
                     <div className="profile-content-1">
-                        <div className="pc1">
-                            <span className='pc1-head'>BIOGRAPHY</span>
-                            <ul>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                            </ul>
-                        </div>
+                    <div className="pc1">
+                    <span className='pc1-head'>BIOGRAPHY</span>
+                        <br />
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias numquam delectus ipsa repellat necessitatibus! Odit, veniam iusto omnis eum mollitia quis hic at libero consequatur repellendus. Eos 
+                </div>
                         <div className="pc1">
                             <span className='pc1-head'>BIOGRAPHY</span>
                             <ul>

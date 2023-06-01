@@ -74,3 +74,39 @@
     justify-content: space-evenly;
    
 }
+
+
+@media(max-width:600px)
+{
+    .research-main{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 40px;
+        justify-content: space-evenly;
+      
+    }
+    .research-heads{
+        display: flex;
+       flex-direction: column;
+      gap: 5px;
+     
+       align-items: right;
+       font-size: 25px;
+     background-color: rgba(58, 62, 138, 0.5);
+       height: 0%;
+       width: 100%;
+       height: auto;
+      
+       padding: 30px;
+      
+    
+    }
+    .active-content1{
+        width: 100%;
+        text-align: justify;
+        justify-content: space-evenly;
+       
+    }
+    
+}
