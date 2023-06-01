@@ -47,3 +47,44 @@
     
 }
 
+@media(max-width:400px){
+    .sec-img img{
+   
+        height: auto;
+        width: 200px;
+        border-radius: 10px;
+    } 
+    .sec {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding: 20px;
+        gap: 2rem;
+        }   
+        .sec-cont{
+            display: flex;
+            align-items: center;
+            
+            /* color: white; */
+            
+            text-align: justify;
+        }
+        .vision{
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            align-items: center;
+            padding: 20px;
+            
+            /* color: white; */
+            
+        }
+        .item-cor{
+            height: 200px;
+            background-color: white;
+            
+        }
+}

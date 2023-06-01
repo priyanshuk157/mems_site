@@ -74,3 +74,51 @@ width: 100%;
     justify-content:center;
     align-items:flex-end ;
 }
+@media(max-width:400px){
+
+    .ranking-main{
+        display: none;
+        height: 400px;
+       width: 100%;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px black;
+    }
+        
+    .ranking{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 100%;
+        
+        /* padding: 5rem 10rem; */
+        /* color: white; */
+    
+       
+    
+    }
+    .ranking3{
+        display: none;
+    /* display: flex; */
+    width: 100%;
+    }
+    .eve-pos{
+        display: flex;
+        flex-wrap: wrap ;
+        gap: 3rem;
+        justify-content: space-evenly;
+        /* color: white; */
+        padding: 20px   ;
+    }
+    .events{
+        display: flex;
+        flex-direction: column;
+
+        gap: 1rem;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow:  0px 10px 20px black;
+    }
+   
+}

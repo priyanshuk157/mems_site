@@ -16,7 +16,8 @@
 }
 .heads-1{
     position: relative;
-    left: 20px;
+    
+    left:   0px;
     cursor: pointer;
     text-decoration: none;
     color: white;
