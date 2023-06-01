@@ -12,13 +12,13 @@ const profile1 = () => {
                 <Navbar />
             </div>
 
-            <div className="head">
+            <div className="head4">
              
-
+            <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
                 PROFILE
 
             </div>
-            <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
+          
             <div className='profile-main'>
                 <div className="profile-section-1">
                     <div className="profile-img">

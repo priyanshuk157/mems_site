@@ -98,4 +98,14 @@
         z-index: 8;
         color: red;
     }
+    .head4 {
+        display: flex;
+        margin: 0;
+        justify-content:center;
+        width: auto;
+        font-weight: bolder;
+        color: red;
+        font-size: 3rem;
+        height: 6rem;
+      }
 }
