@@ -20,6 +20,17 @@
     display: flex; 
     justify-content: space-evenly;  
 }
+.head4 {
+    display: flex;
+    
+    margin-bottom: 3rem;
+    justify-content:center;
+    width: auto;
+    font-weight: bolder;
+    color: red;
+    font-size: 8rem;
+    height: 10rem;
+  }
 .pc1{
     padding: 0 60px;
     font-size: 20px;
@@ -29,8 +40,7 @@
 }
 .back-button a  {
     position: relative;
-    left: -280%;
-    top: -5%;
+   top:-11px    ;
     color: red;
 }
 .pc1 ul{
@@ -92,14 +102,14 @@
     }
     .back-button a  {
         font-size: 40px;
-        position: absolute ;
-        left: 10%;
-        top: 20%;
+        position: relative ;
+     top: -7px;
         z-index: 8;
         color: red;
     }
     .head4 {
         display: flex;
+        justify-content: center;
         margin: 0;
         justify-content:center;
         width: auto;

@@ -15,7 +15,7 @@ const profile1 = () => {
             <div className="head4">
              
             <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
-                PROFILE
+              <span>PROFILE</span>
 
             </div>
           
