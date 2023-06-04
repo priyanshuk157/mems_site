@@ -42,7 +42,7 @@ const Navbar = () => {
         {/* <li> <a href='gallery '> gallery </a> </li>
         
         <li> <a href='resources '> resources </a> </li> */}
-        <li> <a href='contact '> contact us </a> </li>
+        {/* <li> <a href='contact '> contact us </a> </li> */}
         </ul>
          
        </div>

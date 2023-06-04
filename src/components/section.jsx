@@ -11,15 +11,22 @@ const section = () => {
         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="" />
         </div>
         <div className='sec-cont '>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda ullam quam asperiores nostrum maxime esse, excepturi et laudantium necessitatibus similique unde iusto ipsam hic quas voluptate quisquam quaerat commodi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asperiores sunt expedita vel tempora explicabo aliquam aut corrupti optio, eligendi necessitatibus veniam hic vitae, officiis, ipsum dicta quia accusamus laborum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure magnam quae, officiis iusto architecto amet quam repellat nesciunt aut. Quo temporibus odio ullam dolore dolorum fugiat quisquam cupiditate nobis quam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sit fuga temporibus ducimus omnis atque optio. Saepe facilis libero necessitatibus ipsa dolorum quisquam molestias amet, odit ut molestiae earum cupiditate? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex neque consectetur reiciendis. Totam enim, facilis at mollitia, consectetur laborum necessitatibus deleniti earum provident alias vero! Culpa quos quasi sit amet?
+        Welcome to the home page of Department of Metallurgical Engineering and Materials Science! <br />
+
+The Department of MEMS was initially started as a Center for Materials Science Engineering comprising of faculty from Schools of basic sciences and engineering. Upon its progress in short period of time, the center for MSE was made in to full fledged Department of Metallurgical Engineering and Materials Science from 2016. <br />
+Materials continue to play a vital role in almost every technological advancement since the beginning of civilization. The emphasis of the Department is to promote multidisciplinary research to find amicable solutions for the real- world problems and work on the cutting-edge research problems that benefits society. The key research focus of the Department is to understand the processing, structure of several classes of materials and correlate them to the properties and thus enhancing their performance.
         </div>
        
     </div>
     <div className='vision '>
       <div ><h2>VISION AND MISSION</h2></div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda ullam quam asperiores nostrum maxime esse, excepturi et laudantium necessitatibus similique unde iusto ipsam hic quas voluptate quisquam quaerat commodi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asperiores sunt expedita vel tempora explicabo aliquam aut corrupti optio, eligendi necessitatibus veniam hic vitae, officiis, ipsum dicta quia accusamus laborum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure magnam quae, officiis iusto architecto amet quam repellat nesciunt aut. Quo temporibus odio ullam dolore dolorum fugiat quisquam cupiditate nobis quam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sit fuga temporibus ducimus omnis atque optio. Saepe facilis libero necessitatibus ipsa dolorum quisquam molestias amet, odit ut molestiae earum cupiditate? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex neque consectetur reiciendis. Totam enim, facilis at mollitia, consectetur laborum necessitatibus deleniti earum provident alias vero! Culpa quos quasi sit amet?
+      To be among the institutes of world-class by educating and mentoring the next generation of engineers, scientists, and entrepreneurs in order to contribute to the economic and social development of India & world. 
+ <br />
+ Educate our students in fundamental-to-advanced topics in materials & metallurgical engineering to enable them with necessary skills to succeed in academia and industry. <br /> 
+Innovative research focused on design, processing, characterization, and application of novel materials. <br />
+Encourage innovation & entrepreneurship and provide conducive environment for translational research by collaborating with relevant industries. <br />
+Engage with broader community via outreach programs to promote science & technology awareness
+
     </div>
     <div className="ranking3">
 

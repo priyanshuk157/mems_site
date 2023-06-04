@@ -10,7 +10,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}> 
         <img
           className="d-block w-100 img-hgt"
-          src="https://wallpaperaccess.com/full/2379729.jpg"
+          src="http://mems.iiti.ac.in/index_files/image%25207.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}>
         <img
           className="d-block w-100 img-hgt"
-          src="https://wallpaperaccess.com/full/109672.jpg"
+          src="http://mems.iiti.ac.in/index_files/image%25202.jpg"
           alt="Second slide"
         />
 

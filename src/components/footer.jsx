@@ -8,7 +8,7 @@ const footer = () => {
     <div className='footer-body'>
       <div className=" footer-main ">
         
-            <div className=""><span className='footer-head'> Office of Head of the Department</span><br />
+            <div className=""><span className='footer-head'>  Department office</span><br />
             Metallurgical Engineering and Materials Science <br />
 Indian Institute of Technology Indore <br />
 Khandwa Road, Simrol-453552 <br />

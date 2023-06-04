@@ -59,7 +59,7 @@
     margin: 0 8rem;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     .profile-main{
         padding: 1rem;
         box-shadow: 3px 3px 10px black;

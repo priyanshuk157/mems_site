@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Academics from './mainpages/Academics'
 import Research from './mainpages/Research'
 import GalleryPage from './mainpages/GalleryPage';
-import Contact from './mainpages/Contact'
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
 import Staff from './components/staff'
@@ -37,7 +36,6 @@ const App = () => {
         <Route path='academics' element={<Academics/>}></Route>
         <Route path='research' element={<Research/>}></Route>
         <Route path='gallery' element={<GalleryPage/>}></Route>
-        <Route path='contact' element={<Contact/>}></Route>
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
         <Route path='staff' element={<Staff/>}></Route>
