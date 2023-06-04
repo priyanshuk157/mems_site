@@ -35,24 +35,24 @@ const profile1 = () => {
                     <div className="pc1">
                     <span className='pc1-head'>BIOGRAPHY</span>
                         <br />
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias numquam delectus ipsa repellat necessitatibus! Odit, veniam iusto omnis eum mollitia quis hic at libero consequatur repellendus. Eos 
-                </div>
+The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's degree in Physics and Mathematics from C.S.J.M University, Kanpur in 2003. Building upon this foundation, he pursued a Master's degree in Physics with a specialization in Electronics from the same university, successfully completing it in 2006. Driven by a passion for research and academic excellence, he joined the prestigious IIT Bombay to pursue a Ph.D.                </div>
                         <div className="pc1">
-                            <span className='pc1-head'>BIOGRAPHY</span>
+                            <span className='pc1-head'>CONTRIBUTIONS</span>
                             <ul>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
+                                <li>Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students</li>
+                                <li>completed 2 Research Projects</li>
+                                <li>Published 65 Journals, 10 conferences, 281 citations, 28 h-index, 44 i10-index</li>
+                                <li>Organised 3 workshops, 6 training programs, 2 short-term courses, </li>
+                                <li>given 10 Invited/Contributory talk in national / international conferences</li>
+
                                 <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="pc1">
-                    <span className='pc1-head'>BIOGRAPHY</span>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias numquam delectus ipsa repellat necessitatibus! Odit, veniam iusto omnis eum mollitia quis hic at libero consequatur repellendus. Eos necessitatibus earum nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam, eaque velit repellat vero aliquid magni laudantium, fugiat, molestiae asperiores totam pariatur quas! Dolorem corrupti odit quis praesentium atque quibusdam.
+                    <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span>
+                  Area of Specialization: Materials Science: Nano & Energy Materials. One Major Achievement: General Chair: International Conference on Frontiers of Materials Engineering. 
                 </div>
             </div>
 
