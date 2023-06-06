@@ -25,7 +25,7 @@ const Navbar = () => {
      <div className="nav-2">
      <div className='logo'>
          <div className="mems">
-          <span className="typo">M</span>etallurgical     <span className="typo">E</span>ngneering <br/> and <span className="typo">M</span>aterial <span className="typo">S</span>cience
+          <span className="typo">M</span>etallurgical     <span className="typo">E</span>ngneering <br/> and <span className="typo">M</span>aterials <span className="typo">S</span>cience
           </div>
          <div className="iiti">
         Indian Institute of Technology Indore
@@ -42,7 +42,7 @@ const Navbar = () => {
         {/* <li> <a href='gallery '> gallery </a> </li>
         
         <li> <a href='resources '> resources </a> </li> */}
-        {/* <li> <a href='contact '> contact us </a> </li> */}
+        <li> <a href='industry '> Industry relation </a> </li>
         </ul>
          
        </div>

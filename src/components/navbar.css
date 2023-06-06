@@ -62,7 +62,7 @@
 }
 
 .iiti {
-    color: blue;
+    color: rgb(5, 5, 205);
     line-height: 60px;
     font-size: 15px;
 }
@@ -88,7 +88,7 @@
     align-items: center;
     
     /* color: white; */
-    color: blue;
+    color: ;
 
 
 }
@@ -117,7 +117,7 @@
 }
 
 .menu-link-ul li a {
-    color: blue;
+    color: rgb(5, 5, 205);
     text-decoration: none;
     font-size: larger;
 }

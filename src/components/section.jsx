@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
 
 const section = () => {
@@ -35,7 +35,11 @@ Engage with broader community via outreach programs to promote science & technol
    <div className='ranking-main'></div>
     </div>
     <div className='ranking'>
-      <div ><h2>RANKINGS</h2></div>
+      <div ><h2>NEWS</h2></div>
+   <div className='ranking-main'></div>
+    </div>
+    <div className='ranking'>
+      <div ><h2>PLACEMENT</h2></div>
    <div className='ranking-main'></div>
     </div>
     </div>
@@ -43,7 +47,7 @@ Engage with broader community via outreach programs to promote science & technol
    
  
     
-    <div className='eve-pos'>
+    {/* <div className='eve-pos'>
    
      
       <div className="events">
@@ -147,11 +151,11 @@ Engage with broader community via outreach programs to promote science & technol
       </tbody>
       </table>
       </div>
-      </div>
+      </div> */}
       <div className='section4'>
     
         <div className="events1">
-          EVENTS
+          <h1>EVENTS</h1>
 
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
           <div className='event-button'>
@@ -160,7 +164,7 @@ Engage with broader community via outreach programs to promote science & technol
           </div>
         </div>
         <div className="events1">
-          EVENTS
+        <h1>RESOURCES</h1>
 
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
           <div className='event-button'>
@@ -169,7 +173,7 @@ Engage with broader community via outreach programs to promote science & technol
           </div>
         </div>
           <div className="events1">
-            EVENTS
+            <h1>Gallery </h1>
 
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
             <div className='event-button'>

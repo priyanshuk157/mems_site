@@ -94,7 +94,7 @@ The educational journey of Dr. Parasharam M. Shirage begins with a Bachelor's de
                   Area of Specialization: Materials Science and Condensed Matter Physics. One Major Achievement: MRSI  Medal 2020.
                 </div>
             </div>
-
+</div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -122,7 +122,7 @@ The educational journey of the Dr. Rupesh Devan begins with a Bachelor's degree 
                                 <li>Organised 1 workshop, 6 short-term courses. </li>
                                 <li>Given 36 Invited/Contributory talk in national / international conferences</li>
 
-                                <li>ahhkfanafn aajkna ahfkja ajja aajhalla aha a</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -133,6 +133,7 @@ The educational journey of the Dr. Rupesh Devan begins with a Bachelor's degree 
                 </div>
             </div>
 
+            </div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -170,7 +171,7 @@ The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's 
                   Area of Specialization: Materials Science: Nano & Energy Materials. One Major Achievement: General Chair: International Conference on Frontiers of Materials Engineering. 
                 </div>
             </div>
-
+</div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -208,7 +209,7 @@ The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's 
                   Area of Specialization: Materials Science: Nano & Energy Materials. One Major Achievement: General Chair: International Conference on Frontiers of Materials Engineering. 
                 </div>
             </div>
-
+</div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -246,7 +247,7 @@ The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's 
                   Area of Specialization: Materials Science: Nano & Energy Materials. One Major Achievement: General Chair: International Conference on Frontiers of Materials Engineering. 
                 </div>
             </div>
-
+</div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -284,7 +285,7 @@ The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's 
                   Area of Specialization: Materials Science: Nano & Energy Materials. One Major Achievement: General Chair: International Conference on Frontiers of Materials Engineering. 
                 </div>
             </div>
-
+</div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -322,7 +323,7 @@ The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's 
                   Area of Specialization: Materials Science: Nano & Energy Materials. One Major Achievement: General Chair: International Conference on Frontiers of Materials Engineering. 
                 </div>
             </div>
-
+</div>
             <div>
                         <div className='profile-main'>
                 <div className="profile-section-1">
@@ -363,6 +364,7 @@ The educational journey of the Dr. Ajay Kumar Kushwaha begins with a Bachelor's 
 
             <div>
                 <Footer />
+            </div>
             </div>
         </>
     )

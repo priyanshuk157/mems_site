@@ -1,0 +1,97 @@
+.national img{
+    height: 100px;
+    width: auto;
+}
+.national {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 8rem;
+}
+.international {
+    display: flex;
+    flex-wrap: wrap;
+    gap:  2rem;
+    padding: 2rem 8rem;
+}
+.international img{
+    height: 100px;
+    width: auto;
+}
+.industrycolab img{
+    height: 150px;
+    width: auto;  
+}
+.industrycolab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;  
+    padding: 2rem 8rem;
+}
+.intrntnl-head{
+    font-size: 4rem;
+    color: red;
+    padding: 2rem 8rem;
+}
+.ntnl-head{
+    font-size: 4rem;
+    color: red;
+    padding: 2rem 8rem;
+}
+.ind-head{
+    font-size: 4rem;
+    color: red;
+    padding: 2rem 8rem;
+}
+@media (max-width:600px){
+    .national img{
+        height: 50px;
+        width: auto;
+    }
+    .national {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem 2rem;
+    }
+    .ntnl-head{
+        text-align: center;
+        font-size: 2rem;
+        color: red;
+        padding: 2rem 2rem;
+    }
+    .international {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem 2rem;
+    }
+    .international img{
+        height: 50px;
+        width: auto;
+    }
+    .intrntnl-head{
+        text-align: center;
+
+        font-size: 2rem;
+        color: red;
+        padding: 2rem 2rem;
+    }
+    .industrycolab img{
+        height: 50px;
+        width: auto;  
+    }
+    .industrycolab {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem 2rem;
+    }
+    .ind-head{
+        text-align: center;
+
+        font-size: 2rem;
+        color: red;
+        padding: 2rem 2rem;
+    }
+}

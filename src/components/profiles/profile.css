@@ -19,6 +19,7 @@
 .profile-section-1{
     display: flex; 
     justify-content: space-evenly;  
+    /* padding: 20px; */
 }
 .head4 {
     display: flex;
@@ -32,10 +33,10 @@
     height: 10rem;
   }
 .pc1{
-    padding: 0 60px;
+    padding:  0px 60px;
     font-size: 20px;
     position: relative;
-    left:-50px;
+    /* left:-50px; */
     
 }
 .back-button a  {

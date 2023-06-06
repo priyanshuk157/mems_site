@@ -24,7 +24,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Ajay Kumar Kushwaha</div>
                                     <div className="post"> akk@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile1"> view profile</a> </div>
                                     
 
 
@@ -60,7 +60,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Rupesh Devan</div>
                                     <div className="post"> rupesh@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile3"> view profile</a> </div>
                                     
 
 
@@ -78,7 +78,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Santosh Hosmani</div>
                                     <div className="post"> sshosmani@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile4"> view profile</a> </div>
                                     
 
 
@@ -96,7 +96,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Mrigendra Dubey</div>
                                     <div className="post"> mdubey@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile5"> view profile</a> </div>
                                     
 
 
@@ -114,7 +114,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Eswara Prasad Korimilli</div>
                                     <div className="post"> eswar@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile6"> view profile</a> </div>
                                     
 
 
@@ -132,7 +132,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Vinod Kumar</div>
                                     <div className="post">  vkt@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile7"> view profile</a> </div>
                                     
 
 
@@ -150,7 +150,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Jayaprakash Murugesan</div>
                                     <div className="post"> jayaprakash@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile8"> view profile</a> </div>
                                     
 
 
@@ -168,7 +168,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Sumanta Samal</div>
                                     <div className="post"> sumanta@iiti.ac.in    </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile9"> view profile</a> </div>
                                     
 
 
@@ -186,7 +186,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Dhirendra Kumar Rai</div>
                                     <div className="post"> dkrai@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile1"> view profile</a> </div>
                                     
 
 

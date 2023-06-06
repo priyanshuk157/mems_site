@@ -3,7 +3,12 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import './acad.css'
 
+
 const Academics = () => {
+ 
+
+   
+
   return (
     <>
     <div className="body">
@@ -15,6 +20,7 @@ const Academics = () => {
       ACADEMICS
       
       </div>
+    
       <div>
       <div className="acad-card">
      
@@ -27,6 +33,9 @@ const Academics = () => {
 
 
  
+    </div>
+    <div>
+    
     </div>
     </div>
     <div>
