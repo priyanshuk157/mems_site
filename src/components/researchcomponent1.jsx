@@ -39,22 +39,39 @@ const Researchcomponent1 = () => {
         </div>
         <div className={toggleState === 1 ? " active-content1" : " research-content"}>
           <div className="research-content-head">content 1</div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus illum facilis consequuntur delectus repudiandae distinctio quae voluptatum obcaecati corrupti tempore quidem ex officiis, fugiat sint facere? Consequatur, molestias tempore!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ipsa quae tenetur quasi et distinctio voluptate odio, molestiae debitis blanditiis officiis deserunt sint eveniet commodi ducimus a, exercitationem in? Tempora! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, et earum, vel, blanditiis eum neque similique laboriosam sunt optio quas veritatis sed sequi aspernatur officiis totam. Blanditiis quas ipsam architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi. Fugit repellendus nulla ratione ea reprehenderit ad incidunt quia perferendis debitis beatae sequi rem commodi nam, fugiat ipsam odit atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis esse totam obcaecati ratione. Aut repudiandae quibusdam enim beatae quasi repellendus provident excepturi, sint, nemo eveniet impedit esse atque aliquam. lo
+          - Materials:
+Steels, Titanium alloys,
+High entropy alloys,
+Magnesium Alloys, magnetic materials and Composite materials
+- Metal Processing: Casting, powder metallurgy, surface modification, joining, forming, additive manufacturing
+- Structure: engineering of microstructure and surface properties
+* Properties: mechanical, fatigue, creep, corrosion, wear, oxidation
+
+
 
         </div>
         <div className={toggleState === 2 ? " active-content1" : " research-content"}>
           <div className="research-content-head">content 2</div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus illum facilis consequuntur delectus repudiandae distinctio quae voluptatum obcaecati corrupti tempore quidem ex officiis, fugiat sint facere? Consequatur, molestias tempore!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ipsa quae tenetur quasi et distinctio voluptate odio, molestiae debitis blanditiis officiis deserunt sint eveniet commodi ducimus a, exercitationem in? Tempora! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, et earum, vel, blanditiis eum neque similique laboriosam sunt optio quas veritatis sed sequi aspernatur officiis totam. Blanditiis quas ipsam architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi. Fugit repellendus nulla ratione ea reprehenderit ad incidunt quia perferendis debitis beatae sequi rem commodi nam, fugiat ipsam odit atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis esse totam obcaecati ratione. Aut repudiandae quibusdam enim beatae quasi repellendus provident excepturi, sint, nemo eveniet impedit esse atque aliquam. lo
+          - Batteries & Supercapacitors
+• Green Hydrogen Production & Fuel Cells
+- Solar Cells
+
 
         </div>
         <div className={toggleState === 3 ? " active-content1" : " research-content"}>
           <div className="research-content-head">content 3</div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus illum facilis consequuntur delectus repudiandae distinctio quae voluptatum obcaecati corrupti tempore quidem ex officiis, fugiat sint facere? Consequatur, molestias tempore!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ipsa quae tenetur quasi et distinctio voluptate odio, molestiae debitis blanditiis officiis deserunt sint eveniet commodi ducimus a, exercitationem in? Tempora! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, et earum, vel, blanditiis eum neque similique laboriosam sunt optio quas veritatis sed sequi aspernatur officiis totam. Blanditiis quas ipsam architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi. Fugit repellendus nulla ratione ea reprehenderit ad incidunt quia perferendis debitis beatae sequi rem commodi nam, fugiat ipsam odit atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis esse totam obcaecati ratione. Aut repudiandae quibusdam enim beatae quasi repellendus provident excepturi, sint, nemo eveniet impedit esse atque aliquam. lo
+         - Electrocatalysis, CO,Capture, Sensors
+- Luminescent Soft-materials
+• Magnetic and Superconducting Properties
+• Electronics and Optoelectronic Devices
+
 
         </div>
         <div className={toggleState === 4 ? " active-content1" : " research-content"}>
           <div className="research-content-head">content 4</div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus illum facilis consequuntur delectus repudiandae distinctio quae voluptatum obcaecati corrupti tempore quidem ex officiis, fugiat sint facere? Consequatur, molestias tempore!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ipsa quae tenetur quasi et distinctio voluptate odio, molestiae debitis blanditiis officiis deserunt sint eveniet commodi ducimus a, exercitationem in? Tempora! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, et earum, vel, blanditiis eum neque similique laboriosam sunt optio quas veritatis sed sequi aspernatur officiis totam. Blanditiis quas ipsam architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi. Fugit repellendus nulla ratione ea reprehenderit ad incidunt quia perferendis debitis beatae sequi rem commodi nam, fugiat ipsam odit atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis esse totam obcaecati ratione. Aut repudiandae quibusdam enim beatae quasi repellendus provident excepturi, sint, nemo eveniet impedit esse atque aliquam. lo
+          . Theoretical and Computational Material Science
+• Integrated Computational Materials Engineering
+
 
         </div>
         <div className="prof-names">
