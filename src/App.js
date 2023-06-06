@@ -25,6 +25,15 @@ import Profile7 from './components/profiles/profile7'
 import Profile8 from './components/profiles/profile8'
 import Profile9 from './components/profiles/profile9'
 import Profile10 from './components/profiles/profile10'
+import Profile11 from './components/profiles/profile11'
+import Profile12 from './components/profiles/profile12'
+import Profile13 from './components/profiles/profile13'
+import Profile14 from './components/profiles/profile14'
+import Profile15 from './components/profiles/profile15'
+import Profile16 from './components/profiles/profile16'
+import Profile17 from './components/profiles/profile17'
+import Profile18 from './components/profiles/profile18'
+import Profile19 from './components/profiles/profile19'
 import Industryrelation from './mainpages/industryrelation'
 
 // import Home from './components/Home'
@@ -61,6 +70,16 @@ const App = () => {
         <Route path='profile8' element={<Profile8/>}></Route>
         <Route path='profile9' element={<Profile9/>}></Route>
         <Route path='profile10' element={<Profile10/>}></Route>
+        <Route path='profile11' element={<Profile11/>}></Route>
+ <Route path='profile12' element={<Profile12/>}></Route>
+ <Route path='profile13' element={<Profile13/>}></Route>
+ <Route path='profile14' element={<Profile14/>}></Route>
+ <Route path='profile15' element={<Profile15/>}></Route>
+ <Route path='profile16' element={<Profile16/>}></Route>
+ <Route path='profile17' element={<Profile17/>}></Route>
+ <Route path='profile18' element={<Profile18/>}></Route>
+ <Route path='profile19' element={<Profile19/>}></Route>
+
         <Route path='industry' element={<Industryrelation/>}></Route>
       </Routes>
      
