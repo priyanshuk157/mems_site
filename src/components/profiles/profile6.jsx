@@ -31,8 +31,7 @@ const profile6 = () => {
 
                             <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                                Dr. Parasharam M. Shirage
-                            </div>
+Dr. Eswara Prasad Korimilli                            </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
 
@@ -42,35 +41,26 @@ const profile6 = () => {
                             <div className="pc1">
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
-                                The educational journey of Dr. Parasharam M. Shirage begins with a Bachelor's degree in Physics from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
+                                The educational journey of Dr. Eswara Prasad Korimilli begins with a Bachelor's degree in Metallurgical Engineering from NIT Warangal. Building upon this foundation, he pursued a Master's degree in Metallurgical Engineering from IISc, Bangalore. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
                            
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                    <li>Completed 3 Research Projects.</li>
-                                    <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
+                                    <li>Supervised 3 Ph.D, 7 M.Tech, 9 B.tech .</li>
+                                    <li>Completed 1 Research Projects.</li>
+                                    <li>Published 41 Journals, 1690 citations, 17 h-index, 25 i10-index.</li>
+                                    <li>Organised 1 workshops, 1 training programs, 4 short-term courses and 9 conferences. </li>
+                                    <li>Given 25+ Invited/Contributory talk in national / international conferences</li>
 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="pc1">
-                                <span className='pc1-head'>RESEARCH AREAS</span>
-                                <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                   <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
-
-                                   <li>Completed 3 Research Projects.</li>
-                                </ul>
-                            </div>
+                  
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
-                        Area of Specialization: Materials Science and Condensed Matter Physics. One Major Achievement: MRSI  Medal 2020.
+                        Area of Specialization: Plasticity at small length scales, Indentation mechanics, High strain rate deformation behavior of materials, Heat treatment and failure analysis of steels, Archaeometallurgy.
+ One Major Achievement: Visiting faculty positions at KIT  Germany, Xi’an Jiaotong University China, Ecole Centrale Paris, and NTU Singapore.
                     </div>
                 </div>
             </div>
