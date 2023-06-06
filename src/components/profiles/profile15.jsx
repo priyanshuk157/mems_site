@@ -4,11 +4,11 @@ import Footer from '../footer';
 import "./profile.css"
 import { FaAngleLeft } from "react-icons/fa";
 
-const profile3 = () => {
+const profile15 = () => {
     return (
 
         <>
-            <div>
+           <div>
                 <Navbar />
             </div>
 
@@ -29,9 +29,10 @@ const profile3 = () => {
                     <div className="profile-section-1">
                         <div className="profile-img">
 
-                            <img src="http://mems.iiti.ac.in/images/devan.jpg" alt="sd" />
+                            <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                                Prof. Rupesh Devan</div>
+                            Dr. Dudekula Althaf Basha
+                            </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
 
@@ -41,26 +42,26 @@ const profile3 = () => {
                             <div className="pc1">
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
-                                The educational journey of the Dr. Rupesh Devan begins with a Bachelor's degree in Physics  from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university.  Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                  </div>
-
+                                The educational journey of Dr. Dudekula Althaf Basha begins with a Bachelor's degree Maths, Physics, Electronics from Sri Krishna Devaraya University, Anantpur. Building upon this foundation, he pursued a Master's degree in physics from Sri Venkateswara University, Tirupati. Driven by a passion for research and academic excellence he pursued a Ph.D from IISc, Bangalore.  </div>
+                           
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
-                                    <li>Supervised 3 Ph.D students, 11 M.Tech, 8 B.tech, 04 M.Phil. 01 M.Sc. 01 JRF 01 Ph.D. Internship students</li>
-                                    <li>Completed 2 Research Projects</li>
-                                    <li>Published 124 Journals, 1 book, 2 book chapters, 3 special issues 5755 citations, 45 h-index, 94 i10-index</li>
-                                    <li>Organised 1 workshop, 6 short-term courses. </li>
-                                    <li>Given 36 Invited/Contributory talk in national / international conferences</li>
-
+                                    <li>Supervised 2 M.Tech, 7 B.tech.</li>
+                                    
+                                    <li>Published 20 Journals, 2 conferences, 387 citations, 12 h-index, 14 i10-index.</li>
+                                    <li>Organised 2 short-term courses. </li>
+                                    <li>Given 4 Invited/Contributory talk in national / international conferences</li>
 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
+                   
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
-                        Area of Specialization: 1.Nano-hetero-architectures for energy storage and conversion. 2.Photoactive materials. One Major Achievement: DUO-India Professor Fellowship   Award, Govt. of India and ASEM-DUO, South Korea (2020-22).
+                        Area of Specialization: Transmission Electron Microscopy, Magnesium Alloys, Nano Particles. One Major Achievement: “Out Standing Reviewer” recognition by “TIIM journal” in March 2022.
+
                     </div>
                 </div>
             </div>
@@ -70,9 +71,9 @@ const profile3 = () => {
                 <Footer />
             </div>
 
-
+            
         </>
     )
 }
 
-export default profile3
+export default profile15

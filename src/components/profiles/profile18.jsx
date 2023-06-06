@@ -4,7 +4,7 @@ import Footer from '../footer';
 import "./profile.css"
 import { FaAngleLeft } from "react-icons/fa";
 
-const profile3 = () => {
+const profile18 = () => {
     return (
 
         <>
@@ -29,9 +29,10 @@ const profile3 = () => {
                     <div className="profile-section-1">
                         <div className="profile-img">
 
-                            <img src="http://mems.iiti.ac.in/images/devan.jpg" alt="sd" />
+                            <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                                Prof. Rupesh Devan</div>
+                            Dr. Venkata Vamsi
+                            </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
 
@@ -41,26 +42,24 @@ const profile3 = () => {
                             <div className="pc1">
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
-                                The educational journey of the Dr. Rupesh Devan begins with a Bachelor's degree in Physics  from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university.  Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                  </div>
-
+                                The educational journey of Dr. Venkata Vamsi begins with a Bachelor's degree  from Maharshi Andhra University. Building upon this foundation, he pursued a Master's degree from IISc. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
+                           
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
-                                    <li>Supervised 3 Ph.D students, 11 M.Tech, 8 B.tech, 04 M.Phil. 01 M.Sc. 01 JRF 01 Ph.D. Internship students</li>
-                                    <li>Completed 2 Research Projects</li>
-                                    <li>Published 124 Journals, 1 book, 2 book chapters, 3 special issues 5755 citations, 45 h-index, 94 i10-index</li>
-                                    <li>Organised 1 workshop, 6 short-term courses. </li>
-                                    <li>Given 36 Invited/Contributory talk in national / international conferences</li>
+                                    
 
+                                    <li>Published 12 Journals, 7 conferences, 215 citations, 9 h-index, 9 i10-index.</li>
+                                    
+                                    <li>Given 24 Invited/Contributory talk in national / international conferences</li>
 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
-                        Area of Specialization: 1.Nano-hetero-architectures for energy storage and conversion. 2.Photoactive materials. One Major Achievement: DUO-India Professor Fellowship   Award, Govt. of India and ASEM-DUO, South Korea (2020-22).
+                        Area of Specialization: Atomistic simulations based on density functional theory, Computational thermodynamics, Integrated Computational Materials Engineering (ICME), Alloy design, Structure-property correlations, planar fault energies, Deformation pathways, High temperature deformation, Superalloys and Multi-principal element alloys (MPEAs).
                     </div>
                 </div>
             </div>
@@ -70,9 +69,8 @@ const profile3 = () => {
                 <Footer />
             </div>
 
-
         </>
     )
 }
 
-export default profile3
+export default profile18

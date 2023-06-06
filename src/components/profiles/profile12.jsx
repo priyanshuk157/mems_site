@@ -57,7 +57,7 @@ const profile12 = () => {
                             </div>
                         </div>
                     </div>
-                    
+                    <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
                         b. Area of Specialization: Lightweight Materials. One Major Achievement: Best Presentation Award at international conference ICMST 2018 , Malaysia.
                     </div>
