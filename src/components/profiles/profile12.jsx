@@ -4,7 +4,7 @@ import Footer from '../footer';
 import "./profile.css"
 import { FaAngleLeft } from "react-icons/fa";
 
-const profile2 = () => {
+const profile12 = () => {
     return (
 
         <>
@@ -73,4 +73,4 @@ const profile2 = () => {
     )
 }
 
-export default profile2
+export default profile12
