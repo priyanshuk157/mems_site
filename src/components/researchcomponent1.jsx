@@ -77,12 +77,18 @@ Magnesium Alloys, magnetic materials and Composite materials
         <div className="prof-names">
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
-            <li><a href="aas">anja ankd nnkadnak</a> </li>
-            <li><a href="aas">anja ankd nnkadnak</a> </li>
-            <li><a href="aas">anja ankd nnkadnak</a> </li>
-            <li><a href="aas">anja ankd nnkadnak</a> </li>
-            <li><a href="aas">anja ankd nnkadnak</a> </li>
-            <li><a href="aas">anja ankd nnkadnak</a> </li>
+            <li><a href="aas">Dr. Sumanta Samal</a> </li>
+            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
+            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
+            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
+            <li><a href="aas">Dr. Vinod Kumar</a> </li>
+            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
+            <li><a href="aas">Dr. Santosh S. Hosmani</a> </li>
+            <li><a href="aas">Dr. Dhirendra Kumar Rai</a> </li>
+            <li><a href="aas">Dr. Hemant Borkar</a> </li>
+            <li><a href="aas"></a> </li>
+            <li><a href="aas"></a> </li>
+                        
 
           </ul>
 
