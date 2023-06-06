@@ -86,8 +86,6 @@ Magnesium Alloys, magnetic materials and Composite materials
             <li><a href="aas">Dr. Santosh S. Hosmani</a> </li>
             <li><a href="aas">Dr. Dhirendra Kumar Rai</a> </li>
             <li><a href="aas">Dr. Hemant Borkar</a> </li>
-            <li><a href="aas"></a> </li>
-            <li><a href="aas"></a> </li>
                         
 
           </ul>
