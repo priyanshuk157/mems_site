@@ -31,7 +31,8 @@ const profile9 = () => {
 
                             <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                                Dr. Parasharam M. Shirage
+                                Dr. Sumanta Samal
+
                             </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
@@ -42,35 +43,25 @@ const profile9 = () => {
                             <div className="pc1">
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
-                                The educational journey of Dr. Parasharam M. Shirage begins with a Bachelor's degree in Physics from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
+                                The educational journey of Dr. Sumanta Samal begins with a Bachelor's degree in Physics (Hons), Chemistry, Mathematics M.P.C. (A) College, North Orissa University, Baripada. Building upon this foundation, he pursued a Master's degree in Physics  (Specialization in solid state physics) from Utkal University, Bhubaneswar and completed his M.tech from NIT, Rourkela. Driven by a passion for research and academic excellence he pursued a Ph.D from IIT, Kanpur.                </div>
                            
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                    <li>Completed 3 Research Projects.</li>
-                                    <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
+                                    <li>Supervised 3 Ph.D, 7 M.Tech, 13 B.tech.</li>
+
+                                    <li>Published 41 Journals, 4 conferences, 673 citations, 16 h-index, 22 i10-index.</li>
+                                    <li>Organised 4 workshops, 3 short-term courses and 1 conferences. </li>
+                                    <li>Given 40 Invited/Contributory talk in national / international conferences</li>
 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="pc1">
-                                <span className='pc1-head'>RESEARCH AREAS</span>
-                                <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                   <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
-
-                                   <li>Completed 3 Research Projects.</li>
-                                </ul>
-                            </div>
+                    
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
-                        Area of Specialization: Materials Science and Condensed Matter Physics. One Major Achievement: MRSI  Medal 2020.
+                        Area of Specialization: Solidification. One Major Achievement: First time report on “design and development of eight-component eutectic high entropy alloys as well as quasi-peritectic high entropy alloy by integrated approach using experiment and simulation”.
                     </div>
                 </div>
             </div>
