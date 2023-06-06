@@ -31,7 +31,8 @@ const profile7 = () => {
 
                             <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                                Dr. Parasharam M. Shirage
+                               Dr. Vinod Kumar
+
                             </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
@@ -42,35 +43,25 @@ const profile7 = () => {
                             <div className="pc1">
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
-                                The educational journey of Dr. Parasharam M. Shirage begins with a Bachelor's degree in Physics from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
+                                The educational journey of Dr. Vinod Kumar begins with a Bachelor's degree in Metallurgy and Materials Engineering from NIMAT (Formerly NIFFT), Ranchi. Building upon this foundation, he pursued a Master's degree in Materials Science and Engineering from IIT, Kanpur. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
                            
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                    <li>Completed 3 Research Projects.</li>
-                                    <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
+                                    <li>Supervised 5 Ph.D, 13 M.Tech, 27 B.tech.</li>
+                                    <li>Completed 2 Research Projects.</li>
+                                    <li>Published 65 Journals, 4 conferences, 1047 citations, 20 h-index, 30 i10-index.</li>
+                                    <li>Organised 2 workshops, 4 training programs, 4 short-term courses and 2 conferences. </li>
+                                    <li>Given 5 Invited/Contributory talk in national / international conferences</li>
 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="pc1">
-                                <span className='pc1-head'>RESEARCH AREAS</span>
-                                <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                   <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
-
-                                   <li>Completed 3 Research Projects.</li>
-                                </ul>
-                            </div>
+                    
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
-                        Area of Specialization: Materials Science and Condensed Matter Physics. One Major Achievement: MRSI  Medal 2020.
+                        b. Area of Specialization: Powder Metallurgy and Physical Metallurgy. One Major Achievement: His group is the first in India to successfully utilize ANN tool to predict the mechanical properties and oxidation behaviour of high entropy alloys.
                     </div>
                 </div>
             </div>
