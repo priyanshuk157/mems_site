@@ -62,7 +62,7 @@ const profile12 = () => {
                         b. Area of Specialization: Lightweight Materials. One Major Achievement: Best Presentation Award at international conference ICMST 2018 , Malaysia.
                     </div>
                 </div>
-            </div>
+            
 
 
             <div>

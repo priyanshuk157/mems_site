@@ -30,6 +30,8 @@ const Navbar = () => {
          <div className="iiti">
         Indian Institute of Technology Indore
          </div>
+         {/* <img src="./images/img1234.png" alt=""/> */}
+
      </div>
      
      </div>

@@ -5,12 +5,14 @@
 .national {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 2rem;
     padding: 2rem 8rem;
 }
 .international {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap:  2rem;
     padding: 2rem 8rem;
 }
@@ -25,6 +27,7 @@
 .industrycolab {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 2rem;  
     padding: 2rem 8rem;
 }
@@ -52,13 +55,13 @@
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
-        padding: 2rem 2rem;
+        padding: 0rem 2rem;
     }
     .ntnl-head{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1rem;
         color: red;
-        padding: 2rem 2rem;
+        padding:  4rem;
     }
     .international {
         display: flex;
@@ -73,7 +76,7 @@
     .intrntnl-head{
         text-align: center;
 
-        font-size: 2rem;
+        font-size: 1rem;
         color: red;
         padding: 2rem 2rem;
     }
@@ -90,7 +93,7 @@
     .ind-head{
         text-align: center;
 
-        font-size: 2rem;
+        font-size: 1rem;
         color: red;
         padding: 2rem 2rem;
     }

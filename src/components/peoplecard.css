@@ -86,7 +86,7 @@ p {
   padding: 10px;
 }
 .faculty-head-2{
-  font-size: 8rem;
+  font-size: 5rem;
 }
 .post-button{
   text-align: center;
@@ -144,6 +144,7 @@ p {
   display: flex;
   margin: 0;
   justify-content: center;
+  text-align: center;
   width: auto;
   font-weight: bolder;
   color: red;
@@ -198,7 +199,7 @@ p {
   height: 6rem;
 }
 .faculty-head-2{
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .faculty-main {
   display: flex;
