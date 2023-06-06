@@ -58,7 +58,7 @@ const profile13 = () => {
                             </div>
                         </div>
                     </div>
-                    
+                    <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
                        Area of Specialization: Energy Storage Materials; Piezoelectric; Electroceramics.One Major Achievement: Best Teacher Award (2022), IIT Indore.
                     </div>

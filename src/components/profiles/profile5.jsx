@@ -8,7 +8,7 @@ const profile5 = () => {
     return (
 
         <>
-           <div>
+            <div>
                 <Navbar />
             </div>
 
@@ -31,7 +31,7 @@ const profile5 = () => {
 
                             <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                               Dr. Mrigendra Dubey
+                                Dr. Mrigendra Dubey
                             </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
@@ -43,7 +43,7 @@ const profile5 = () => {
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
                                 The educational journey of Dr. Mrigendra Dubey begins with a Bachelor's degree University of Allahabad, Allahabad. Building upon this foundation, he pursued a Master's degree from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from Indian Institute of Technology, Guwahati.                </div>
-                           
+
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
@@ -57,7 +57,7 @@ const profile5 = () => {
                             </div>
                         </div>
                     </div>
-                   
+
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
                         Area of Specialization: Materials Science (Soft Materials). One Major Achievement: Young Scientist Award, International Academy of Physical Sciences, Allahabad, India- 2017.
@@ -70,7 +70,7 @@ const profile5 = () => {
                 <Footer />
             </div>
 
-            
+
         </>
     )
 }
