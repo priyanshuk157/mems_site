@@ -64,7 +64,7 @@ const profile13 = () => {
                     </div>
                 </div>
             
-
+             </div>
 
             <div>
                 <Footer />

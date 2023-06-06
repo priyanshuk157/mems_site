@@ -13,7 +13,6 @@ import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
 import Staff from './components/staff'
-
 import Researchcomponent1 from './components/researchcomponent1'
 import Profile1 from './components/profiles/profile1'
 import Profile2 from './components/profiles/profile2'
@@ -58,7 +57,6 @@ const App = () => {
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
         <Route path='staff' element={<Staff/>}></Route>
-     
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
         <Route path='profile1' element={<Profile1/>}></Route>
         <Route path='profile2' element={<Profile2/>}></Route>
