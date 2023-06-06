@@ -31,7 +31,7 @@ const profile5 = () => {
 
                             <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                             <div className='profileimg-name'>
-                                Dr. Parasharam M. Shirage
+                               Dr. Mrigendra Dubey
                             </div>
                             <div className='profileimg-name'>
                                 Proffessor </div>
@@ -42,35 +42,25 @@ const profile5 = () => {
                             <div className="pc1">
                                 <span className='pc1-head'>BIOGRAPHY</span>
                                 <br />
-                                The educational journey of Dr. Parasharam M. Shirage begins with a Bachelor's degree in Physics from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
+                                The educational journey of Dr. Mrigendra Dubey begins with a Bachelor's degree University of Allahabad, Allahabad. Building upon this foundation, he pursued a Master's degree from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from Indian Institute of Technology, Guwahati.                </div>
                            
                             <div className="pc1">
                                 <span className='pc1-head'>CONTRIBUTIONS</span>
                                 <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                    <li>Completed 3 Research Projects.</li>
-                                    <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
+                                    <li>Supervised 4 Ph.D, 11 M.Tech, 12 B.tech, 1 NPDF.</li>
+                                    <li>Completed 1 Research Projects.</li>
+                                    <li>Published 38 Journals, 589 citations, 15 h-index, 21 i10-index.</li>
+                                    <li>Organised 2 workshops, 5 short-term courses. </li>
+                                    <li>Given 20 Invited/Contributory talk in national / international conferences</li>
 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="pc1">
-                                <span className='pc1-head'>RESEARCH AREAS</span>
-                                <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                   <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
-
-                                   <li>Completed 3 Research Projects.</li>
-                                </ul>
-                            </div>
+                   
                     <div className="pc1">
                         <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span> <br />
-                        Area of Specialization: Materials Science and Condensed Matter Physics. One Major Achievement: MRSI  Medal 2020.
+                        Area of Specialization: Materials Science (Soft Materials). One Major Achievement: Young Scientist Award, International Academy of Physical Sciences, Allahabad, India- 2017.
                     </div>
                 </div>
             </div>
