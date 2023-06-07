@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-import './acad.css'
+import './academic.css'
 import styles from "academic.css";
 
 

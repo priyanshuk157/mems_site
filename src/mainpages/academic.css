@@ -28,7 +28,11 @@ body {
   /* border radiuses */
   --br-4xl: 23px;
 }
-  .admission,
+.acad-card{
+    background-color: #fff;
+    height: 300px;
+}
+.admission,
 .mtech21 {
   position: absolute;
   border-radius: var(--br-4xl);
