@@ -63,8 +63,8 @@ const profile13 = () => {
                        Area of Specialization: Energy Storage Materials; Piezoelectric; Electroceramics.One Major Achievement: Best Teacher Award (2022), IIT Indore.
                     </div>
                 </div>
-            </div>
-
+            
+             </div>
 
             <div>
                 <Footer />

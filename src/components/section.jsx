@@ -36,7 +36,27 @@ Engage with broader community via outreach programs to promote science & technol
     </div>
     <div className='ranking'>
       <div ><h2>NEWS</h2></div>
-   <div className='ranking-main'></div>
+   <div className='ranking-news-main'>
+    <ul>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+      <li>news1</li>
+    </ul>
+   </div>
     </div>
     <div className='ranking'>
       <div ><h2>PLACEMENT</h2></div>
@@ -168,17 +188,26 @@ Engage with broader community via outreach programs to promote science & technol
 
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
           <div className='event-button'>
-            <button >view
-            </button>
-          </div>
+             <a href="resources">view</a>
+            </div>
         </div>
-          <div className="events1">
+          <div className="events12">
             <h1>Gallery </h1>
+<div className='gallery-grid'>
+  <img src="https://ionicframework.com/docs/img/demos/thumbnail.svg" alt="" />
 
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
+
+  <img className='grid-item1' src="https://ionicframework.com/docs/img/demos/thumbnail.svg" alt="" />
+  <img className='grid-item2' src="https://ionicframework.com/docs/img/demos/thumbnail.svg" alt="" />
+  <img className='grid-item3' src="https://ionicframework.com/docs/img/demos/thumbnail.svg" alt="" />
+
+
+
+
+</div>
+            
             <div className='event-button'>
-              <button >view
-              </button>
+             <a href="gallery">view</a>
             </div>
           </div>
       

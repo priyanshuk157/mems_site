@@ -9,6 +9,9 @@ const industryrelation = () => {
     <div>
         <Navbar/>
     </div>
+    <div className="head"> 
+    INDUSTRY RELATION
+    </div>
     <div className='ntnl-head'>NATIONAL COLLABORATION</div>
     <div className='national'>
         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png" alt="" />
@@ -53,8 +56,6 @@ const industryrelation = () => {
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvK1fNzWbbTsHsWzOwSN6kmDRrqcXe9J5gUA&usqp=CAU" alt="" />
         <img src="https://rajratan.co.in/wp-content/uploads/2021/08/Rajratan-Horizontal-Logo.png" alt="" />
         <img src="https://www.yelu.in/img/in/a/1540896763-86-moira-sariya.jpg" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
 
     </div>
     <div>
