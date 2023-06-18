@@ -152,7 +152,7 @@ const Academics = () => {
         <div>
           <Footer />
         </div>
-
+        </div>
       </>
       )
 }
