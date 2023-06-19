@@ -1,10 +1,12 @@
 .research-heads{
     display: flex;
    flex-direction: column;
-  gap: 5px;
+   text-align: left;
+  gap: 20px;
+  border-radius: 10px;
  
    align-items: right;
-   font-size: 25px;
+   font-size: 20px;
  background-color: rgba(58, 62, 138, 0.5);
    height: 100%;
    width: 20%;
@@ -16,6 +18,7 @@
 }
 .heads-1{
     position: relative;
+    /* background: rgba(58, 62, 138, 0.5); */
   
     left:   0px;
     cursor: pointer;
@@ -27,11 +30,15 @@
 }
 .indicator1{
     display: none;
+    background: rgba(58, 62, 138, 0.8);
+
     z-index: index 1; ;
     position: absolute;
     left: -2rem}
-    .active-indicator{
-        display: block;
+.active-indicator{
+        display: flex;
+        flex-direction: row;
+        background: rgba(58, 62, 138, 0.8);
         z-index: index 1; ;
         position: absolute;
         left: -2rem
@@ -62,6 +69,19 @@
 
    
 }
+.no-profnames{
+    
+        border-radius: 10px;
+        background-color: blanchedalmond;
+        display: none;
+        flex-direction: column;
+        padding: 30px;
+    
+    
+       
+    }
+
+
 .prof-names ul {
     margin-right: 50px;
     list-style: none;

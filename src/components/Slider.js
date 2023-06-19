@@ -10,7 +10,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}> 
         <img
           className="d-block w-100 img-hgt"
-          src="http://mems.iiti.ac.in/index_files/image%25207.jpg"
+          src="https://wallpapercave.com/dwp1x/wp11646842.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}>
         <img
           className="d-block w-100 img-hgt"
-          src="http://mems.iiti.ac.in/index_files/image%25202.jpg"
+          src="https://www.researchgate.net/profile/Daniel-Krizan-2/publication/259850559/figure/fig2/AS:669347563442199@1536596303810/Microstructure-of-selected-modern-steels-for-automotive-applications-in-comparison-with-a.jpg"
           alt="Second slide"
         />
 
@@ -33,7 +33,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}>
         <img
           className="d-block w-100 img-hgt"
-          src="https://wallpaperaccess.com/full/945950.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Microstructure_of_a_stainless_steel_A961.jpg"
           alt="Third slide"
         />
 

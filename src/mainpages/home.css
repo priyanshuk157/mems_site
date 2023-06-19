@@ -14,8 +14,10 @@
     
     display: flex;
     justify-content: center;
-    padding: 160px;
+    padding: 60px;
     gap: 10rem;
+    background-color: rgb(231, 232, 251);
+    border: 6rem solid white;
     }
 
 .sec-img img{
@@ -30,6 +32,7 @@
     width: auto;
     /* color: white; */
     
+    
     text-align: justify;
 }
 .vision{
@@ -37,7 +40,9 @@
     flex-direction: column;
     text-align: justify;
     align-items: center;
-    padding: 0 10rem;
+    padding: 3rem 3rem;
+    background-color: rgb(231, 232, 251);
+    border:  6rem  solid white;
     /* color: white; */
     
 }
