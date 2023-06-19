@@ -9,7 +9,7 @@
    font-size: 20px;
  background-color: rgba(58, 62, 138, 0.5);
    height: 100%;
-   width: 30%;
+   width: 20%;
    height: auto;
   
    padding: 30px;
@@ -65,8 +65,9 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 30%;
+    width: 20%;
 }
+
 .no-profnames{
     
         border-radius: 10px;
@@ -80,9 +81,20 @@
     }
 
 
+
 .prof-names ul {
-    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
     list-style: none;
+
+ 
+}
+.prof-names ul li a{
+    color: black;
+    text-decoration: none;
+
  
 }
 

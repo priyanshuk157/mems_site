@@ -7,19 +7,31 @@
     
 
 }
+.pc2{
+    display: flex;
+    gap: 30px ;
+    padding: 30px;
+
+}
 .profileimg-name{
     position: relative;
     font-size: 30px;
 }
 .profile-img img{
-    height: 450px;
-    width: auto;
+    height: auto;
+    width: 300px;
     border-radius: 10px;
 }
 .profile-section-1{
     display: flex; 
     justify-content: space-evenly;  
     /* padding: 20px; */
+}
+.profile-content-1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .head4 {
     display: flex;
@@ -36,6 +48,19 @@
     padding:  0px 60px;
     font-size: 20px;
     position: relative;
+    padding: 20px;
+    border-radius: 10px; 
+    background: rgb(212, 225, 252);
+    /* left:-50px; */
+    
+}
+.pc3{
+    padding:   60px;
+    font-size: 17px;
+    position: relative; 
+    width: 50%;
+    border-radius: 10px; 
+    background: rgb(212, 225, 252);
     /* left:-50px; */
     
 }

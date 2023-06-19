@@ -33,7 +33,14 @@ Engage with broader community via outreach programs to promote science & technol
 
     <div className='ranking'>
       <div ><h2>RANKINGS</h2></div>
-   <div className='ranking-main'></div>
+   <div className='ranking-main'>
+   India Rankings 2023(Engineering) : 14th <br />
+   Overall Universities 2023 : 28th <br />
+   India Rankings 2023 (Research) : 21st
+
+
+
+   </div>
     </div>
     <div className='ranking'>
       <div ><h2>NEWS</h2></div>
@@ -159,17 +166,15 @@ Engage with broader community via outreach programs to promote science & technol
     
         <div className="events1">
           <h1>EVENTS</h1>
-
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
+          click here to explore our Events
           <div className='event-button'>
-            <button >view
-            </button>
-          </div>
+             <a href="resources">view</a>
+            </div>
         </div>
         <div className="events1">
         <h1>RESOURCES</h1>
 
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias sunt modi quos voluptas porro quod tenetur sequi recusandae magnam unde voluptatem, possimus necessitatibus facere dolores autem sit cumque maiores.
+click here to check our RESOURCES
           <div className='event-button'>
              <a href="resources">view</a>
             </div>
