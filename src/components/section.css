@@ -120,7 +120,7 @@ padding: 3rem;
 .events1{
     height: 300px;
     width:  300px;
-    border: px solid black;
+   
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(89, 88, 88);
     margin-top: 6rem;
@@ -133,7 +133,7 @@ padding: 3rem;
 .events12{
     height: fit-content;
     width:  245px;
-    border: px solid black;
+    
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(83, 83, 83);
     margin-top: 6rem;
@@ -144,7 +144,7 @@ padding: 3rem;
     display: flex;
     justify-content:space-evenly;
    
-    border: 0px;
+
     border-radius: 5px;
     text-decoration: none;
     color: white;
@@ -155,7 +155,7 @@ padding: 3rem;
     display: flex;
     justify-content: space-evenly;
     width: 40%;
-    border: 0px;
+  
     text-decoration: none;
     color: white;
    
