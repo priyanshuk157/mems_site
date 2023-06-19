@@ -7,3 +7,14 @@
 .res-header{
     font-size: 20px;
 }
+@media(max-width:600px){
+    .resources-main{
+        width: 100%;
+        padding: 0 2rem;
+        font-size: 10px;
+    
+    }
+    .res-header{
+        font-size: 15px;
+    }
+}

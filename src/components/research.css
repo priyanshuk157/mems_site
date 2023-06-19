@@ -9,7 +9,7 @@
    font-size: 20px;
  background-color: rgba(58, 62, 138, 0.5);
    height: 100%;
-   width: 20%;
+   width: 30%;
    height: auto;
   
    padding: 30px;
@@ -64,10 +64,8 @@
     background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-
-
-   
+    padding: 10px;
+    width: 30%;
 }
 .no-profnames{
     
@@ -83,7 +81,7 @@
 
 
 .prof-names ul {
-    margin-right: 50px;
+    margin-right: 0px;
     list-style: none;
  
 }
@@ -109,10 +107,10 @@
     .research-heads{
         display: flex;
        flex-direction: column;
-      gap: 5px;
+      gap: 20px;
      
        align-items: right;
-       font-size: 25px;
+       font-size: 15px;
      background-color: rgba(58, 62, 138, 0.5);
        height: 0%;
        width: 100%;
@@ -127,6 +125,14 @@
         text-align: justify;
         justify-content: space-evenly;
        
+    }
+    .prof-names{
+        border-radius: 10px;
+        background-color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
     }
     
 }
