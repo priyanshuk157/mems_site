@@ -3,12 +3,10 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import './academic.css'
 
-import styles from './academic.css'; 
 
 
 
-import React, { useEffect } from 'react';
-import AcadCard from '../components/AcadCard';
+import React from 'react';
 // import styles from "academic.css";
 
 
