@@ -1,18 +1,13 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import AccordianMain from '../components/AccordianMain'
 import './resources.css'
-import { useRef } from "react";
+
 
 
 const Resources = () => {
-  const resRef = useRef (); 
 
-  const showContent =(index)=>{
-
-    resRef.current.classList.toggle("active-resource-content2")
-  }
-  
  
   return (
     <>
@@ -24,18 +19,7 @@ const Resources = () => {
      RESOURCES  
       </div>
       <div>
-      <div className='resources-main'>
-        <div>
-        <div className='resources-content1' onClick={showContent(1)}>how to reach IIT indore</div>
-        <div className=  "active-resource-content2 resource-content2 " ref={resRef }>jdaijajdajdaodio</div>
-        </div>
-       
-       
-       
-       
-          
-</div>
-
+      <AccordianMain />
       </div>
       
     <div>

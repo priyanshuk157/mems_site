@@ -1,6 +1,7 @@
 import React from 'react'
 // import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
+import NewsandUpdates from './newsandupdates'
 
 const section = () => {
   return (
@@ -37,25 +38,7 @@ Engage with broader community via outreach programs to promote science & technol
     <div className='ranking'>
       <div ><h2>NEWS</h2></div>
    <div className='ranking-news-main'>
-    <ul>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-      <li>news1</li>
-    </ul>
+    <NewsandUpdates/>
    </div>
     </div>
     <div className='ranking'>
@@ -191,7 +174,7 @@ Engage with broader community via outreach programs to promote science & technol
              <a href="resources">view</a>
             </div>
         </div>
-          <div className="events12">
+          <div className="events1">
             <h1>Gallery </h1>
 <div className='gallery-grid'>
   <img src="https://ionicframework.com/docs/img/demos/thumbnail.svg" alt="" />

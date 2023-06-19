@@ -12,6 +12,14 @@ const industryrelation = () => {
     <div className="head"> 
     INDUSTRY RELATION
     </div>
+    <div className='ind-head'>Industrial Collaborations</div>
+    <div className='industrycolab'>
+        <img src="https://whoowner.b-cdn.net/wp-content/uploads/2018/01/Owner-of-VE-Commercial-Vehicles-Limited-Wiki-Logo.jpg" alt="" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvK1fNzWbbTsHsWzOwSN6kmDRrqcXe9J5gUA&usqp=CAU" alt="" />
+        <img src="https://rajratan.co.in/wp-content/uploads/2021/08/Rajratan-Horizontal-Logo.png" alt="" />
+        <img src="https://www.yelu.in/img/in/a/1540896763-86-moira-sariya.jpg" alt="" />
+
+    </div>
     <div className='ntnl-head'>NATIONAL COLLABORATION</div>
     <div className='national'>
         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png" alt="" />
@@ -50,14 +58,7 @@ const industryrelation = () => {
         <img src="https://www.imt-atlantique.fr/sites/default/files/ecole/IMT_Atlantique_logo.png" alt="" />
 
     </div>
-    <div className='ind-head'>Industrial Collaborations</div>
-    <div className='industrycolab'>
-        <img src="https://whoowner.b-cdn.net/wp-content/uploads/2018/01/Owner-of-VE-Commercial-Vehicles-Limited-Wiki-Logo.jpg" alt="" />
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvK1fNzWbbTsHsWzOwSN6kmDRrqcXe9J5gUA&usqp=CAU" alt="" />
-        <img src="https://rajratan.co.in/wp-content/uploads/2021/08/Rajratan-Horizontal-Logo.png" alt="" />
-        <img src="https://www.yelu.in/img/in/a/1540896763-86-moira-sariya.jpg" alt="" />
-
-    </div>
+  
     <div>
         <Footer/>
     </div>
