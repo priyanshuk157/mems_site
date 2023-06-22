@@ -25,15 +25,26 @@ const profile1 = () => {
                     <div className="profile-img">
 
                         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
-                        <div className='profileimg-name'>
-                            Dr. Ajay Kumar Kushwaha</div>
-                        <div className='profileimg-name'>
-                            Proffessor And HOD</div>
+                      
 
                     </div>
                     {/* pc=profile content */}
-                    <div className="profile-content-1">
-                    <div className="pc1">
+                   
+                    <div className="pc2">
+                            <span className='pc1-head'>Prof. Ajay Kumar Kushwaha</span>
+                            
+                                
+                                <ul>
+                                <li>Email : akk@iiti.ac.in</li>
+                                <li>Office : pod 305 </li>
+                                <li>webpage : <a href="https://iiti.ac.in/people/~ajaykk/index.html"> visit page</a></li>
+                                <li>contact : +91 731 660 3250</li>  
+                                
+
+                            </ul>
+                        </div>
+                </div>
+                <div className="pc1">
                     <span className='pc1-head'>ACADEMIC BACKGROUND</span>
                     <Table   >
       <thead>
@@ -66,7 +77,7 @@ const profile1 = () => {
     </Table>
                         <br />
                </div>
-                        <div className="pc1">
+                <div className="pc1">
                             <span className='pc1-head'>POSITIONS HELD</span>
                             <ul>
                                 <li>Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.</li>
@@ -77,10 +88,8 @@ const profile1 = () => {
 
                             </ul>
                         </div>
-                    </div>
-                </div>
-                <div className="pc2">
-                <div className="pc3">
+                
+                <div className="pc1">
                     <span className='pc1-head'>PUBLICATIONS</span>
                  <div><Table >
       <thead>
@@ -109,7 +118,7 @@ const profile1 = () => {
       </tbody>
     </Table></div> 
                 </div>
-                <div className="pc3">
+                <div className="pc1">
                     <span className='pc1-head'>PATENTS</span>
                     <div><Table >
     
@@ -123,8 +132,8 @@ const profile1 = () => {
       </tbody>
     </Table></div> 
                 </div>
-                </div>
-                <div className="pc2">
+              
+               
                 <div className="pc1">
                     <span className='pc1-head'>AWARDS AND ACHIEVEMENTS</span>
                  <div>General Chair: International Conference on Frontiers of
@@ -136,7 +145,7 @@ Materials Engineering</div>
                 </div>
              
                 </div>  
-            </div>
+          
 
          
 

@@ -30,7 +30,7 @@ const Researchcomponent1 = () => {
         <div className='research-heads'>
           <div className=''><h2>Research Areas</h2></div>
 
-          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Materials-Struture-Process-Properties-Correlation</div>
+          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Materials Struture Process Properties Correlation</div>
           <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy Materials</div>
           <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Design and Synthesis of Advanced Functional Material</div>
           <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Computational Materials Design</div>
