@@ -85,11 +85,11 @@ const profile2 = () => {
                 <div className="profile-section-1">
                     <div className="profile-img">
 
-                        <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
+                        <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
                         <div className='profileimg-name'>
-                            Dr. Ajay Kumar Kushwaha</div>
+                            Dr. Parasharam M. Shirage</div>
                         <div className='profileimg-name'>
-                            Proffessor And HOD</div>
+                            Proffessor </div>
 
                     </div>
                     {/* pc=profile content */}
@@ -188,8 +188,7 @@ const profile2 = () => {
                 <div className="pc2">
                 <div className="pc1">
                     <span className='pc1-head'>AWARDS AND ACHIEVEMENTS</span>
-                 <div>General Chair: International Conference on Frontiers of
-Materials Engineering</div> 
+                 <div>Major Achievement: MRSI  Medal 2020.</div> 
                 </div>
                 <div className="pc1">
                     <span className='pc1-head'>RESEARCH INTEREST</span>
