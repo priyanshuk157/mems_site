@@ -22,8 +22,12 @@ const Navbar = () => {
 
       
      <div className='main-nav active'>
+     <div className="iiti-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png " alt=" okl"></img>
+      </div>
      <div className="nav-2">
      <div className='logo'>
+      
          <div className="mems">
           <span className="typo">M</span>etallurgical     <span className="typo">E</span>ngneering <br/> and <span className="typo">M</span>aterials <span className="typo">S</span>cience
           </div>

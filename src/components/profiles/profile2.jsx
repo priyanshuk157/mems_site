@@ -1,211 +1,173 @@
-import React from 'react'
-import Navbar from '../navbar';
-import Footer from '../footer';
-import "./profile.css"
+import React from "react";
+import Navbar from "../navbar";
+import Footer from "../footer";
+import "./profile.css";
 import { FaAngleLeft } from "react-icons/fa";
-import { Table } from 'react-bootstrap';
+import Table from "react-bootstrap/Table";
 
 const profile2 = () => {
-    return (
+  return (
+    <>
+      <div>
+        <Navbar />
+      </div>
 
-        <>
-            {/* <div>
-                <Navbar />
-            </div>
+      <div className="head4">
+        <i className="back-button">
+          <a href="faculty">
+            <FaAngleLeft />
+          </a>
+        </i>
+        <span>PROFILE</span>
+      </div>
 
-            <div className="head4">
+      <div className="profile-main">
+        <div className="profile-section-1">
+          <div className="profile-img">
+            <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
+          </div>
+          {/* pc=profile content */}
 
-                <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
-                <span>PROFILE</span>
+          <div className="pc2">
+            <span className="pc1-head">Prof. Parasharam M. Shirage</span>
 
-            </div> */}
+            <ul>
+              <li>Email : pmshirage@iiti.ac.in</li>
+              <li>Office : pod 305 </li>
+              <li>
+                webpage :{" "}
+                <a href="https://iiti.ac.in/people/~pmshirage//">
+                  {" "}
+                  visit page
+                </a>
+              </li>
+              <li>contact : +91 731 2438 739</li>
+            </ul>
+          </div>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">ACADEMIC BACKGROUND</span>
+          <Table>
+            <thead>
+              <tr>
+                <th>INSTITUTE</th>
+                <th>COURSE</th>
+                <th>YEAR OF PASSING</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Shivaji University, Kolhapur</td>
+                <td>Ph.D. </td>
+                <td>2004</td>
+              </tr>
+              <tr>
+                <td>Shivaji University, Kolhapur</td>
+                <td>M.Sc. Physics (Electronics) </td>
+                <td>1999</td>
+              </tr>
+              <tr>
+                <td>Shivaji University, Kolhapur</td>
+                <td>B.Sc. (Physics) </td>
+                <td>1997</td>
+              </tr>
+            </tbody>
+          </Table>
+          <br />
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">POSITIONS HELD</span>
+          <ul>
+            <li>
+              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
+            </li>
+            <li>Completed 2 Research Projects.</li>
+            <li>
+              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
+              44 i10-index.
+            </li>
+            <li>
+              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
+            </li>
+            <li>
+              Given 10 Invited/Contributory talk in national / international
+              conferences.
+            </li>
+          </ul>
+        </div>
 
+        <div className="pc1">
+          <span className="pc1-head">PUBLICATIONS</span>
+          <div>
+            <Table>
+              <thead>
+                <tr>
+                  <th>Sr.No.</th>
+                  <th> Publication Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                  Prateek Bhojane, Parasharam M Shirage, "Impact of Post-Synthesis Heat Treatment Avoidance on Cobalt Carbonate Hydroxide as a Battery-Type Electrode Material", Applied Surface Science 2023, 615, 156352. https://doi.org/10.1016/j.apsusc.2023.156352
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                  Alfa Sharma, Akash Sharma, Subhash Chand Yadav, Achyuta Nanda Acharya, Parasharam M Shirage, "Adaptive Estimation of Measurement Error in Chemiresistive Sensors and Its Correlation with Sensitivity", 2023. https://doi.org/10.21203/rs.3.rs-2424288/v1
+                    .
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                    {" "}
+                    Abhishek Srivastava, Jena Akash Kumar Satrughna, Manish Kumar Tiwari, Archana Kanwade, Subhash Chand Yadav, Kiran Bala, Parasharam M Shirage, "Effect of Ti1-xFexO2 photoanodes on the performance of dye-sensitized solar cells utilizing natural betalain pigments extracted from Beta vulgaris (BV)", Energy Advances 2023, 2, 148-160. DOI: 10.1039/D2YA00197G
 
-            {/* pc=profile content */}
+                  </td>
+                </tr>
+              </tbody>
+            </Table>
+          </div>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">PATENTS</span>
+          <div>
+            <Table>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    {" "}
+                   --
+                  </td>
+                </tr>
+              </tbody>
+            </Table>
+          </div>
+        </div>
 
+        <div className="pc1">
+          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
+          <div>
+          MRSI Medal 2020
+          </div>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">RESEARCH INTEREST</span>
+          <div>
+          Materials Science and Condensed Matter Physics
+          </div>
+        </div>
+      </div>
 
+      <div>
+        <Footer />
+      </div>
+    </>
+  );
+};
 
-            {/* <div>
-                <div className='profile-main'>
-                    <div className="profile-section-1">
-                        <div className="profile-img">
-
-                            <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
-                            <div className='profileimg-name'>
-                                Dr. Parasharam M. Shirage
-                            </div>
-                            <div className='profileimg-name'>
-                                Proffessor </div>
-
-                        </div> */}
-                        {/* pc=profile content */}
-                        {/* <div className="profile-content-1">
-                            <div className="pc1">
-                                <span className='pc1-head'>BIOGRAPHY</span>
-                                <br />
-                                The educational journey of Dr. Parasharam M. Shirage begins with a Bachelor's degree in Physics from Shivaji University, Kolhapur. Building upon this foundation, he pursued a Master's degree in Physics from the same university. Driven by a passion for research and academic excellence he pursued a Ph.D from the same college.                </div>
-
-                            <div className="pc1">
-                                <span className='pc1-head'>CONTRIBUTIONS</span>
-                                <ul>
-                                    <li>Supervised 15 Ph.D, 16 M.Tech, 13 B.tech, 07  (M.Sc.) 2 NPDF, 4 PDF students.</li>
-                                    <li>Completed 3 Research Projects.</li>
-                                    <li>Published 228 Journals, 4 book chapters, 31 conferences, 5930 citations, 43 h-index, 137 i10-index.</li>
-                                    <li>Organised 2 workshops, 2 training programs, 10 short-term courses and 2 conferences. </li>
-                                    <li>Given 61 Invited/Contributory talk in national / international conferences</li>
-
-                                </ul>
-                            </div>
-                            <div className="pc1">
-                                <span className='pc1-head'>SPECALISATION AND ACHIEVEMENTS</span>
-                                Area of Specialization: Materials Science and Condensed Matter Physics. One Major Achievement: MRSI  Medal 2020.
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div>
-                <Footer />
-            </div> */}
-             <div>
-                <Navbar />
-            </div>
-
-            <div className="head4">
-             
-            <i className='back-button'><a href="faculty"><FaAngleLeft /></a></i>
-              <span>PROFILE</span>
-
-            </div>
-          
-            <div className='profile-main'>
-                <div className="profile-section-1">
-                    <div className="profile-img">
-
-                        <img src="http://mems.iiti.ac.in/images/shirage.jpg" alt="sd" />
-                        <div className='profileimg-name'>
-                            Dr. Parasharam M. Shirage</div>
-                        <div className='profileimg-name'>
-                            Proffessor </div>
-
-                    </div>
-                    {/* pc=profile content */}
-                    <div className="profile-content-1">
-                    <div className="pc1">
-                    <span className='pc1-head'>ACADEMIC BACKGROUND</span>
-                    <Table   >
-      <thead>
-        <tr>
-          
-          <th>INSTITUTE</th>
-          <th>COURSE</th>
-          <th>YEAR OF PASSING</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-       
-          <td>IIT, Bombay</td>
-          <td>Ph.D. </td>
-          <td>2014</td>
-        </tr>
-        <tr>
-          <td>C.S.J.M University, Kanpur</td>
-          <td>M.Sc. Physics (Electronics) </td>
-          <td>2006</td>
-        </tr>
-        <tr>
-          <td>C.S.J.M University, Kanpur</td>
-          <td>B.Sc. (Physics & Maths)  </td>
-          <td>2003</td>
-        </tr>
-      
-      </tbody>
-    </Table>
-                        <br />
-               </div>
-                        <div className="pc1">
-                            <span className='pc1-head'>POSITIONS HELD</span>
-                            <ul>
-                                <li>Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.</li>
-                                <li>Completed 2 Research Projects.</li>
-                                <li>Published 65 Journals, 10 conferences, 281 citations, 28 h-index, 44 i10-index.</li>
-                                <li>Organised 3 workshops, 6 training programs, 2 short-term courses. </li>
-                                <li>Given 10 Invited/Contributory talk in national / international conferences.</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className="pc2">
-                <div className="pc3">
-                    <span className='pc1-head'>PUBLICATIONS</span>
-                 <div><Table >
-      <thead>
-        <tr>
-          <th>Sr.No.</th>
-          <th> Publication Details</th>
-        
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty, S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy, S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced Materials for Enabling Hydrogen Economy: Functionalized Graphene�Incorporated Cupric Oxide Catalyst for Efficient Solar Hydrogen Production , Global Challenges , 2020, 4 (3), 2070031 , Impact Factor: 5.13.</td>
-       
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha, Sulphur precursor dependent crystallinity and optical properties of solution grown Cu2FeSnS4 particles , Materials Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44 .</td>
-         
-        </tr>
-        <tr>
-          <td>3</td>
-          <td > N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents on structural, morphological and optical properties of solvothermally grown Cu2FeSnS4 particles , AIP Conference Proceedings , 2115 (1), 030603 (2019).</td>
-           
-            </tr>
-      </tbody>
-    </Table></div> 
-                </div>
-                <div className="pc3">
-                    <span className='pc1-head'>PATENTS</span>
-                    <div><Table >
-    
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td> Amorphous Metal Oxide films, (Technology is licensed) ; K.L.G. Goh, H.Q. Le, and Ajay Kushwaha, Patent Publication Number: 20170259300,US Patent (Patent number: 10668500): Date of Patent: June 2, 2020</td>
-         
-        </tr>
-    
-      </tbody>
-    </Table></div> 
-                </div>
-                </div>
-                <div className="pc2">
-                <div className="pc1">
-                    <span className='pc1-head'>AWARDS AND ACHIEVEMENTS</span>
-                 <div>Major Achievement: MRSI  Medal 2020.</div> 
-                </div>
-                <div className="pc1">
-                    <span className='pc1-head'>RESEARCH INTEREST</span>
-                 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab sed earum doloribus rem eius id consequuntur reiciendis sunt! Dolorum cumque quaerat natus aliquam aperiam amet ipsam, laudantium officia error?</div> 
-                </div>
-             
-                </div>  
-            </div>
-
-         
-
-            <div>
-                <Footer />
-            </div>
-
-        </>
-    )
-}
-
-export default profile2
+export default profile2;

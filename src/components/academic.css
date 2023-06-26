@@ -30,9 +30,7 @@ body {
 }
 .acad-card{
     background-color: #fff;
-    height: 300px;
-    margin-top: 600px;
-    
+    height: 2000px;
 }
 .admission,
 .mtech21 {
@@ -409,5 +407,4 @@ left: 115px;
     left: 130px;
   }
 }
-
 
