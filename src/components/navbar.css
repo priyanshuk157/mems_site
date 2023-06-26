@@ -1,20 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 
-
- 
-
-
-
-* {
+*{
     
     margin: 0;  
     padding: 0;
     --nav-height: 14rem;
     /* color: black !important; */
     font-weight: 500;
-
-   
-    
+    font-family: 'Inter', sans-serif;
 	
 }
 
@@ -32,7 +26,6 @@
   
 
 }
-
 
 .logo {
     position: relative;
@@ -75,7 +68,6 @@
     display: flex;
 
 }
-
 .menu-link {
     grid-column: 3/4;
     margin-top: 20px;
