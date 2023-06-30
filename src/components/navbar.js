@@ -49,7 +49,7 @@ const Navbar = () => {
      <div className='menu-link'  >
        <ul className='menu-link-ul   ' ref={navRef}  >
         <li> <a href='/'> about </a> </li>
-        <li > <a onClick={handleClick}> People</a>  </li>
+        <li onClick={handleClick} >   People </li>
         <li> <a href='academics '> academics </a> </li>
         <li> <a href='research '> research </a> </li>
         {/* <li> <a href='gallery '> gallery </a> </li>
