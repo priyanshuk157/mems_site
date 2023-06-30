@@ -11,7 +11,7 @@ const faculty = () => {
                     <Navbar />
 
                 </div>
-                <div className="faculty-head-2"><a href="people"><i><FaAngleLeft /></i></a> Faculty</div>
+                <div className="faculty-head-2"><a href="people"><i><FaAngleLeft /></i></a> Faculty Members</div>
                 <div className='faculty-main'>
 
                     

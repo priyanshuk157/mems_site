@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { FaBars } from 'react-icons/fa';
 import { useRef } from "react";
@@ -10,11 +10,18 @@ import { useRef } from "react";
 
 const Navbar = () => {
   const navRef = useRef (); 
+  const [dropdown, setDropdown] = useState(false)
 
   const showNavbar =()=>{
 
     navRef.current.classList.toggle("responsive-nav")
   }
+  
+ const handleClick =()=>{
+  setDropdown (dropdown => !dropdown)
+ }
+ 
+ let dropdownStateCheck = dropdown ? "dropactive " : "dropinactive"
   
   return (
     <>
@@ -42,7 +49,7 @@ const Navbar = () => {
      <div className='menu-link'  >
        <ul className='menu-link-ul   ' ref={navRef}  >
         <li> <a href='/'> about </a> </li>
-        <li> <a href='people '> People </a> </li>
+        <li > <a onClick={handleClick}> People</a>  </li>
         <li> <a href='academics '> academics </a> </li>
         <li> <a href='research '> research </a> </li>
         {/* <li> <a href='gallery '> gallery </a> </li>
@@ -52,12 +59,21 @@ const Navbar = () => {
         </ul>
          
        </div>
+       <div className={dropdownStateCheck} >
+        
+        <div> <a href='faculty'> Faculty Members</a> </div>
+        <div> <a href='staff'> Staff Members    </a> </div>
+        <div> <a href='ad'> Students </a> </div>
+        
+       </div>
+      
        <div className="nav-ham"  onClick={showNavbar}>
            <FaBars /> 
           </div> 
+         
      </div>
     
-  
+
     </nav>
    { 
 }
