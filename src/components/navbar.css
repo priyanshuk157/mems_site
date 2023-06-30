@@ -82,9 +82,7 @@
     color: rgb(5, 5, 205);
   text-decoration: none;
 }
-.dropactive ul li {
-  
-}
+
 .dropactive div:hover {
   background-color: rgb(225, 223, 223);
 }
