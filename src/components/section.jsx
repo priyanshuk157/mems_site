@@ -2,6 +2,8 @@ import React from 'react'
 // import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
 import NewsandUpdates from './newsandupdates'
+import Newssection from './news-section'
+
 
 const section = () => {
   return (
@@ -12,6 +14,7 @@ const section = () => {
         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="" />
         </div>
         <div className='sec-cont '>
+        <div ><h2>About The Department</h2></div>
         Welcome to the home page of Department of Metallurgical Engineering and Materials Science! <br />
 
 The Department of MEMS was initially started as a Center for Materials Science Engineering comprising of faculty from Schools of basic sciences and engineering. Upon its progress in short period of time, the center for MSE was made in to full fledged Department of Metallurgical Engineering and Materials Science from 2016. <br />
@@ -45,7 +48,7 @@ Engage with broader community via outreach programs to promote science & technol
     <div className='ranking'>
       <div ><h2>NEWS</h2></div>
    <div className='ranking-news-main'>
-    <NewsandUpdates/>
+    <Newssection/>
    </div>
     </div>
     <div className='ranking'>

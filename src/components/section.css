@@ -118,12 +118,12 @@ padding: 3rem;
 
 }
 .events1{
-    height: 300px;
-    width:  300px;
+    height: 400px;
+    width:  400px;
    
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(89, 88, 88);
-    margin-top: 6rem;
+    margin-top: 3rem;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -164,31 +164,33 @@ padding: 3rem;
 @media(max-width:600px){
 
     .ranking-main{
-        display: none;
+        display: flex;
         height: 400px;
-       width: 100%;
+       width: 400px;
         background: white;
         border-radius: 10px;
-        box-shadow: 5px 5px 20px black;
+        box-shadow: 0px 0px 20px black;
     }
         
     .ranking{
-        display: none;
+       
         display: flex;
         flex-direction: column;
+       
         text-align: justify;
         width: 100%;
         
-        /* padding: 5rem 10rem; */
+        
+        padding: 0rem;
         /* color: white; */
     
        
     
     }
     .ranking3{
-        display: none;
-    /* display: flex; */
-    width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
     .eve-pos{
         display: flex;

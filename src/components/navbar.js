@@ -50,6 +50,13 @@ const Navbar = () => {
        <ul className='menu-link-ul   ' ref={navRef}  >
         <li> <a href='/'> about </a> </li>
         <li onClick={handleClick} >   People </li>
+        <div className={dropdownStateCheck} >
+        
+        <div> <a href='faculty'> Faculty Members</a> </div>
+        <div> <a href='staff'> Staff Members    </a> </div>
+        <div> <a href='ad'> Students </a> </div>
+        
+       </div>
         <li> <a href='academics '> academics </a> </li>
         <li> <a href='research '> research </a> </li>
         {/* <li> <a href='gallery '> gallery </a> </li>
@@ -59,13 +66,7 @@ const Navbar = () => {
         </ul>
          
        </div>
-       <div className={dropdownStateCheck} >
-        
-        <div> <a href='faculty'> Faculty Members</a> </div>
-        <div> <a href='staff'> Staff Members    </a> </div>
-        <div> <a href='ad'> Students </a> </div>
-        
-       </div>
+       
       
        <div className="nav-ham"  onClick={showNavbar}>
            <FaBars /> 
