@@ -1,7 +1,6 @@
 import React from 'react'
 // import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
-import NewsandUpdates from './newsandupdates'
 import Newssection from './news-section'
 
 
