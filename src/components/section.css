@@ -103,12 +103,9 @@
     
 }
 .ranking3{
-display: flex;
-
-flex-wrap: wrap;
-justify-content: center;
-/* justify-content: space-evenly; */
-padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
 }
 .section4{
     display: flex;
@@ -164,13 +161,17 @@ padding: 3rem;
 @media(max-width:600px){
 
     .ranking-main{
-        display: flex;
-        height: 400px;
-       width: auto;
-        background: white;
-        border-radius: 10px;
-        box-shadow: 0px 0px 20px black;
-        padding:1rem;
+        /* height: 400px;
+    width:  400px;
+   
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(89, 88, 88);
+    margin-top: 3rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
     }
         
     .ranking{
@@ -179,7 +180,7 @@ padding: 3rem;
         flex-direction: column;
        
         text-align: justify;
-        width: 100%;
+        width: fit-content;
         
         
         padding: 0rem;
@@ -189,11 +190,12 @@ padding: 3rem;
     
     }
     .ranking3{
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
         gap: 3rem;
-        justify-content: space-evenly;
-        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px; */
     }
     .eve-pos{
         display: flex;

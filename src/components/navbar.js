@@ -10,11 +10,43 @@ import { useRef } from "react";
 
 const Navbar = () => {
   const navRef = useRef (); 
-  const [dropdown, setDropdown] = useState(false)
+  const [navScroll, setNavScroll] = useState(true)
+  const [dropdown, setDropdown] = useState(true)
+  const [lastScroll, setLastScroll] = useState(0)
+  
 
+  const scrollableNavbar = ()=>{
+   
+    const currentScroll = window.scrollY;
+
+    if(currentScroll>=lastScroll){
+      setNavScroll(false)
+    }
+   
+    setLastScroll(currentScroll);
+
+    if(currentScroll<lastScroll){
+      setNavScroll(true)
+    }
+   
+   
+    
+
+   
+    
+    
+
+   
+    
+    
+   
+  }
+
+  window.addEventListener("scroll", scrollableNavbar ); 
   const showNavbar =()=>{
 
     navRef.current.classList.toggle("responsive-nav")
+    
   }
   
  const handleClick =()=>{
@@ -25,8 +57,12 @@ const Navbar = () => {
   
   return (
     <>
-    <nav >
-
+    <nav 
+    
+     className= "navbar1"
+    
+     >
+<div className= {navScroll? "navbar" : "scroll-active"}>
       
      <div className='main-nav active'>
      <div className="iiti-logo">
@@ -74,7 +110,7 @@ const Navbar = () => {
          
      </div>
     
-
+     </div>
     </nav>
    { 
 }
