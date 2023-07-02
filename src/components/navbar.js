@@ -11,7 +11,7 @@ import { useRef } from "react";
 const Navbar = () => {
   const navRef = useRef (); 
   const [navScroll, setNavScroll] = useState(true)
-  const [dropdown, setDropdown] = useState(true)
+  const [dropdown, setDropdown] = useState(false)
   const [lastScroll, setLastScroll] = useState(0)
   
 
