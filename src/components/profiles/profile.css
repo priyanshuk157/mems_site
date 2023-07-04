@@ -152,6 +152,7 @@
         
     }
     .pc1 ul{
+        line-height: 20px;
    
         list-style:square;
     }
@@ -188,11 +189,10 @@
       }
       .pc2{
         
-    font-size: 18px;
+    font-size: 15px;
     position: relative;
     width: 100%;
-    padding: 10px;
-    border-radius: 10px; 
+    padding: 0px;
       
 }
 }
