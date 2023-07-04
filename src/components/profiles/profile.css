@@ -120,9 +120,9 @@
 @media (max-width:600px){
     .profile-main{
         padding: 1rem;
-        box-shadow: 3px 3px 10px black;
+        /* box-shadow: 3px 3px 10px black; */
         border-radius: 10px;
-        border: 1rem solid white;
+        /* border: 1rem solid white; */
 
         margin: 0 1rem;
     }
