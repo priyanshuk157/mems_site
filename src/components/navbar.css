@@ -5,7 +5,7 @@
   padding: 0;
   --nav-height: 14rem;
   /* color: black !important; */
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Inter", sans-serif;
 }
 .navbar1{
@@ -128,7 +128,7 @@
 }
 
 .mems {
-  color: brown;
+  color: #C44536;
   font-size: 30px;
   font-weight: 900;
   line-height: 40px;

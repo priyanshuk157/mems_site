@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaAngleLeft } from "react-icons/fa";
-import Table from "react-bootstrap/Table";
+
+import Profilecard from "./profilecard";
 
 const profile19 = () => {
   return (
@@ -11,7 +11,7 @@ const profile19 = () => {
       <div>
         <Navbar />
       </div>
-
+{/* 
       <div className="head4">
         <i className="back-button">
           <a href="faculty">
@@ -26,7 +26,7 @@ const profile19 = () => {
           <div className="profile-img">
             <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
           </div>
-          {/* pc=profile content */}
+          pc=profile content
 
           <div className="pc2">
             <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
@@ -179,6 +179,9 @@ const profile19 = () => {
             officia error?
           </div>
         </div>
+      </div> */}
+      <div>
+        <Profilecard/>
       </div>
 
       <div>
