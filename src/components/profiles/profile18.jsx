@@ -2,8 +2,9 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaHome, FaLinkedin, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
+import pok from "./profimages/prof18.jpg"
 
 const Profile18 = () => {
   return (
@@ -23,7 +24,7 @@ const Profile18 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="http://mems.iiti.ac.in/images/Vamsi_photo.jpg" alt="sd" />
+            <img src={pok} alt="sd" />
           </div>
           {/* pc=profile content */}
 
@@ -33,14 +34,14 @@ const Profile18 = () => {
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: #211(b), Hub Building </li>
-              <li>Email		: kvvamsi@iiti.ac.in </li>
-              <li>Contact		: +91-731-660-3333 ext: 5568</li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: kvvamsi@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 ext: 5568</li>
             <div className="fac-links">
-             <a href="https://sites.google.com/view/kvvamsi/home "> <i><FaHome/></i></a>
-             <a href=" https://scholar.google.co.in/citations?user=ducGUjAAAAAJ&hl=en "> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/K-V-Vamsi "><i><FaResearchgate/></i></a>
-             <a href="https://twitter.com/kvvamsi "><i><FaTwitterSquare/></i></a>
-             <a href="https://www.linkedin.com/in/kvvamsi/ "> <i><FaLinkedin/></i></a>
+             <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.co.in/citations?user=ducGUjAAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/K-V-Vamsi "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://twitter.com/kvvamsi "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             <a href="https://www.linkedin.com/in/kvvamsi/ "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
              
              
               
@@ -113,6 +114,8 @@ const Profile18 = () => {
               <li>  K. V. Vamsi and Tresa M. Pollock, “A new proximate structure for the APB(111) in L12 compounds”, Scripta Materialia 182 (2020), 38-42. https://doi.org/10.1016/j.scriptamat.2020.02.038  </li>
               <li>  K. V. Vamsi and S. Karthikeyan, “Modeling APB energies in multicomponent Ni-base superalloys”, Intermetallics 132 (2021), 107124. https://doi.org/10.1016/j.intermet.2021.107124</li>
               <li>Yolita M. Eggeler, K. V. Vamsi,  and Tresa M. Pollock, “Precipitate shearing, fault energies and solute segregation to planar faults in Ni-, CoNi- and Co- base superalloys”, Review Article in Annual Review of Materials Research, 51 (2021), 209. https://doi.org/10.1146/annurev-matsci-102419-011433 </li>
+              <li>K.V. Vamsi, S. Karthikeyan, “Full length article
+High-throughput estimation of planar fault energies in A3B compounds with L12 structure” https://doi.org/10.1016/j.actamat.2017.10.029 </li>
               </ul>
             {/* <Table>
               <thead>

@@ -90,7 +90,7 @@
 }
 .pc1 ul{
    
-    
+    line-height: 40px;
 }
 .pc1-head{
     
@@ -110,7 +110,7 @@
 }
 .profile-main{
     padding: 20px;
-    background: #cbcbcb;
+    background: #f8e6cc;
     box-shadow: 0px 0px 10px black;
     border: 3rem solid white;
     border-radius: 10px;
@@ -156,6 +156,8 @@
         list-style:square;
     }
     .pc1-head{
+        display: flex;
+        justify-content: center;
         text-align: justify;
         font-size: 20px;
         color: brown;
