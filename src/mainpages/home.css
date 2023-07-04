@@ -17,7 +17,7 @@
     justify-content: center;
     padding: 60px;
     gap: 10rem;
-    background-color: rgb(231, 232, 251);
+    background-color:#f8e6cc;
    margin: 4rem 8rem;
     }
 
@@ -43,7 +43,7 @@
     text-align: justify;
     align-items: center;
     padding: 3rem 3rem;
-    background-color: rgb(231, 232, 251);
+    background-color: #f8e6cc;
     margin: 2rem 8rem;
     /* border:  6rem   solid white; */
     /* color: white; */

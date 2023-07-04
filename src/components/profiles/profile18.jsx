@@ -20,7 +20,7 @@ const Profile18 = () => {
         </i>
         <span>PROFILE</span>
       </div> */}
-      <div className="pm-head">Prof. Koruprolu Venkata Vamsi</div>
+      <div className="pm-head">Prof. K. V. Vamsi</div>
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
