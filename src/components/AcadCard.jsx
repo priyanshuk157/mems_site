@@ -21,13 +21,13 @@ const AcadCard = () => {
               <div className="admission">
                 < a
                   href="https://academic.iiti.ac.in/"
-                  target="_"
-                />
+
+              >
                 <div className="admission1">
                   Click here to know the admission process for the degree programs
                   offered by the Department of Metallurgical Engineering and
                   Materials Science at IIT Indore
-                </div>
+                </div></a>
               </div>
 
 
@@ -82,7 +82,7 @@ const AcadCard = () => {
                   <img
                     className="image1Icon"
                     alt="error_404"
-                    src=""
+                    src="dada"
                     
                   />
                 </div>
@@ -94,7 +94,7 @@ const AcadCard = () => {
               </div>
               <div className="cal" id="cal" >
 
-                <a className="academicCalenderForContainer">
+                <a href='aj' className="academicCalenderForContainer">
                   <span className="academicCalenderForContainer1">
                     <p className="academicCalenderFor">
                       Academic Calender for the year 23-24
@@ -108,7 +108,7 @@ const AcadCard = () => {
                 <a
                   className="curriculumLink"
                   href="https://academic.iiti.ac.in/"
-                  target="_blank"
+                  
                 >
                   Curriculum link
                 </a>

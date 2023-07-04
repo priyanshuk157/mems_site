@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaAngleLeft } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 
 const profile1 = () => {
