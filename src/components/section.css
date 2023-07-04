@@ -34,8 +34,9 @@
 }
 .ranking-main{
     padding: 40px;
-    height: 400px;
-   width: 400px;
+   width: 100%;
+   height: 100%;
+
    color: black;
     line-height: 40px;
    font-size: 20px;
@@ -63,14 +64,16 @@
 }
     
 .ranking{
+    height: 400px;
+    width:  400px;
+   
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    text-align: justify;
-   
-    color: red;
-    
-    padding: 2rem;
-    /* color: white; */
+    align-items: center;
+    justify-content: space-evenly;
 
    
 
@@ -176,14 +179,14 @@
         
     .ranking{
        
-        display: flex;
+        /* display: flex;
         flex-direction: column;
        
         text-align: justify;
         width: fit-content;
         
         
-        padding: 0rem;
+        padding: 0rem; */
         /* color: white; */
     
        

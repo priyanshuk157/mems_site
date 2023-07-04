@@ -12,15 +12,15 @@ const profile1 = () => {
         <Navbar />
       </div>
 
-      <div className="head4">
+      {/* <div className="head4">
         <i className="back-button">
           <a href="faculty">
             <FaAngleLeft />
           </a>
         </i>
         <span>PROFILE</span>
-      </div>
-
+      </div> */}
+      <div className="pm-head">Prof. Ajay Kumar Kushwaha</div>
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
@@ -29,7 +29,7 @@ const profile1 = () => {
           {/* pc=profile content */}
 
           <div className="pc2">
-            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
+          
 
             <ul>
               <li>Email : akk@iiti.ac.in</li>

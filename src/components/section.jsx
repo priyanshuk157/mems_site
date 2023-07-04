@@ -37,7 +37,7 @@ Engage with broader community via outreach programs to promote science & technol
       <div ><h2>RANKINGS</h2></div>
    <div className='ranking-main'>
    India Rankings 2023(Engineering) : 14th <br />
-   Overall Universities 2023 : 28th <br />
+   Overall Universities 2023 : 28th <br/>
    India Rankings 2023 (Research) : 21st
 
 

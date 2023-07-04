@@ -98,4 +98,10 @@
             background-color: white;
             
         }
+        .slider-main{
+            margin: 0;
+            position: relative;
+            
+            
+        }
 }
