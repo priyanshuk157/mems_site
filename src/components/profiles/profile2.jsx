@@ -7,7 +7,7 @@ import Table from "react-bootstrap/Table";
 
 const profile2 = () => {
   return (
-    <>
+    <> 
       <div>
         <Navbar />
       </div>
