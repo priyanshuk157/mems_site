@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate, FaTwitterSquare } from 'react-icons/fa'
+import {  FaHome, FaLinkedin, FaResearchgate, FaTwitterSquare } from 'react-icons/fa'
 import { SiGooglescholar } from 'react-icons/si'
 
 const Profilecard = (props) => {
