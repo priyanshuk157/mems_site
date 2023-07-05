@@ -2,104 +2,130 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaAngleLeft } from "react-icons/fa";
-import Table from "react-bootstrap/Table";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import {SiGooglescholar } from "react-icons/si";
+import prof18 from "./profimages/prof18.jpg"
 
-const profile12 = () => {
+const Profile12 = () => {
   return (
     <>
       <div>
         <Navbar />
       </div>
 
-      <div className="head4">
+      {/* <div className="head4">
         <i className="back-button">
           <a href="faculty">
-            <FaAngleLeft />
           </a>
         </i>
         <span>PROFILE</span>
-      </div>
-
+      </div> */}
+      <div className="pm-head">Prof. Hemant Borkar</div>
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
+            <img src={prof18} alt="sd" />
           </div>
           {/* pc=profile content */}
 
           <div className="pc2">
-            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
+          
 
             <ul>
-              <li>Email : akk@iiti.ac.in</li>
-              <li>Office : pod 305 </li>
-              <li>
-                webpage :{" "}
-                <a href="https://iiti.ac.in/people/~ajaykk/index.html">
-                  {" "}
-                  visit page
-                </a>
-              </li>
-              <li>contact : +91 731 660 3250</li>
+              <li>Designation	: Assistant Professor</li>
+              <li>Office		: POD 1D (Chromium room 612) </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: h.borkar@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-73243063295 
+</li>
+            <div className="fac-links">
+             <a href="https://sites.google.com/view/hemantborkar/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.co.in/citations?user=siZP-XoAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Hemant-Borkar "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             
+             <a href="https://www.linkedin.com/in/hemant-borkar-0a0a3410/"target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
+             
+             
+              
+              
+             
+            </div>
+              
             </ul>
           </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">ACADEMIC BACKGROUND</span>
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IIT, Bombay</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>M.Sc. Physics (Electronics) </td>
-                <td>2006</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>B.Sc. (Physics & Maths) </td>
-                <td>2003</td>
-              </tr>
-            </tbody>
-          </Table>
-          <br />
+          <span className="pc1-head">RESEARCH INTEREST</span>
+          <div>
+            <ul>
+              <li>          Lightweight material</li>
+              <li>  Deformation behavior</li>
+              <li>Crystallographic texture and microstructural characterization</li>
+              <li>Additive manufacuring</li>
+            </ul>
+           
+    
+            
+          </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">POSITIONS HELD</span>
+          <span className="pc1-head">ACADEMIC BACKGROUND</span>
+        
           <ul>
-            <li>
-              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
-            </li>
-            <li>Completed 2 Research Projects.</li>
-            <li>
-              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
-              44 i10-index.
-            </li>
-            <li>
-              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
-            </li>
-            <li>
-              Given 10 Invited/Contributory talk in national / international
-              conferences.
-            </li>
+            <li>Ph.D in Materials Engineering, McGill University, Canada, 2013</li>
+            <li>M.Tech in Metallurgical Engineering and Materials Science, IIT Bombay, 2008
+</li>
+            <li>B.E in Metallurgical Engineering and Materials Science, VNIT Nagpur, 2005</li>
+            
           </ul>
         </div>
-
         <div className="pc1">
-          <span className="pc1-head">PUBLICATIONS</span>
+          <span className="pc1-head">PROFESSIONAL EXPERIENCE</span>
+          <ul>
+            <li>
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore,  2017 to   current
+            </li>
+            <li>Senior Teaching Fellow, WMG, University of Warwick, UK, 2015-2017</li>
+            <li>
+            Postdoctoral Researcher, Materials and Manufacturing, Jonkoping University, Sweden, 2013-2015
+            </li>
+            <li>
+            Assistant Manager, Bharat Forge, 2005-2006
+            </li>
+            
+          </ul>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">AWARDS AND RECOGNITIONS  </span>
           <div>
-            <Table>
+           <ul>
+            <li>Best presentation award , ICMST international conference, Kuala Lumpur, Malaysia, 2018</li>
+            <li>Research grant from Jonkoping Research Council , Sweden, 2015</li>
+            <li>McGill International Doctoral Award, 2008</li>
+           </ul>
+          </div>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">SELECTED PUBLICATIONS</span>
+          <div>
+            <ul>
+              <li> Hemant Borkar, Salem Seifeddine, Anders EW Jarfors, In-situ EBSD study of deformation behavior
+  of Al–Si–Cu alloys during tensile testing, Materials &amp; Design, 2015, 84, 36-47
+ </li>
+              <li>  H Borkar, M Hoseini, M Pekguleryuz, Effect of strontium on the texture and mechanical properties
+  of extruded Mg–1% Mn alloys, Materials Science and Engineering: A, 2012, 549, 168-175
+ </li>
+              <li> H Borkar, M Hoseini, M Pekguleryuz, Effect of strontium on flow behavior and texture evolution
+during the hot deformation of Mg–1 wt% Mn alloy, Materials Science and Engineering: A, 2012, 537, 49-57
+</li>
+              <li>H Patil, A Jain, A Marodkar, P Kumar, A Ghosh, H Borkar, Creep deformation study of squeeze
+cast AZ91 magnesium alloy, Materials Science and Technology, 2023
+ </li>
+              <li>AS Marodkar, H Patil, H Borkar, A Behl, Effect of Squeeze Casting and Combined Addition of
+Calcium and Strontium on Microstructure and Mechanical Properties of AZ91 Magnesium Alloy,
+International Journal of Metalcasting, 2023
+ </li>
+              </ul>
+            {/* <Table>
               <thead>
                 <tr>
                   <th>Sr.No.</th>
@@ -110,22 +136,13 @@ const profile12 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                    G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty,
-                    S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy,
-                    S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced
-                    Materials for Enabling Hydrogen Economy: Functionalized
-                    Graphene�Incorporated Cupric Oxide Catalyst for Efficient
-                    Solar Hydrogen Production , Global Challenges , 2020, 4 (3),
-                    2070031 , Impact Factor: 5.13.
+                  K. V. Vamsi, M. A. Charpagne, Tresa M Pollock, "High-throughput approach for estimation of intrinsic barriers in FCC structures for alloy design", Scripta Materialia, 204 (2021) 114126. https://doi.org/10.1016/j.scriptamat.2021.114126  
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                    N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha,
-                    Sulphur precursor dependent crystallinity and optical
-                    properties of solution grown Cu2FeSnS4 particles , Materials
-                    Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44
+                  K. V. Vamsi and Tresa M. Pollock, “A new proximate structure for the APB(111) in L12 compounds”, Scripta Materialia 182 (2020), 38-42. https://doi.org/10.1016/j.scriptamat.2020.02.038  
                     .
                   </td>
                 </tr>
@@ -133,52 +150,25 @@ const profile12 = () => {
                   <td>3</td>
                   <td>
                     {" "}
-                    N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents
-                    on structural, morphological and optical properties of
-                    solvothermally grown Cu2FeSnS4 particles , AIP Conference
-                    Proceedings , 2115 (1), 030603 (2019).
+                    K. V. Vamsi and S. Karthikeyan, “Modeling APB energies in multicomponent Ni-base superalloys”, Intermetallics 132 (2021), 107124. https://doi.org/10.1016/j.intermet.2021.107124 
                   </td>
                 </tr>
-              </tbody>
-            </Table>
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">PATENTS</span>
-          <div>
-            <Table>
-              <tbody>
                 <tr>
-                  <td>1</td>
+                  <td>4</td>
                   <td>
                     {" "}
-                    Amorphous Metal Oxide films, (Technology is licensed) ;
-                    K.L.G. Goh, H.Q. Le, and Ajay Kushwaha, Patent Publication
-                    Number: 20170259300,US Patent (Patent number: 10668500):
-                    Date of Patent: June 2, 2020
+                    Yolita M. Eggeler, K. V. Vamsi,  and Tresa M. Pollock, “Precipitate shearing, fault energies and solute segregation to planar faults in Ni-, CoNi- and Co- base superalloys”, Review Article in Annual Review of Materials Research, 51 (2021), 209. https://doi.org/10.1146/annurev-matsci-102419-011433 
                   </td>
                 </tr>
               </tbody>
-            </Table>
+            </Table> */}
           </div>
+        
         </div>
+      
 
-        <div className="pc1">
-          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
-          <div>
-            General Chair: International Conference on Frontiers of Materials
-            Engineering
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">RESEARCH INTEREST</span>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab
-            sed earum doloribus rem eius id consequuntur reiciendis sunt!
-            Dolorum cumque quaerat natus aliquam aperiam amet ipsam, laudantium
-            officia error?
-          </div>
-        </div>
+      
+       
       </div>
 
       <div>
@@ -188,4 +178,4 @@ const profile12 = () => {
   );
 };
 
-export default profile12;
+export default Profile12;
