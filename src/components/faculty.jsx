@@ -348,7 +348,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Vilas G. Pol</div>
                                     <div className="post"> vpol@purdue.edu </div>
-                                    <div className="post-button"><a href="profile18"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile19"> view profile</a> </div>
                                     
 
 

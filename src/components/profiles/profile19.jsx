@@ -4,6 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 
 import Profilecard from "./profilecard";
+import Profiledata from "./profiledata";
 
 const profile19 = () => {
   return (
@@ -181,7 +182,7 @@ const profile19 = () => {
         </div>
       </div> */}
       <div>
-        <Profilecard/>
+        <Profilecard details={Profiledata}/>
       </div>
 
       <div>
