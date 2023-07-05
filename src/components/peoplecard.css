@@ -142,7 +142,7 @@ p {
 
 .head {
   display: flex;
-  margin: 15rem;
+  margin-top: 15rem ;
   justify-content: center;
   text-align: center;
   width: auto;
