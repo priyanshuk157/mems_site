@@ -8,8 +8,7 @@ const section = () => {
   return (
     <>
     <div className='sec'>
-      
-        <div className='sec-img'>
+       <div className='sec-img'>
         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="" />
         </div>
         <div className='sec-cont '>
@@ -19,6 +18,7 @@ const section = () => {
 The Department of MEMS was initially started as a Center for Materials Science Engineering comprising of faculty from Schools of basic sciences and engineering. Upon its progress in short period of time, the center for MSE was made in to full fledged Department of Metallurgical Engineering and Materials Science from 2016. <br />
 Materials continue to play a vital role in almost every technological advancement since the beginning of civilization. The emphasis of the Department is to promote multidisciplinary research to find amicable solutions for the real- world problems and work on the cutting-edge research problems that benefits society. The key research focus of the Department is to understand the processing, structure of several classes of materials and correlate them to the properties and thus enhancing their performance.
         </div>
+       
        
     </div>
     <div className='vision '>

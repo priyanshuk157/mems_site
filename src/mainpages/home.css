@@ -6,9 +6,11 @@
 }
 .body{
     /* background:linear-gradient(#000c31,#1944C5); */
-  
+
+ 
    background: white;
    z-index: -7;
+  
   
 }
 .sec {
@@ -63,7 +65,7 @@
         border-radius: 10px;
     } 
     .sec {
-    
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

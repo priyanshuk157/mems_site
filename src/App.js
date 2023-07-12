@@ -14,6 +14,11 @@ import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
 import Staff from './components/staff'
 import Researchcomponent1 from './components/researchcomponent1'
+import Researchcomponent2 from './components/researchcomponent2'
+import Researchcomponent3 from './components/researchcomponent3'
+import Researchcomponent4 from './components/researchcomponent4'
+import Researchcomponent5 from './components/researchcomponent5'
+import Researchcomponent6 from './components/researchcomponent6'
 import Profile1 from './components/profiles/profile1'
 import Profile2 from './components/profiles/profile2'
 import Profile3 from './components/profiles/profile3'
@@ -77,6 +82,12 @@ const App = () => {
  <Route path='profile17' element={<Profile17/>}></Route>
  <Route path='profile18' element={<Profile18/>}></Route>
  <Route path='profile19' element={<Profile19/>}></Route>
+ <Route path='researchcomponent1' element={<Researchcomponent1/>}></Route>
+ <Route path='researchcomponent2' element={<Researchcomponent2/>}></Route>
+ <Route path='researchcomponent3' element={<Researchcomponent3/>}></Route>
+ <Route path='researchcomponent4' element={<Researchcomponent4/>}></Route>
+ <Route path='researchcomponent5' element={<Researchcomponent5/>}></Route>
+ <Route path='researchcomponent6' element={<Researchcomponent6/>}></Route>
 
         <Route path='industry' element={<Industryrelation/>}></Route>
       </Routes>

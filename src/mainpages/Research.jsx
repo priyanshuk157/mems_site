@@ -1,7 +1,8 @@
 import React from 'react'
 
 
-import Researchcomponent1 from '../components/researchcomponent1'
+// import Researchcomponent1 from '../components/researchcomponent1'
+import ResearchThemes from '../components/ResearchThemes'
 
 
 const Research = () => {
@@ -10,7 +11,7 @@ const Research = () => {
     <div className='body'>
     
       <div>
-        <Researchcomponent1/>
+        <ResearchThemes/>
       </div>
     
         </div>

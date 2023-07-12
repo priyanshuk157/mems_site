@@ -6,12 +6,13 @@
   border-radius: 10px;
  
    align-items: right;
-   font-size: 20px;
- background-color: rgba(58, 62, 138, 0.5);
+   font-size: 15px;
+   font-weight: 8   00;
+ background-color: rgba(199, 202, 237, 0.5);
    height: 100%;
    width: 20%;
    height: auto;
-  
+  color: black;
    padding: 30px;
   
 
@@ -23,14 +24,15 @@
     left:   0px;
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: rgb(200, 1, 1);
+    
 
     
     
 }
 .indicator1{
     display: none;
-    background: rgba(58, 62, 138, 0.8);
+    background: rgba(229, 230, 251, 0.8);
 
     z-index: index 1; ;
     position: absolute;
@@ -38,7 +40,7 @@
 .active-indicator{
         display: flex;
         flex-direction: row;
-        background: rgba(58, 62, 138, 0.8);
+        background: rgba(216, 218, 241, 0.8);
         z-index: index 1; ;
         position: absolute;
         left: -2rem

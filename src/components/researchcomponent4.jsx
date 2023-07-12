@@ -1,14 +1,14 @@
 import React from 'react'
 import './research.css'
 import Navbar from './navbar'
-import Footer from "../components/footer";
+import Footer from "./footer";
 import { FaCaretRight } from "react-icons/fa";
 import { useState } from 'react';
 
 
 
 
-const Researchcomponent1 = () => {
+const Researchcomponent4 = () => {
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -30,15 +30,10 @@ const Researchcomponent1 = () => {
         <div className='research-heads'>
           <div className=''><h2>Research Areas</h2></div>
 
-          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Alloy Design</div>
-          <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Process-Structure-Property (P-S-P) correlations and Materials Modelling</div>
-          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Thermodynamics & Phase transformation</div>
-          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Indentation Mechanics</div>
-          <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Mechanics of Materials</div>
-          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Crystallographic texture</div>
-          <div className='heads-1' onClick={() => toggleTab(7)}><i className={toggleState === 7 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Integrated  Computational Materials Engineering (ICME)</div>
-          <div className='heads-1' onClick={() => toggleTab(8)}><i className={toggleState === 8 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Materials Informatics (AI/ML)</div>
-          <div className='heads-1' onClick={() => toggleTab(9)}><i className={toggleState === 9 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Extreme Materials</div>
+          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Materials Struture Process Properties Correlation</div>
+          <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy Materials</div>
+          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Design and Synthesis of Advanced Functional Material</div>
+          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Computational Materials Design</div>
 
 
         </div>
@@ -141,4 +136,4 @@ Magnesium Alloys, magnetic materials and Composite materials
   )
 }
 
-export default Researchcomponent1
+export default Researchcomponent4

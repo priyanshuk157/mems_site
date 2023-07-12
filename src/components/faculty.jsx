@@ -186,7 +186,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Dhirendra Kumar Rai</div>
                                     <div className="post"> dkrai@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile1"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile10 "> view profile</a> </div>
                                     
 
 
@@ -204,7 +204,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Abhijit Ghosh</div>
                                     <div className="post"> aghosh@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile11"> view profile</a> </div>
                                     
 
 
@@ -222,7 +222,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Hemant Borkar</div>
                                     <div className="post"> h.borkar@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile12"> view profile</a> </div>
                                     
 
 
@@ -240,7 +240,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Sunil Kumar</div>
                                     <div className="post"> asunil@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile13"> view profile</a> </div>
                                     
 
 
@@ -258,7 +258,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Ram Sajeevan Maurya</div>
                                     <div className="post"> ramsajeevan@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile14"> view profile</a> </div>
                                     
 
 
@@ -276,7 +276,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Dudekula Althaf Basha</div>
                                     <div className="post">bashada@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile15"> view profile</a> </div>
                                     
 
 
@@ -294,7 +294,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Chandan Halder</div>
                                     <div className="post"> chalder@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile16"> view profile</a> </div>
                                     
 
 
@@ -312,7 +312,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Nisheeth Kumar Prasad</div>
                                     <div className="post"> nisheeth@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile17"> view profile</a> </div>
                                     
 
 
