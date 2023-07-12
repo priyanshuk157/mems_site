@@ -24,7 +24,7 @@ const Profile17 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src={prof18} alt="sd" />
+            <img src={prof17} alt="sd" />
           </div>
           {/* pc=profile content */}
 
