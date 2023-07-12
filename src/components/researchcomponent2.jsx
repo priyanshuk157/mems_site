@@ -30,10 +30,12 @@ const Researchcomponent2 = () => {
         <div className='research-heads'>
           <div className=''><h2>Research Areas</h2></div>
 
-          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Materials Struture Process Properties Correlation</div>
-          <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy Materials</div>
-          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Design and Synthesis of Advanced Functional Material</div>
-          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Computational Materials Design</div>
+          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Light weight alloys</div>
+          <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Multi-principal element alloys (MPEAs)</div>
+          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Metallic glasses</div>
+          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>High temperature alloys : Superalloys</div>
+          <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>High temperature alloys : Superalloys</div>
+          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>High temperature alloys : Superalloys</div>
 
 
         </div>
@@ -68,6 +70,20 @@ Magnesium Alloys, magnetic materials and Composite materials
 
         </div>
         <div className={toggleState === 4 ? " active-content1" : " research-content"}>
+          <div className="research-content-head">content 4</div>
+          . Theoretical and Computational Material Science
+• Integrated Computational Materials Engineering
+
+
+        </div>
+        <div className={toggleState === 5 ? " active-content1" : " research-content"}>
+          <div className="research-content-head">content 4</div>
+          . Theoretical and Computational Material Science
+• Integrated Computational Materials Engineering
+
+
+        </div>
+        <div className={toggleState === 6 ? " active-content1" : " research-content"}>
           <div className="research-content-head">content 4</div>
           . Theoretical and Computational Material Science
 • Integrated Computational Materials Engineering
@@ -115,6 +131,36 @@ Magnesium Alloys, magnetic materials and Composite materials
 
         </div>
         <div  className={toggleState === 4? "prof-names" : " no-profnames"}  >
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <ul>
+            <li><a href="aas">Dr. Sumanta Samal</a> </li>
+            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
+            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
+            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
+            <li><a href="aas">Dr. Vinod Kumar</a> </li>
+            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
+        
+                        
+
+          </ul>
+
+        </div>
+        <div  className={toggleState === 5? "prof-names" : " no-profnames"}  >
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <ul>
+            <li><a href="aas">Dr. Sumanta Samal</a> </li>
+            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
+            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
+            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
+            <li><a href="aas">Dr. Vinod Kumar</a> </li>
+            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
+        
+                        
+
+          </ul>
+
+        </div>
+        <div  className={toggleState === 6? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
             <li><a href="aas">Dr. Sumanta Samal</a> </li>
