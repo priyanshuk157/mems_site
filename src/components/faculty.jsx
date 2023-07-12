@@ -11,7 +11,7 @@ import prof18 from './profiles/profimages/prof18.jpg'
 const faculty = () => {
     return (
         <>
-            <div className='body'>
+           
                 <div>
                     <Navbar />
 
@@ -209,11 +209,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Abhijit Ghosh</div>
                                     <div className="post"> aghosh@iiti.ac.in </div>
-<<<<<<< HEAD
                                     <div className="post-button"><a href="profile11"> view profile</a> </div>
-=======
-                                    <div className="post-button"><a href="profil11"> view profile</a> </div>
->>>>>>> origin/pranjal_faculty_commit
                                     
 
 
@@ -381,7 +377,7 @@ const faculty = () => {
 
 
 
-            </div>
+           
             <div>
                 <Footer />
             </div>

@@ -90,7 +90,7 @@
   box-shadow:0px  2px  5px black;
   padding: 0px;
   height: 11rem;
-  width: 100%;
+  width: fit-content;
   transition: all .3s;
 }
 

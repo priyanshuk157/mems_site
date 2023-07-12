@@ -33,17 +33,8 @@ Engage with broader community via outreach programs to promote science & technol
     </div>
     <div className="ranking3">
 
-    <div className='ranking'>
-      <div ><h2>RANKINGS</h2></div>
-   <div className='ranking-main'>
-   India Rankings 2023(Engineering) : 14th <br />
-   Overall Universities 2023 : 28th <br/>
-   India Rankings 2023 (Research) : 21st
-
-
-
-   </div>
-    </div>
+   
+    
     <div className='ranking'>
       <div ><h2>NEWS</h2></div>
    <div className='ranking-main'>
@@ -51,7 +42,7 @@ Engage with broader community via outreach programs to promote science & technol
    </div>
     </div>
     <div className='ranking'>
-      <div ><h2>PLACEMENT</h2></div>
+      <div ><h2>STATISTICS</h2></div>
    <div className='ranking-main'></div>
     </div>
     </div>
