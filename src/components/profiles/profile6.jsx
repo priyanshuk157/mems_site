@@ -2,104 +2,133 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaAngleLeft } from "react-icons/fa";
-import Table from "react-bootstrap/Table";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import {SiGooglescholar } from "react-icons/si";
+import prof6 from "./profimages/prof6.jpg"
 
-const profile6 = () => {
+
+const Profile18 = () => {
   return (
     <>
       <div>
         <Navbar />
       </div>
 
-      <div className="head4">
+      {/* <div className="head4">
         <i className="back-button">
           <a href="faculty">
-            <FaAngleLeft />
           </a>
         </i>
         <span>PROFILE</span>
-      </div>
-
+      </div> */}
+      <div className="pm-head">Prof. Eswar Prasad Kormilli</div>
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
+            <img src={prof6} alt="sd" />
           </div>
           {/* pc=profile content */}
 
           <div className="pc2">
-            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
+          
 
             <ul>
-              <li>Email : akk@iiti.ac.in</li>
-              <li>Office : pod 305 </li>
-              <li>
-                webpage :{" "}
-                <a href="https://iiti.ac.in/people/~ajaykk/index.html">
-                  {" "}
-                  visit page
-                </a>
-              </li>
-              <li>contact : +91 731 660 3250</li>
+              <li>Designation	: Associate Professor</li>
+              <li>Office		: PoD 1D-607 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: eswar@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: ​+91 731-2438700 Ext.: 3280</li>
+            <div className="fac-links">
+             <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.co.in/citations?user=LiDYSBQAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Eswar-Prasad-K "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://twitter.com/EKorimilli "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             <a href="https://www.linkedin.com/in/eswar-prasad-korimilli-9085241b/ "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
+              
+             
+            </div>
+              
             </ul>
           </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">ACADEMIC BACKGROUND</span>
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IIT, Bombay</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>M.Sc. Physics (Electronics) </td>
-                <td>2006</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>B.Sc. (Physics & Maths) </td>
-                <td>2003</td>
-              </tr>
-            </tbody>
-          </Table>
-          <br />
+          <span className="pc1-head">RESEARCH INTEREST</span>
+          <div>
+            <ul>
+              <li>Mechanical behavior of materials </li>
+              <li> High strain rate deformation</li>
+              <li>Nanoindentation, Small scale mechanical testing</li>
+              <li>Surface Engineering, and Failure analysis of materials</li>
+            </ul>
+           
+            Ph.D, Department of Materials Engineering, IISc Bangalore, 2011
+ME, Department of Metallurgy, IISc Bangalore, 2004
+B. Tech, Metallurgical Engineering, REC (currently NIT) Warangal, 2002
+
+            
+          </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">POSITIONS HELD</span>
+          <span className="pc1-head">ACADEMIC BACKGROUND</span>
+        
+          <ul>
+            <li>Ph.D, Department of Materials Engineering, IISc Bangalore, 2011</li>
+            <li>ME, Department of Metallurgy, IISc Bangalore, 2004</li>
+            <li>B. Tech, Metallurgical Engineering, REC (currently NIT) Warangal, 2002</li>
+            
+          </ul>
+        </div>
+        
+
+        <div className="pc1">
+          <span className="pc1-head">PROFESSIONAL EXPERIENCE</span>
           <ul>
             <li>
-              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
+            Associate Professor, Department of MEMS, IIT Indore,  Nov 2022 onwards
             </li>
-            <li>Completed 2 Research Projects.</li>
+            <li>Assistant Professor, Department of MEMS, IIT Indore, June 2017 – Nov 2022</li>
             <li>
-              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
-              44 i10-index.
-            </li>
-            <li>
-              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
+            Assistant Professor,  School of Engineering, Mahindra Ecole Centrale, April 2014 – May 2017
             </li>
             <li>
-              Given 10 Invited/Contributory talk in national / international
-              conferences.
+            Postdoc, Department of Mechanical Engineering, The Johns Hopkins University, July 2011 – Jan 2014
+            </li>
+            <li>
+            Research Assistant, IISc Bangalore (March 2011 – June 2011)
+            </li>
+            <li>
+            Post graduate Engineering, TVS Motor Company, Hosur (2004 – 2006)
             </li>
           </ul>
         </div>
-
         <div className="pc1">
-          <span className="pc1-head">PUBLICATIONS</span>
+          <span className="pc1-head">AWARDS AND RECOGNITIONS  </span>
           <div>
-            <Table>
+           <ul>
+           <li>Visiting Scientist, Nanyang Technological University, Singapore, June 2022</li>
+            <li>Guest Scientist,  Institute of Nanotechnology, Karlsruhe Institute of Technology, Germany (May - July, 2019)</li>
+            <li>Visiting faculty,  School of Materials Science and Engineering, Xi'an Jiaotong University, Xi'an, China (Dec 2017, May - July, 2018)</li>
+            <li>Outstanding reviewer recognition, Journal of Alloys and Chemical Compounds (September 2017)</li>
+            <li>Visiting Scientist, Mechanics Solids Structures and Materials Laboratory, Centrale Superlec, France (June – July 2016, June – July 2017)</li>
+            <li>Best oral presentation at NMD-ATM 2016 held at IIT Kanpur in the category of Science of metals and materials. </li>
+            <li>All India 16th rank in Graduate Aptitude Test for Engineers (GATE - 2002)</li>
+            <li>First Rank, B. Tech. Class of '02, NIT Warangal.</li>
+           </ul>
+          </div>
+        </div>
+        <div className="pc1">
+        
+
+          <span className="pc1-head">SELECTED PUBLICATIONS</span>
+          <div>
+            <ul>
+            <li>A.Sharma, A.Tripathi, Sree Harsha Nandam, Horst Hahn, K.Eswar Prasad, Role of Indenter geometry on the deformation behavior in a Pd-Si based metallic and nanoglass, Journal of Alloys and Compounds 933 (2023)  167693, https://doi.org/10.1016/j.jallcom.2022.167693</li>
+            <li>V.S. Kathavate, B. Praveen Kumar, I. Singh, K. Eswar Prasad, Analysis of Indentation Size Effect (ISE) in nanoindentation hardness in polycrystalline PMN-PT piezoceramics with different domain configurations, Ceramics International 47, (2021) 11870-11877, https://doi.org/10.1016/j.ceramint.2021.01.027</li>
+            <li>BY Liu, K. Eswar Prasad, N Yang, F Liu, ZW Shan, In-Situ Quantitative TEM Investigation on the Dynamic Evolution of Individual Twin Boundary in Magnesium Under Cyclic Loading, Acta Materialia 179 (2019) 414-423. https://doi.org/10.1016/j.actamat.2019.08.043</li>
+            <li> T. Dixit, I. Singh, K. Eswar Prasad, Room and high-temperature dry sliding wear behavior of Boron modified as-cast Ti-6Al-4V alloys against hardened steel, Wear 420-421 (2019) 207-214. https://doi.org/10.1016/j.wear.2018.10.021</li>
+            <li>K.P. Raineesh, K. Sairam, K. Rajesh, K. Eswar Prasad, Novel approach to characterize the deformation under Berkovich and spherical indentations: Study on Magnesium single crystals, Phys. Rev. Mater. 5, 083604 (2021)</li>
+          
+            </ul>
+            {/* <Table>
               <thead>
                 <tr>
                   <th>Sr.No.</th>
@@ -110,22 +139,13 @@ const profile6 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                    G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty,
-                    S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy,
-                    S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced
-                    Materials for Enabling Hydrogen Economy: Functionalized
-                    Graphene�Incorporated Cupric Oxide Catalyst for Efficient
-                    Solar Hydrogen Production , Global Challenges , 2020, 4 (3),
-                    2070031 , Impact Factor: 5.13.
+                  K. V. Vamsi, M. A. Charpagne, Tresa M Pollock, "High-throughput approach for estimation of intrinsic barriers in FCC structures for alloy design", Scripta Materialia, 204 (2021) 114126. https://doi.org/10.1016/j.scriptamat.2021.114126  
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                    N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha,
-                    Sulphur precursor dependent crystallinity and optical
-                    properties of solution grown Cu2FeSnS4 particles , Materials
-                    Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44
+                  K. V. Vamsi and Tresa M. Pollock, “A new proximate structure for the APB(111) in L12 compounds”, Scripta Materialia 182 (2020), 38-42. https://doi.org/10.1016/j.scriptamat.2020.02.038  
                     .
                   </td>
                 </tr>
@@ -133,52 +153,25 @@ const profile6 = () => {
                   <td>3</td>
                   <td>
                     {" "}
-                    N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents
-                    on structural, morphological and optical properties of
-                    solvothermally grown Cu2FeSnS4 particles , AIP Conference
-                    Proceedings , 2115 (1), 030603 (2019).
+                    K. V. Vamsi and S. Karthikeyan, “Modeling APB energies in multicomponent Ni-base superalloys”, Intermetallics 132 (2021), 107124. https://doi.org/10.1016/j.intermet.2021.107124 
                   </td>
                 </tr>
-              </tbody>
-            </Table>
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">PATENTS</span>
-          <div>
-            <Table>
-              <tbody>
                 <tr>
-                  <td>1</td>
+                  <td>4</td>
                   <td>
                     {" "}
-                    Amorphous Metal Oxide films, (Technology is licensed) ;
-                    K.L.G. Goh, H.Q. Le, and Ajay Kushwaha, Patent Publication
-                    Number: 20170259300,US Patent (Patent number: 10668500):
-                    Date of Patent: June 2, 2020
+                    Yolita M. Eggeler, K. V. Vamsi,  and Tresa M. Pollock, “Precipitate shearing, fault energies and solute segregation to planar faults in Ni-, CoNi- and Co- base superalloys”, Review Article in Annual Review of Materials Research, 51 (2021), 209. https://doi.org/10.1146/annurev-matsci-102419-011433 
                   </td>
                 </tr>
               </tbody>
-            </Table>
+            </Table> */}
           </div>
+        
         </div>
+      
 
-        <div className="pc1">
-          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
-          <div>
-            General Chair: International Conference on Frontiers of Materials
-            Engineering
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">RESEARCH INTEREST</span>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab
-            sed earum doloribus rem eius id consequuntur reiciendis sunt!
-            Dolorum cumque quaerat natus aliquam aperiam amet ipsam, laudantium
-            officia error?
-          </div>
-        </div>
+      
+       
       </div>
 
       <div>
@@ -188,4 +181,4 @@ const profile6 = () => {
   );
 };
 
-export default profile6;
+export default Profile18;

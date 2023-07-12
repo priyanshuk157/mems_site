@@ -1,10 +1,13 @@
+
+
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import Table from "react-bootstrap/Table";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import {SiGooglescholar } from "react-icons/si";
 
-const profile1 = () => {
+const Profile18 = () => {
   return (
     <>
       <div>
@@ -14,7 +17,6 @@ const profile1 = () => {
       {/* <div className="head4">
         <i className="back-button">
           <a href="faculty">
-            <FaAngleLeft />
           </a>
         </i>
         <span>PROFILE</span>
@@ -31,153 +33,119 @@ const profile1 = () => {
           
 
             <ul>
-              <li>Email : akk@iiti.ac.in</li>
-              <li>Office : pod 305 </li>
-              <li>
-                webpage :{" "}
-                <a href="https://iiti.ac.in/people/~ajaykk/index.html">
-                  {" "}
-                  visit page
-                </a>
-              </li>
-              <li>contact : +91 731 660 3250</li>
+              <li>HoD & Associate Professor</li>
+              <li>Office		: 1D-610 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	:akk@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: 3250</li>
+            <div className="fac-links">
+             <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.co.in/citations?user=1ck-NV0AAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fajaykushwaha_%3Flang%3Den "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             <a href="https://in.linkedin.com/in/dr-ajay-k-kushwaha-16b46a49?trk=public_post_feed-actor-name "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
+             
+             
+              
+              
+             
+            </div>
+              
             </ul>
           </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">ACADEMIC BACKGROUND</span>
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IIT, Bombay</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>M.Sc. Physics (Electronics) </td>
-                <td>2006</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>B.Sc. (Physics & Maths) </td>
-                <td>2003</td>
-              </tr>
-            </tbody>
-          </Table>
-          <br />
+          <span className="pc1-head">RESEARCH INTEREST</span>
+         
+
+          <div>
+            <ul>
+              <li>NANOMATERIALS & THIN FILMS: Metal oxides, Metals, Chalcogenides, Graphene & Mxenes </li>
+              <li>MATERIALS PROPERTIES: Defects, Surface modification, & Opto-electronic Properties</li>
+              <li>ELECTROCHEMISTRY: Green Hydrogen, Water Splitting, HER and OER, Electrodeposition, Electrocatalysis</li>  
+              <li>Sensors, Corrosion</li>
+              <li>ELECTRONIC DEVICES: Resistive Memories (ReRAM), Photodetectors, Solar Cell, Power Semiconductor Devices</li>
+              
+            </ul>
+           
+    
+            
+          </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">POSITIONS HELD</span>
+          <span className="pc1-head">ACADEMIC BACKGROUND</span>
+          
+         
+
+          <ul>
+            <li> Ph.D, IIT Bombay, 2014</li>
+            <li>M.Sc. (Physics), CSJM University Kanpur, 2006</li>
+          
+            
+          </ul>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">PROFESSIONAL EXPERIENCE</span>
+          
           <ul>
             <li>
-              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
+            Head,  Department of MEMS, IIT Indore, 03/2023 to Till Date
             </li>
-            <li>Completed 2 Research Projects.</li>
+            <li>Associate Professor, Department of MEMS, IIT Indore, 11/2022 to Till Date</li>
             <li>
-              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
-              44 i10-index.
-            </li>
-            <li>
-              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
+            Associate Dean, Student Affairs, IIT Indore, 05/2019 to 09/2021
             </li>
             <li>
-              Given 10 Invited/Contributory talk in national / international
-              conferences.
+            Assistant  Professor, Department of MEMS, IIT Indore, 09/2017 to 11/2022
             </li>
+            <li>
+            INSPIRE Faculty Fellow, Department of MEMS, IIT Indore, 07/2016 to 09/2017
+            </li>
+            <li>Scientist-I, Institute of Materials Engineering and Research (IMRE), ASTAR, Singapore, 02/2014 to 07/2016</li>
+            
           </ul>
         </div>
 
-        <div className="pc1">
-          <span className="pc1-head">PUBLICATIONS</span>
-          <div>
-            <Table>
-              <thead>
-                <tr>
-                  <th>Sr.No.</th>
-                  <th> Publication Details</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>
-                    G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty,
-                    S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy,
-                    S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced
-                    Materials for Enabling Hydrogen Economy: Functionalized
-                    Graphene�Incorporated Cupric Oxide Catalyst for Efficient
-                    Solar Hydrogen Production , Global Challenges , 2020, 4 (3),
-                    2070031 , Impact Factor: 5.13.
-                  </td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>
-                    N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha,
-                    Sulphur precursor dependent crystallinity and optical
-                    properties of solution grown Cu2FeSnS4 particles , Materials
-                    Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44
-                    .
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>
-                    {" "}
-                    N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents
-                    on structural, morphological and optical properties of
-                    solvothermally grown Cu2FeSnS4 particles , AIP Conference
-                    Proceedings , 2115 (1), 030603 (2019).
-                  </td>
-                </tr>
-              </tbody>
-            </Table>
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">PATENTS</span>
-          <div>
-            <Table>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>
-                    {" "}
-                    Amorphous Metal Oxide films, (Technology is licensed) ;
-                    K.L.G. Goh, H.Q. Le, and Ajay Kushwaha, Patent Publication
-                    Number: 20170259300,US Patent (Patent number: 10668500):
-                    Date of Patent: June 2, 2020
-                  </td>
-                </tr>
-              </tbody>
-            </Table>
-          </div>
-        </div>
 
         <div className="pc1">
-          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
+          <span className="pc1-head">AWARDS AND RECOGNITIONS  </span>
           <div>
-            General Chair: International Conference on Frontiers of Materials
-            Engineering
+         
+
+           <ul>
+            <li>2023, Best Paper Presentation Award : 11th Asia Conference on Mechanical and Materials Engineering, Japan</li>
+            <li>2017, Early Career Research Award : SERB, Gov. of India</li>
+            <li>2016, INSPIRE Faculty Award : DST, Gov. of India</li>
+            <li>2013, Young Scientist Travel Grant: DST, Gov. of India</li>
+            </ul>
           </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">RESEARCH INTEREST</span>
+          <span className="pc1-head">SELECTED PUBLICATIONS</span>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab
-            sed earum doloribus rem eius id consequuntur reiciendis sunt!
-            Dolorum cumque quaerat natus aliquam aperiam amet ipsam, laudantium
-            officia error?
+          
+            <ul>
+            <li>L. Mohapatra and  Ajay K Kushwaha, Annealing atmospheres induced structural and morphological transformation of zinc tin hydroxide nanostructures, Ceramics International, 49 (2023)15154,  IF: 5.53</li>
+            <li>A Maurya, S Suman, A Bhardwaj, L Mohapatra, and Ajay K Kushwaha, Substrate Dependent Electrodeposition of Ni–Co Alloy for Efficient Hydrogen Evolution Reaction, Electrocatalysis 14 (1), (2023) 68-77, IF: 3.1</li>
+            <li>L Mohapatra, M Nagaraju, S Suman, Ajay K. Kushwaha, Enhancement in photocurrent conversion efficiency via recrystallization of zinc tin hydroxide nanostructures, Journal of Alloys and Compounds 928, (2022) 167127, IF: 6.2</li>
+            <li>Siddhartha Suman, and Ajay K. Kushwaha, Densely packed Ga2O3 nanostructured film via pH-controlled crystal growth and memristive properties, Journal of Solid State Chemistry, 313 (2022)123293, IF: 3.3</li>
+            <li>G.K. Dalapati, Ajay K Kushwaha, M. Sharma, V. Suresh, S. Shannigrahi, S. Zhuk and S. Masudy-Panah, Transparent heat regulating (THR) materials and coatings for energy saving window applications: Impact of materials design, micro-structural, and interface quality on the THR performance , Progress in Materials Science,, 95, 42, (2018) IF 31.5. </li>
+
+
+            </ul>
+            
           </div>
+        
         </div>
+      
+        <div className="pc1">
+          <span className="pc1-head">SELECTED PATENTS</span>
+        
+          <ul>
+            <li>Amorphous Metal Oxide films, K.L.G. Goh, H.Q. Le, and Ajay Kushwaha,  20170259300,US Patent (Patent number: 10668500).</li>
+          </ul>
+        </div>
+      
+       
       </div>
 
       <div>
@@ -187,4 +155,4 @@ const profile1 = () => {
   );
 };
 
-export default profile1;
+export default Profile18;
