@@ -2,6 +2,11 @@ import React from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
 import { FaAngleLeft } from "react-icons/fa";
+import prof3 from './profiles/profimages/prof3.jpg'
+import prof4 from './profiles/profimages/prof4.png'
+import prof6 from './profiles/profimages/prof6.jpg'
+import prof13 from './profiles/profimages/prof13.jpg'
+import prof18 from './profiles/profimages/prof18.jpg'
 
 const faculty = () => {
     return (
@@ -54,7 +59,7 @@ const faculty = () => {
                         <div className="hodsec  ">
 
 
-                            <img src="http://mems.iiti.ac.in/images/devan.jpg" className="hodimg" alt="okf" />
+                            <img src={prof3} className="hodimg" alt="okf" />
 
                             <div className="hodtext">
                                 <div className="hodtext1">
@@ -72,7 +77,7 @@ const faculty = () => {
                         <div className="hodsec  ">
 
 
-                            <img src="https://lh6.googleusercontent.com/BgNUe-gCs3KqQ_r95cZ_bxKo3Kt86AnjNsbBTraCjAQ-IRE1MHCbGicwEcE-86WYYOU595ZhHD_uQ8QaOxjJ6YvQx4l6JC-qnev5w_8KdDIMqhjrKgebeNinnIUM1FZmDA=w1280" className="hodimg" alt="okf" />
+                            <img src={prof4} className="hodimg" alt="okf" />
 
                             <div className="hodtext">
                                 <div className="hodtext1">
@@ -108,7 +113,7 @@ const faculty = () => {
                         <div className="hodsec  ">
 
 
-                            <img src="https://lh4.googleusercontent.com/NIMcX3UOoPBmwisB1K8XNXcXXJvP9t7uUOZEjoUOYOazfWMI4WepmNKNdRQ6L0MLK8Lrt4dkKZw014I7co7rQwSios56hF4IiAKiDZA5zGBhwJBR=w1280" className="hodimg" alt="okf" />
+                            <img src={prof6} className="hodimg" alt="okf" />
 
                             <div className="hodtext">
                                 <div className="hodtext1">
@@ -186,7 +191,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Dhirendra Kumar Rai</div>
                                     <div className="post"> dkrai@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile1"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile10"> view profile</a> </div>
                                     
 
 
@@ -204,7 +209,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Abhijit Ghosh</div>
                                     <div className="post"> aghosh@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profil11"> view profile</a> </div>
                                     
 
 
@@ -222,7 +227,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Hemant Borkar</div>
                                     <div className="post"> h.borkar@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile12"> view profile</a> </div>
                                     
 
 
@@ -234,13 +239,13 @@ const faculty = () => {
                         <div className="hodsec  ">
 
 
-                            <img src="http://mems.iiti.ac.in/images/sunil.jpg" className="hodimg" alt="okf" />
+                            <img src={prof13} className="hodimg" alt="okf" />
 
                             <div className="hodtext">
                                 <div className="hodtext1">
                                     <div className="name">Prof. Sunil Kumar</div>
                                     <div className="post"> asunil@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile13"> view profile</a> </div>
                                     
 
 
@@ -258,7 +263,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Ram Sajeevan Maurya</div>
                                     <div className="post"> ramsajeevan@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile14"> view profile</a> </div>
                                     
 
 
@@ -276,7 +281,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Dudekula Althaf Basha</div>
                                     <div className="post">bashada@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile15"> view profile</a> </div>
                                     
 
 
@@ -294,7 +299,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Chandan Halder</div>
                                     <div className="post"> chalder@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile16"> view profile</a> </div>
                                     
 
 
@@ -312,7 +317,7 @@ const faculty = () => {
                                 <div className="hodtext1">
                                     <div className="name">Prof. Nisheeth Kumar Prasad</div>
                                     <div className="post"> nisheeth@iiti.ac.in </div>
-                                    <div className="post-button"><a href="profile2"> view profile</a> </div>
+                                    <div className="post-button"><a href="profile17"> view profile</a> </div>
                                     
 
 
@@ -324,7 +329,7 @@ const faculty = () => {
                         <div className="hodsec  ">
 
 
-                            <img src="http://mems.iiti.ac.in/images/Vamsi_photo.jpg" className="hodimg" alt="okf" />
+                            <img src={prof18} className="hodimg" alt="okf" />
 
                             <div className="hodtext">
                                 <div className="hodtext1">
