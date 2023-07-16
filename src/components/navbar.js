@@ -33,12 +33,7 @@ const Navbar = () => {
     
 
    
-    
-    
 
-   
-    
-    
    
   }
 
@@ -89,7 +84,13 @@ const Navbar = () => {
         <div className={dropdownStateCheck} >
         
         <div> <a href='faculty'> Faculty Members</a> </div>
-        <div> <a href='staff'> Staff Members    </a> </div>
+        <div> <a href='staff'> Staff Members    </a> 
+          
+        
+        
+        
+        
+        </div>
         <div> <a href='ad'> Students </a> </div>
         
        </div>
