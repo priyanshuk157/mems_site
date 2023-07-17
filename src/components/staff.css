@@ -1,0 +1,57 @@
+.stfcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    width: 85%;
+    height:280px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-left: 5rem;
+    margin-right: 10rem;
+    overflow: hidden;
+}
+
+h4{
+    display: flex;
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.Rstaff{
+    margin-top: 5rem;
+    padding: 2rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.stfcontainer1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.stftext{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+
+
+}
+
+.stfimage{
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    padding: 0%;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10);
+    height: 90%;
+}
+
