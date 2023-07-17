@@ -12,7 +12,8 @@ const Newssection = () => {
    <Swiper
    style={{
     "--swiper-navigation-color": "#000",
-    "--swiper-navigation-size": "25px",
+    "--swiper-navigation-size": "0px",
+   
   }}    
       autoplay={{
         delay: 2500,
@@ -28,9 +29,10 @@ const Newssection = () => {
         modules={[Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'>haduhi akdjj kakkad djandla ddalidnald dnladad allia dalndnlanda aldnaind ad aldnian aldahdnad adnalidna da</div></SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'>haduhi</div></SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'>haduhi</div></SwiperSlide>
+      
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>

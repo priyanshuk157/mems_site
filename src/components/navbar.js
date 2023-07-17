@@ -12,6 +12,7 @@ const Navbar = () => {
   const navRef = useRef (); 
   const [navScroll, setNavScroll] = useState(true)
   const [dropdown, setDropdown] = useState(false)
+  const [dropdown1, setDropdown1] = useState(false)
   const [lastScroll, setLastScroll] = useState(0)
   
 
@@ -51,9 +52,11 @@ const Navbar = () => {
   
  const handleClick =()=>{
   setDropdown (dropdown => !dropdown)
+  setDropdown1 (dropdown1 => !dropdown1)
  }
  
  let dropdownStateCheck = dropdown ? "dropactive " : "dropinactive"
+ let dropdownStateCheck1 = dropdown1 ? "dropactive1 " : "dropinactive1"
   
   return (
     <>
@@ -62,7 +65,7 @@ const Navbar = () => {
      className= "navbar1"
     
      >
-<div className= {navScroll? "navbar" : "scroll-active"}>
+{/* <div className= {navScroll? "navbar" : "scroll-active"}> */}
       
      <div className='main-nav active'>
      <div className="iiti-logo">
@@ -89,8 +92,20 @@ const Navbar = () => {
         <div className={dropdownStateCheck} >
         
         <div> <a href='faculty'> Faculty Members</a> </div>
+        <div> <a href='faculty'> Post DOC.</a> </div>
+        <div  className="drpdwn-main">  Staff Members   </div>
+        <div className='sub-drpdwn' >
+        
+        <div> <a href='faculty'> Faculty Members</a> </div>
+        <div> <a href='faculty'> Post DOC.</a> </div>
         <div> <a href='staff'> Staff Members    </a> </div>
         <div> <a href='ad'> Students </a> </div>
+        <div> <a href='ad'> Alumni </a> </div>
+        
+       </div>
+      
+        <div> <a href='ad'> Students </a> </div>
+        <div> <a href='ad'> Alumni </a> </div>
         
        </div>
         <li> <a href='academics '> academics </a> </li>
@@ -103,6 +118,7 @@ const Navbar = () => {
          
        </div>
        
+       
       
        <div className="nav-ham"  onClick={showNavbar}>
            <FaBars /> 
@@ -110,7 +126,7 @@ const Navbar = () => {
          
      </div>
     
-     </div>
+     {/* </div> */}
     </nav>
    { 
 }

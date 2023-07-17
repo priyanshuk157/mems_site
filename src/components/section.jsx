@@ -37,7 +37,7 @@ Engage with broader community via outreach programs to promote science & technol
     
     <div className='ranking'>
       <div ><h2>NEWS</h2></div>
-   <div className='ranking-main'>
+   <div className='ranking-news-main'>
     <Newssection/>
    </div>
     </div>
