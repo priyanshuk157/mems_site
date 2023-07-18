@@ -1,7 +1,8 @@
-.national img{
+.national img {
     height: 100px;
     width: auto;
 }
+
 .national {
     display: flex;
     flex-wrap: wrap;
@@ -9,92 +10,144 @@
     gap: 2rem;
     padding: 2rem 8rem;
 }
+
 .international {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap:  2rem;
+    gap: 2rem;
     padding: 2rem 8rem;
 }
-.international img{
+
+.international img {
     height: 100px;
     width: auto;
 }
-.industrycolab img{
+
+.industrycolab img {
     height: 150px;
-    width: auto;  
+    width: auto;
 }
+
 .industrycolab {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 2rem;  
+    gap: 2rem;
     padding: 2rem 8rem;
 }
-.intrntnl-head{
+
+.intrntnl-head {
     font-size: 4rem;
     color: red;
     padding: 2rem 8rem;
 }
-.ntnl-head{
+
+.ntnl-head {
     font-size: 4rem;
     color: red;
     padding: 2rem 8rem;
 }
-.ind-head{
+
+.ind-head {
     font-size: 4rem;
     color: red;
     padding: 2rem 8rem;
 }
-@media (max-width:600px){
-    .national img{
+
+.placements,
+.ongoing,
+.blank {
+    padding: 1rem 8rem;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.cardtext {
+    margin: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: red;
+    padding: 1rem 8rem;
+}
+
+@media (max-width:600px) {
+    .national img {
         height: 50px;
         width: auto;
     }
+
     .national {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
         padding: 0rem 2rem;
     }
-    .ntnl-head{
+
+    .ntnl-head {
         text-align: center;
         font-size: 1rem;
         color: red;
-        padding:  4rem;
+        padding: 4rem;
     }
+
     .international {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
         padding: 2rem 2rem;
     }
-    .international img{
+
+    .international img {
         height: 50px;
         width: auto;
     }
-    .intrntnl-head{
+
+    .intrntnl-head {
         text-align: center;
 
         font-size: 1rem;
         color: red;
         padding: 2rem 2rem;
     }
-    .industrycolab img{
+
+    .industrycolab img {
         height: 50px;
-        width: auto;  
+        width: auto;
     }
+
     .industrycolab {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
         padding: 2rem 2rem;
     }
-    .ind-head{
+
+    .ind-head {
         text-align: center;
 
         font-size: 1rem;
         color: red;
         padding: 2rem 2rem;
+    }
+
+    .placements,
+    .ongoing,
+    .blank {
+        padding: 0rem 2rem;
+        border-color: black;
+        border-radius: 10px;
+    }
+
+    .cardtext {
+        margin: 1rem;
+    }
+
+    .title {
+        font-size: 1rem;
+        color: red;
+        padding: 1rem 2rem;
     }
 }
