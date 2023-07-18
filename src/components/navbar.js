@@ -34,12 +34,7 @@ const Navbar = () => {
     
 
    
-    
-    
 
-   
-    
-    
    
   }
 
@@ -99,6 +94,13 @@ const Navbar = () => {
         <div> <a href='faculty'> Faculty Members</a> </div>
         <div> <a href='faculty'> Post DOC.</a> </div>
         <div> <a href='staff'> Staff Members    </a> </div>
+        <div> <a href='staff'> Staff Members    </a> 
+          
+        
+        
+        
+        
+        </div>
         <div> <a href='ad'> Students </a> </div>
         <div> <a href='ad'> Alumni </a> </div>
         
