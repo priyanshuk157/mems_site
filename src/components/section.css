@@ -179,19 +179,7 @@ margin: 4rem;
 }
 @media(max-width:600px){
 
-    .ranking-main{
-        /* height: 400px;
-    width:  400px;
-   
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgb(89, 88, 88);
-    margin-top: 3rem;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; */
-    }
+  
     .sub-rank{
         display: flex;
         flex-direction: column;
@@ -204,21 +192,7 @@ margin: 4rem;
           
      }
         
-    .ranking{
-       
-        /* display: flex;
-        flex-direction: column;
-       
-        text-align: justify;
-        width: fit-content;
-        
-        
-        padding: 0rem; */
-        /* color: white; */
-    
-       
-    
-    }
+   
     .ranking-news-main{
         height: 300px;
        width: 300px;
@@ -230,14 +204,7 @@ margin: 4rem;
         
         border-radius: 5px ;
     }
-    .ranking3{
-        /* display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-        align-items: center;
-        justify-content: center;
-        padding: 0px; */
-    }
+   
     .eve-pos{
         display: flex;
         flex-wrap: wrap ;

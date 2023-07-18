@@ -21,7 +21,7 @@ const ResearchThemes = () => {
         
     </div>
     </a>
-    <a href="researchcomponent6">
+    <a href="researchcomponent1">
     <div className="themes-blocks">
         <div className='theme-heads'>Surface engineering & Materials degradation</div>
         
@@ -30,7 +30,7 @@ const ResearchThemes = () => {
     </a>
     </div>
     <div className='themes-main-2'>
-    <a href="researchcomponent2">
+    <a href="researchcomponent1">
     <div className="themes-blocks">
         <div className='theme-heads'>Strategic Materials
 </div>
@@ -41,7 +41,7 @@ const ResearchThemes = () => {
     <div className='research-logo'>
     <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png" alt="ok" />
   </div>
-  <a href="researchcomponent3">
+  <a href="researchcomponent1">
     <div className="themes-blocks">
     <div className='theme-heads'>Electronics & Photonics</div>
        
@@ -51,14 +51,14 @@ const ResearchThemes = () => {
     </div>
   
     <div className='themes-main-1'>
-    <a href="researchcomponent4">
+    <a href="researchcomponent1">
     <div className="themes-blocks">
         <div className='theme-heads'>Nano & Soft materials</div>
     
         
     </div>
     </a>
-    <a href="researchcomponent5">
+    <a href="researchcomponent1">
     <div className="themes-blocks">
         <div className='theme-heads'>Energy & Environment
 </div>
