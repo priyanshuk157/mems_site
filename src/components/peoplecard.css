@@ -5,11 +5,19 @@ p {
 
 .faculty-main {
   display: flex;
+  justify-content: center;
+
+ 
+  
+}
+.faculty-width{
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   column-gap: 30px;
   row-gap: 3rem;
   padding: 6rem;
+  max-width: 1400px;
 }
 
 .hodimg {
@@ -86,21 +94,22 @@ p {
   padding: 10px;
 }
 .faculty-head-2{
-  margin-top: 15rem;
+  margin-top: 1rem;
   font-size: 5rem;
+  text-align: center;
 }
 .post-button{
   text-align: center;
   padding: 3px;
   border-radius: 5px;
-  background-color: rgb(100, 100, 247);
+  background-color: rgb(19, 83, 211);
   color: white;
 }
 .post-button a{
   text-align: center;
   padding: 3px;
   border-radius: 5px;
-  background-color: rgb(100, 100, 247);
+  background-color: rgb(19, 83, 211);
   color: white;
   text-decoration: none;
 }
@@ -143,7 +152,7 @@ p {
 
 .head {
   display: flex;
-  margin-top: 15rem ;
+  margin-top: 3rem ;
   justify-content: center;
   text-align: center;
   width: auto;
@@ -155,7 +164,7 @@ p {
 
 @media (max-width:600px) {
   .hodsec {
-    height: 200px;
+    height: 180px;
   }
 
   .hodimg {
@@ -176,6 +185,17 @@ p {
     height: 150px;
     width: 70%;
   }
+  .faculty-width{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    row-gap: 2rem;
+    padding: 0rem;
+    max-width: 1400px;
+    margin: 10px 0;
+  }
+
 
   .staff {
     height: 150px;
@@ -204,11 +224,7 @@ p {
 }
 .faculty-main {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  column-gap: 20px;
-  row-gap: 5rem;
-  padding: 1rem;
+ 
 }
 .hodsec {
   display: flex;

@@ -54,7 +54,7 @@
 
 .head4 {
     display: flex;
-    margin-top: 15rem;
+    
     margin-bottom: 3rem;
     justify-content:center;
     width: auto;
@@ -101,7 +101,6 @@
     color: #C44536;
 }
 .pm-head{
-    margin-top: 16rem;
     display: flex;
     justify-content: center;
     padding: 20px;

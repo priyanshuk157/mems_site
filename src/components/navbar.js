@@ -10,48 +10,54 @@ import { useRef } from "react";
 
 const Navbar = () => {
   const navRef = useRef (); 
-  const [navScroll, setNavScroll] = useState(true)
+  // const [navScroll, setNavScroll] = useState(true)
   const [dropdown, setDropdown] = useState(false)
-  const [dropdown1, setDropdown1] = useState(false)
-  const [lastScroll, setLastScroll] = useState(0)
-  
+  // const [dropdown1, setDropdown1] = useState(false)
+  // const [lastScroll, setLastScroll] = useState(0)
+  const [toggleState, setToggleState] = useState(0);
 
-  const scrollableNavbar = ()=>{
-   
-    const currentScroll = window.scrollY;
-
-    if(currentScroll>=lastScroll){
-      setNavScroll(false)
-    }
-   
-    setLastScroll(currentScroll);
-
-    if(currentScroll<lastScroll){
-      setNavScroll(true)
-    }
-   
+  const toggleTab = (index) => {
+    setToggleState(index);
+   setDropdown(!dropdown)
    
     
 
    
-
-   
   }
 
-  window.addEventListener("scroll", scrollableNavbar ); 
+  
+
+  // const scrollableNavbar = ()=>{
+    
+   
+  //   const currentScroll = window.scrollY;
+
+  //   if(currentScroll>=lastScroll){
+  //     setNavScroll(false)
+  //   }
+   
+  //   setLastScroll(currentScroll);
+
+  //   if(currentScroll<lastScroll){
+  //     setNavScroll(true)
+  //   }
+   
+  // }
+
+  // window.addEventListener("scroll", scrollableNavbar ); 
   const showNavbar =()=>{
 
     navRef.current.classList.toggle("responsive-nav")
     
   }
   
- const handleClick =()=>{
-  setDropdown (dropdown => !dropdown)
-  setDropdown1 (dropdown1 => !dropdown1)
- }
+//  const handleClick =()=>{
+//   setDropdown (dropdown => !dropdown)
+//   setDropdown1 (dropdown1 => !dropdown1)
+//  }
  
- let dropdownStateCheck = dropdown ? "dropactive " : "dropinactive"
- let dropdownStateCheck1 = dropdown1 ? "dropactive1 " : "dropinactive1"
+ let dropdownStateCheck =  (toggleState===1 || toggleState===2) && dropdown ? "dropactive " : "dropinactive"
+//  let subdownStateCheck1 = toggleState===2  && dropdown1? "dropactive1 " : "dropinactive1"
   
   return (
     <>
@@ -83,8 +89,26 @@ const Navbar = () => {
      <div className='menu-link'  >
        <ul className='menu-link-ul   ' ref={navRef}  >
         <li> <a href='/'> about </a> </li>
-        <li onClick={handleClick} >   People </li>
-        <div className={dropdownStateCheck} >
+        <li >  <div onClick={()=>toggleTab(1)}>People </div>  <div className={dropdownStateCheck} >
+        
+        <div> <a href='faculty'> Faculty Members</a> </div>
+        <div> <a href='faculty'> Post DOC.</a> </div>
+        <div  >  <div onClick={()=>toggleTab(2)}>Staff Members</div>  
+         {/* <div className={subdownStateCheck1} >
+        
+        <div> <a href='faculty'> Faculty Members</a> </div>
+        <div> <a href='faculty'> Post DOC.</a> </div>
+       
+        
+       </div>  */}
+       </div>
+      
+      
+        <div> <a href='ad'> Students </a> </div>
+        <div> <a href='ad'> Alumni </a> </div>
+        
+       </div> </li>
+        {/* <div className={dropdownStateCheck} >
         
         <div> <a href='faculty'> Faculty Members</a> </div>
         <div> <a href='faculty'> Post DOC.</a> </div>
@@ -109,7 +133,7 @@ const Navbar = () => {
         <div> <a href='ad'> Students </a> </div>
         <div> <a href='ad'> Alumni </a> </div>
         
-       </div>
+       </div> */}
         <li> <a href='academics '> academics </a> </li>
         <li> <a href='research '> research </a> </li>
         {/* <li> <a href='gallery '> gallery </a> </li>

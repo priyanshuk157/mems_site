@@ -13,7 +13,7 @@
 .research-theme-main{
     display: flex;
     align-items: center;
-   margin-top: 17rem;
+   margin-top: 1rem;
     justify-content: center;
     gap: 7rem;
 }  
@@ -183,4 +183,95 @@ z-index: -1;
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
+}
+@media (max-width: 600px) {
+    .themes-blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      
+    position: relative;
+    top: 0;
+        width: 46px;
+        height:80px;
+        background-color: #005A9C;
+    
+       padding: 20px;
+       text-align: center;
+      transform: rotate(0deg);
+      transition: all .3s ease-in-out;
+       z-index: 0 ;
+       
+    }
+    .research-logo{
+        display: flex;
+        
+     
+        
+        position: absolute;
+    
+        width: 50px;
+        height: 90px;
+        background-color: #f8e6cc;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       padding: 20px;
+       text-align: center;
+     
+      transition: all .3s ease-in-out;
+       
+       
+        z-index: 0;
+    } 
+    .themes-main-1{
+        display: flex;
+        flex-direction: column;
+     
+      
+       gap: .8rem;
+       
+    }
+    .themes-main-1 a{
+      text-decoration: none;
+       
+    }
+    .research-theme-main{
+        display: flex;
+        align-items: center;
+       margin-top: 1rem;
+        justify-content: center;
+        gap: 2.5rem;
+    }  
+    .themes-main-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+       
+       gap: 7rem;
+       
+        
+    
+        
+    
+    }
+    .theme-heads{
+        /* position: relative;
+        top: 22%; */
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 8px;
+        font-weight: 1000;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .research-logo img{
+        position: relative;
+        top: 20%;
+        height: 50px;
+        width:  auto;
+    }
 }

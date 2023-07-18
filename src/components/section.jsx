@@ -8,20 +8,19 @@ const section = () => {
   return (
     <>
     <div className='sec'>
-       <div className='sec-img'>
+      <div className='sec2'>    <div className='sec-img'>
         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="" />
         </div>
+       
         <div className='sec-cont '>
         <div ><h2>About The Department</h2></div>
         Welcome to the home page of Department of Metallurgical Engineering and Materials Science! <br />
 
 The Department of MEMS was initially started as a Center for Materials Science Engineering comprising of faculty from Schools of basic sciences and engineering. Upon its progress in short period of time, the center for MSE was made in to full fledged Department of Metallurgical Engineering and Materials Science from 2016. <br />
 Materials continue to play a vital role in almost every technological advancement since the beginning of civilization. The emphasis of the Department is to promote multidisciplinary research to find amicable solutions for the real- world problems and work on the cutting-edge research problems that benefits society. The key research focus of the Department is to understand the processing, structure of several classes of materials and correlate them to the properties and thus enhancing their performance.
-        </div>
-       
-       
-    </div>
-    <div className='vision '>
+        </div></div>
+   
+        <div className='vision '>
       <div ><h2>VISION AND MISSION</h2></div>
       To be among the institutes of world-class by educating and mentoring the next generation of engineers, scientists, and entrepreneurs in order to contribute to the economic and social development of India & world. 
  <br />
@@ -31,11 +30,14 @@ Encourage innovation & entrepreneurship and provide conducive environment for tr
 Engage with broader community via outreach programs to promote science & technology awareness
 
     </div>
+       
+    </div>
+   
+   
     <div className="ranking3">
 
    
-    
-    <div className='ranking'>
+    <div className='sub-rank' >  <div className='ranking'>
       <div ><h2>NEWS</h2></div>
    <div className='ranking-news-main'>
     <Newssection/>
@@ -45,7 +47,8 @@ Engage with broader community via outreach programs to promote science & technol
       <div ><h2>STATISTICS</h2></div>
    <div className='ranking-main'></div>
     </div>
-    </div>
+    </div></div>
+  
   
    
  
