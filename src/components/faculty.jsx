@@ -7,6 +7,7 @@ import prof4 from "./profiles/profimages/prof4.png";
 import prof6 from "./profiles/profimages/prof6.jpg";
 import prof13 from "./profiles/profimages/prof13.jpg";
 import prof18 from "./profiles/profimages/prof18.jpg";
+import prof19 from "./profiles/profimages/prof19.jpg";
 
 const faculty = () => {
   return (
@@ -325,7 +326,7 @@ const faculty = () => {
         <div className="faculty-width">
           <div className="hodsec  ">
             <img
-              src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg"
+              src={prof19}
               className="hodimg"
               alt="okf"
             />
@@ -335,7 +336,7 @@ const faculty = () => {
                 <div className="name">Prof. N B Ballal</div>
                 <div className="post"> nbb@iitb.ac.in </div>
                 <div className="post-button">
-                  <a href="profile1"> view profile</a>{" "}
+                  <a href="profile19"> view profile</a>{" "}
                 </div>
               </div>
             </div>

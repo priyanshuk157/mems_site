@@ -4,7 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaEnvelope,  FaLinkedin, FaPhone, FaResearchgate,   } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
-import prof19 from "./profimages/prof18.jpg"
+import prof19 from "./profimages/prof19.jpg"
 
 const Profile19 = () => {
   return (
@@ -20,7 +20,7 @@ const Profile19 = () => {
         </i>
         <span>PROFILE</span>
       </div> */}
-      <div className="pm-head">Prof. Chandan Halder
+      <div className="pm-head">Prof. N B Ballal 
 </div>
       <div className="profile-main">
         <div className="profile-section-1">
@@ -35,8 +35,8 @@ const Profile19 = () => {
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Room No. 211 (G), CITC </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: chalder@iiti.ac.in</li>
-              <li>Contact  (<i><FaPhone/></i>)		(+91) 0731 660 3182</li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: nbb@iitb.ac.in</li>
+              <li>Contact  (<i><FaPhone/></i>)	+91-22-2576-7610</li>
             <div className="fac-links">
             
              <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
@@ -57,11 +57,11 @@ const Profile19 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
             <ul>
-              <li>         Mechanistic Diffusion Modeling
+              <li>     Process Metallurgy with Special Emphasis on Iron and Steel Making
 </li>
-              <li>  Multi-Scale Finite Element Modeling</li>
-              <li>Modeling and Simulation of Microstructure Evolution</li>
-              <li>Neural-Network based Alloy Design</li>
+              <li>  Thermodynamics, Heat and Mass Transfer, Mathematical Modelling of Processes,</li>
+              <li>Archeo-metallurgy and Practices of the Traditional Metal Artisans of India.</li>
+            
             </ul>
            
     
@@ -72,10 +72,10 @@ const Profile19 = () => {
           <span className="pc1-head">ACADEMIC BACKGROUND</span>
         
           <ul>
-            <li>Ph.D, Department of Metallurgical and Materials Engineering, IIT Kharagpur, 2016</li>
-            <li>M.Tech, Department of Metallurgical and Materials Engineering, IIT Kharagpur, 2011
+            <li>Ph.D (Metallurgy) IIT Kanpur, 1979</li>
+            <li>M.Tech (Metallurgy) IIT Kanpur, 1974
 </li>
-            <li>B.Tech, Department of Metallurgical and Materials Engineering, NIT Durgapur, 2009</li>
+            <li>B.E. (Metallurgy) Mysore University, 1971</li>
             
           </ul>
         </div>
@@ -83,9 +83,13 @@ const Profile19 = () => {
           <span className="pc1-head">PROFESSIONAL EXPERIENCE</span>
           <ul>
             <li>
-            Assistant Professor, MEMS Department, IIT Indore, 2022 – present
+            Lecturer: Dec 1979-Oct1982
             </li>
-            <li>Industrial : Senior Manager, R&D, Mishra Dhatu Nigam Limited, Hyderabad, 2016 – 2022
+            <li>Assistant Professor: Oct1982-Mar1988
+</li>
+            <li>Professor : Mar 1988-July2015
+</li>
+            <li>Emeritus Fellow : Aug2015-Continued
 </li>
             
           </ul>
@@ -97,26 +101,16 @@ const Profile19 = () => {
           <span className="pc1-head">SELECTED PUBLICATIONS</span>
           <div>
             <ul>
-              <li> C . Halder, L. Madej & M. Pietrzyk, “Discrete micro-scale cellular automata model for modelling phase   
-   transformation during heating of dual phase steels”, Archives of Civil and Mechanical Engineering, 14(1),  
-   (2014) 96-103, https://doi.org/10.1016/j.acme.2013.07.001
+              <li> Sarkar, R., Gupta, P., Basu Somnath and Ballal, N.B. : Dynamic Modeling of LD Converter Steelmaking: Reaction Modeling Using Gibbs’ Free Energy Minimization; Metall.Trans B, Jan 2015
  </li>
-              <li>  C. Halder, A. Karmakar, Sk. Md. Hasan, D. Chakrabarti, M. Pietrzyk & N. Chakraborti, “Effect of Carbon 
-   Distribution During the Microstructure Evolution of Dual-Phase Steels Studied Using Cellular Automata, Genetic  
-   Algorithms, and Experimental Strategies”, Metallurgical and Materials Transaction A, 47, (2016), 5890-5906, 
-   https://doi.org/10.1007/s11661-016-3725-y
+              <li> Bedarkar, Swaren, Viswanathan N.N., Ballal, N.B. : "Measurement of thermal conductivity along the radial direction in a vertical cylindrical packed bed,", J.Powder Techn. 2015
  </li>
-              <li>  C. Halder, D. Bachniak, L. Madej, N. Chakraborti & M. Pietrzyk, “Sensitivity analysis of the finite difference 2-D 
-   cellular automata model for phase transformation during heating”, ISIJ International, 55(1), (2015) 285-292,  
-   2015. https://doi.org/10.2355/isijinternational.55.285.
+              <li>  N. B. Ballal: Some Challenges and Opportunities in Blast Furnace Operations, Transactions of the Indian Institute of Metals, 2013;
 </li>
-              <li>C. Halder, L. Madej, M. Pietrzyk & N. Chakraborti, “Optimization of cellular automata model for the heating of 
-    dual-phase steel by genetic algorithm and genetic programming”, Materials and Manufacturing Processes,
-    30(4), (2015), 552-562, https://doi.org/10.1080/10426914.2014.994765.
+              <li>CP.B. Abhale, N.N. Viswanathan and N.B. Ballal’ “Efficient Simulation of Gas Flow in Blast Furnace”, Computers, Materials and Continua, Vol. 10, No. 2, pp. 195-216, 2009.
+
  </li>
-              <li>C.Halder, K.L. Prasanna; S. Dixit, S. Pal & S.K. Jha, “Bi-objective Optimization of Maraging Steel Produced by 
-    Vacuum Induction Melting Using Evolutionary Algorithms”, Transactions of the Indian Institute of Metals, 74(5),  
-    (2021), 1193-1201, https://doi.org/10.1007/s12666-020-02153-x.
+              <li>Maity, S. K., Ballal, N. B., Goldhahn,G. and Kawalla, R. (2008): Development of Low Alloy Titanium and Niobium Microalloyed Ultrahigh Strength Steel through Electroslag Refining. Ironmaking and Steelmaking 35, 2008, p.379-386.
 </li>
               </ul>
             {/* <Table>
