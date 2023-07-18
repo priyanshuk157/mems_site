@@ -136,7 +136,7 @@ margin: 4rem;
 .events1{
     height: 300px;
     width:  300px;
-   
+    text-align: center;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(89, 88, 88);
     margin-top: 3rem;

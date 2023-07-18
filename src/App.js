@@ -12,7 +12,6 @@ import Research from './mainpages/Research'
 import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
-import Staff from './components/staff'
 import Researchcomponent1 from './components/researchcomponent1'
 import Researchcomponent2 from './components/researchcomponent2'
 import Researchcomponent3 from './components/researchcomponent3'
@@ -39,6 +38,7 @@ import Profile17 from './components/profiles/profile17'
 import Profile18 from './components/profiles/profile18'
 import Profile19 from './components/profiles/profile19'
 import Industryrelation from './mainpages/industryrelation'
+import ResearchStaff from './components/ResearchStaff';
 
 // import Home from './components/Home'
 const App = () => {
@@ -61,7 +61,7 @@ const App = () => {
         <Route path='gallery' element={<GalleryPage/>}></Route>
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
-        <Route path='staff' element={<Staff/>}></Route>
+        <Route path='staff' element={<ResearchStaff/>}></Route>
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
         <Route path='profile1' element={<Profile1/>}></Route>
         <Route path='profile2' element={<Profile2/>}></Route>

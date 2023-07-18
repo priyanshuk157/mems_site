@@ -5,7 +5,9 @@
 
 }
 .res-header{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #c44536;
 }
 .resource-body{
     display: flex;
@@ -15,31 +17,45 @@
     align-items: center;
     
 }
+.res-acc-body a{
+   text-decoration: none;
+   font-size: 14px;
+   color: white;
+}
+.res-acc-body {
+    margin: 10px 0;
+    background-color: rgb(67, 91, 213);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
 .resource-block{
     display: flex;
     flex-direction: column;
  
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     background: #f8e6cc;
-    width: 350px;
-    height: fit-content;
+    width: 300px;
+    height: 300px;
     margin: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 .resource-block ul{
     position: relative;
-    left: -10%;
+    left: -9%;
     list-style: none;
 }
 .resource-block ul li {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 19px;
+    line-height: 24px;
     font-weight: 600;
     
 }
 .head9{
+    text-align: center;
     color: red;
     display: flex;
     justify-content: center;

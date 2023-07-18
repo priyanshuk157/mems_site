@@ -8,32 +8,23 @@
   font-weight: 500;
   font-family: "Inter", sans-serif;
 }
-.navbar1{
+.navbar1 {
   position: relative;
   top: 0%;
   z-index: 99;
   width: 100%;
 }
-.navbar{
- transform: translateY(-1rem);
- transition: all .5s ease-in-out;
- 
- 
+.navbar {
+  transform: translateY(-1rem);
+  transition: all 0.5s ease-in-out;
 }
-.scroll-active{
+.scroll-active {
   transform: translateY(-14rem);
 
-  transition: all .5s ease-in-out;
-
-  
- 
- 
-
+  transition: all 0.5s ease-in-out;
 }
 
 .main-nav {
-  
-
   padding: 40px;
 
   width: 100%;
@@ -45,7 +36,6 @@
   /* border: 1px solid; */
 }
 .dropinactive {
-  
   visibility: visible;
   flex-direction: column;
   /* justify-content: center;  */
@@ -55,34 +45,34 @@
   top: 8rem;
   z-index: 99;
   border-radius: 10px;
-  box-shadow: 0px 2px  10px black;
+  box-shadow: 0px 2px 10px black;
   padding: 0px;
- 
- height: fit-content;
- width: 13rem;
- transition: all .3s;
+
+  height: fit-content;
+  width: 13rem;
+  transition: all 0.3s;
 
   opacity: 0;
   /* justify-content: space-evenly;    */
 }
-.dropinactive div{
-    visibility: visible;
-    list-style: none;
-    position: relative;
+.dropinactive div {
+  visibility: visible;
+  list-style: none;
+  position: relative;
 
- padding: 0px 10px;
- transition: all .3s;
+  padding: 0px 10px;
+  transition: all 0.3s;
   /* justify-content: space-evenly;    */
 }
-.dropinactive div a{
-    text-decoration: none;
+.dropinactive div a {
+  text-decoration: none;
   /* justify-content: space-evenly;    */
 }
 
 .dropactive {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
   position: absolute;
   background-color: rgb(255, 255, 255);
   left: rem;
@@ -90,11 +80,11 @@
   top: 8rem;
   z-index: 99;
   border-radius: 10px;
-  box-shadow:0px  2px  5px black;
+  box-shadow: 0px 2px 5px black;
   padding: 0px;
   height: fit-content;
   width: 13rem;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .dropactive div {
@@ -102,64 +92,60 @@
   position: relative;
   padding: 15px;
   border-radius: 10px;
-  transition: all .3s;
-  
+  transition: all 0.3s;
 }
 .dropactive div a {
-    color: #005A9C;
+  color: #005a9c;
   text-decoration: none;
 }
 
 .dropactive div:hover {
   cursor: pointer;
   background-color: rgb(225, 223, 223);
- 
 }
 .drpdwn-main :hover {
- visibility: visible;
+  visibility: visible;
 }
 
-
-.dropactive1{
+.dropactive1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-position: absolute;
-background-color: rgb(255, 255, 255);
-left: 9rem;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  left: 9rem;
 
-top: 1rem;
-border-radius: 10px;
-box-shadow:0px  2px  5px black;
-padding: 10px;
-height: fit-content;
-width: fit-content;
-transition: all .5s;
+  top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px black;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  transition: all 0.5s;
 }
-.dropinactive1{
+.dropinactive1 {
   visibility: hidden;
-  
+
   flex-direction: column;
   justify-content: center;
-position: absolute;
-background-color: rgb(255, 255, 255);
-left: 9rem;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  left: 9rem;
 
-top: 1rem;
-border-radius: 10px;
-box-shadow:0px  2px  5px black;
-padding: 10px;
-height: fit-content;
-width: fit-content;
-transition: all .5s;
+  top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px black;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  transition: all 0.5s;
 }
-.sub-drpdwn div{
+.sub-drpdwn div {
   list-style: none;
   position: relative;
   padding: 20px;
   border-radius: 10px;
-  transition: all .3s;
- 
+  transition: all 0.3s;
 }
 .logo {
   position: relative;
@@ -180,7 +166,7 @@ transition: all .5s;
 }
 
 .mems {
-  color: #C44536;
+  color: #c44536;
   font-size: 30px;
   font-weight: 900;
   line-height: 40px;
@@ -191,7 +177,7 @@ transition: all .5s;
   width: 6rem;
 }
 .iiti {
-  color: #005A9C;
+  color: #005a9c;
   line-height: 60px;
   font-size: 15px;
 }
@@ -212,7 +198,7 @@ transition: all .5s;
   justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
-  color:#005A9C;
+  color: #005a9c;
 }
 .menu-link-ul li {
   list-style: none;
@@ -229,11 +215,10 @@ transition: all .5s;
   /* color: white; */
 }
 
-.menu-link-ul li  {
+.menu-link-ul li {
   transition-property: all;
   transition-duration: 0.3s;
-  color:#005A9C;
-  
+  color: #005a9c;
 }
 .typo {
   font-size: 45px;
@@ -241,10 +226,10 @@ transition: all .5s;
 }
 
 .menu-link-ul li a {
-  color:#005A9C;
-  
+  color: #005a9c;
+
   text-decoration: none;
-    /* font-size: larger; */
+  /* font-size: larger; */
 }
 
 .nav-ham {
@@ -327,7 +312,7 @@ transition: all .5s;
 }
 
 @media (max-width: 600px) {
-  .navbar1{
+  .navbar1 {
     position: relative;
     top: 0%;
     z-index: 99;
@@ -439,7 +424,6 @@ transition: all .5s;
     letter-spacing: 1px;
   }
   .dropinactive {
-    
     display: flex;
     visibility: visible;
     flex-direction: column;
@@ -451,12 +435,12 @@ transition: all .5s;
     top: 0rem;
     z-index: 99;
     border-radius: 0px;
-    box-shadow: 0px 0px  0px black;
+    box-shadow: 0px 0px 0px black;
     padding: 0px;
     margin: -16px;
-    transition: all .3s;
-   height: 0rem;
-   width: fit-content;
+    transition: all 0.3s;
+    height: 0rem;
+    width: fit-content;
     opacity: 0;
     /* justify-content: space-evenly;    */
   }
@@ -465,84 +449,73 @@ transition: all .5s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  position: relative  ;
-  background-color: rgba(255, 255, 255, 0);
-  left: 0rem;
-color: white;
-  top: 0rem;
-  z-index: 99;
-  border-radius: 0%;
-  box-shadow:0px  0px  0px black;
-  padding: 0px;
-  height: 4rem;
-  width: fit-content;
-  transition: all .3s;
-}
-.dropactive div {
-  list-style: none;
-  position: relative;
-  padding: 10px;
-  border-radius: 10px;
-  transition: all .3s;
-  
-}
-.dropactive div a {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    left: 0rem;
+    color: white;
+    top: 0rem;
+    z-index: 99;
+    border-radius: 0%;
+    box-shadow: 0px 0px 0px black;
+    padding: 0px;
+    height: 4rem;
+    width: fit-content;
+    transition: all 0.3s;
+  }
+  .dropactive div {
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .dropactive div a {
     color: rgb(245, 245, 249);
-  text-decoration: none
-}
-.dropinactive div a {
+    text-decoration: none;
+  }
+  .dropinactive div a {
     color: rgb(245, 245, 249);
-  text-decoration: none
-}
+    text-decoration: none;
+  }
 
-.dropactive div:hover {
-  background-color: rgba(87, 82, 82, 0);
- 
-}
-.dropactive div a:hover {
-  color: rgb(102, 104, 105);
- 
-}
-.dropinactive div{
-  visibility: visible;
-  list-style: none;
-  position: relative;
-  
+  .dropactive div:hover {
+    background-color: rgba(87, 82, 82, 0);
+  }
+  .dropactive div a:hover {
+    color: rgb(102, 104, 105);
+  }
+  .dropinactive div {
+    visibility: visible;
+    list-style: none;
+    position: relative;
 
-padding: 0px 10px;
-transition: all .3s;
-/* justify-content: space-evenly;    */
-}
-.dropinactive div a{
-  text-decoration: none;
-/* justify-content: space-evenly;    */
-}
-.menu-link-ul li:hover {
-  position: relative;
-  font-size: x-large;
-  /* text-shadow: 0 10px 5px black; */
+    padding: 0px 10px;
+    transition: all 0.3s;
+    /* justify-content: space-evenly;    */
+  }
+  .dropinactive div a {
+    text-decoration: none;
+    /* justify-content: space-evenly;    */
+  }
+  .menu-link-ul li:hover {
+    position: relative;
+    font-size: x-large;
+    /* text-shadow: 0 10px 5px black; */
 
-  /* font-size: x-large ; */
-}
-.navbar1{
-  position: relative;
-  top: 0%;
-  z-index: 99;
-}
-.navbar{
-  transform: none;
-  transition: none;
-  
-  
- }
- .scroll-active{
-   transform: none;
- 
-   transition: none;
- 
-   
-  
-  
- 
- }
+    /* font-size: x-large ; */
+  }
+  .navbar1 {
+    position: relative;
+    top: 0%;
+    z-index: 99;
+  }
+  .navbar {
+    transform: none;
+    transition: none;
+  }
+  .scroll-active {
+    transform: none;
+
+    transition: none;
+  }
 }

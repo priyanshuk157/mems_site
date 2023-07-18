@@ -21,24 +21,28 @@ const AcadCard = () => {
         <Accordion.Header> <div className="acad-head1">B.Tech. in Metallurgical Engineering and Materials Science (4 Years):</div></Accordion.Header>
         <Accordion.Body>
         Our comprehensive undergraduate program in Metallurgical Engineering and Materials Science offers a rigorous and diverse curriculum, equipping students with a strong foundation in the principles and applications of materials science, metallurgy, and related fields. Through a balanced blend of theoretical knowledge and practical training, students develop the necessary skills to contribute to the advancement of materials engineering in industries and research institutions.
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
         <Accordion.Header><div className="acad-head1">M.Tech. with Specialization in Materials Science and Engineering (2 Years):</div></Accordion.Header>
         <Accordion.Body>
         Our specialized Master's program in Materials Science and Engineering provides students with an in-depth understanding of the fundamental principles and advanced concepts in the field. Focusing on materials synthesis, characterization, and application, this program prepares graduates to tackle complex challenges in industries such as aerospace, energy, electronics, and manufacturing. With access to state-of-the-art laboratories and research opportunities, students gain hands-on experience to drive innovation and contribute to cutting-edge advancements in materials science.
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header><div className="acad-head1">Ph.D. Program</div></Accordion.Header>
         <Accordion.Body>
         Our PhD program provides an exceptional opportunity for aspiring researchers and scholars to contribute to the field of metallurgical engineering and materials science through cutting-edge research and innovation. Under the guidance of renowned faculty members, doctoral candidates engage in independent, original research that pushes the boundaries of knowledge in their chosen area of specialization. Through a combination of coursework, seminars, and hands-on research experience, students develop critical thinking, analytical skills, and expertise to become future leaders in academia, industry, and research institutions.
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
         <Accordion.Header><div className="acad-head1">M.Tech. with Specialization in Metallurgical Engineering (2 Years):</div></Accordion.Header>
         <Accordion.Body>
         The Master's program in Metallurgical Engineering offers a specialized curriculum that delves into the principles, processes, and applications of metallurgy. With a focus on the extraction, production, and manipulation of metals and alloys, students gain comprehensive knowledge in areas such as physical metallurgy, materials characterization, corrosion science, and more. Equipped with advanced skills and expertise, graduates are prepared to lead research and development efforts, optimize industrial processes, and drive advancements in metallurgical engineering. 
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div>  
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
@@ -46,7 +50,8 @@ const AcadCard = () => {
 UG
 PG/PHD</div></Accordion.Header>
         <Accordion.Body>
-        The Master's program in Metallurgical Engineering offers a specialized curriculum that delves into the principles, processes, and applications of metallurgy. With a focus on the extraction, production, and manipulation of metals and alloys, students gain comprehensive knowledge in areas such as physical metallurgy, materials characterization, corrosion science, and more. Equipped with advanced skills and expertise, graduates are prepared to lead research and development efforts, optimize industrial processes, and drive advancements in metallurgical engineering. 
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to View the Academic Calender</a></div> 
+
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
