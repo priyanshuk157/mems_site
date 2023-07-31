@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
-import SplitButton from 'react-bootstrap/SplitButton';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Button, ButtonGroup } from "react-bootstrap";
 
