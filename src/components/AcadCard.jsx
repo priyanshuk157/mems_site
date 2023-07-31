@@ -31,13 +31,6 @@ const AcadCard = () => {
         <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2">
-        <Accordion.Header><div className="acad-head1">Ph.D. Program</div></Accordion.Header>
-        <Accordion.Body>
-        Our PhD program provides an exceptional opportunity for aspiring researchers and scholars to contribute to the field of metallurgical engineering and materials science through cutting-edge research and innovation. Under the guidance of renowned faculty members, doctoral candidates engage in independent, original research that pushes the boundaries of knowledge in their chosen area of specialization. Through a combination of coursework, seminars, and hands-on research experience, students develop critical thinking, analytical skills, and expertise to become future leaders in academia, industry, and research institutions.
-        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
-        </Accordion.Body>
-      </Accordion.Item>
       <Accordion.Item eventKey="3">
         <Accordion.Header><div className="acad-head1">M.Tech. with Specialization in Metallurgical Engineering (2 Years):</div></Accordion.Header>
         <Accordion.Body>
@@ -45,6 +38,14 @@ const AcadCard = () => {
         <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div>  
         </Accordion.Body>
       </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header><div className="acad-head1">Ph.D. Program</div></Accordion.Header>
+        <Accordion.Body>
+        Our PhD program provides an exceptional opportunity for aspiring researchers and scholars to contribute to the field of metallurgical engineering and materials science through cutting-edge research and innovation. Under the guidance of renowned faculty members, doctoral candidates engage in independent, original research that pushes the boundaries of knowledge in their chosen area of specialization. Through a combination of coursework, seminars, and hands-on research experience, students develop critical thinking, analytical skills, and expertise to become future leaders in academia, industry, and research institutions.
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
+        </Accordion.Body>
+      </Accordion.Item>
+    
       <Accordion.Item eventKey="4">
         <Accordion.Header><div className="acad-head1">Academic Calender for the year 23-24
 UG

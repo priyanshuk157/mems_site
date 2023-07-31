@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import "./Slider.css"
+import jai from "./images/yeih.jpg"
+import jai1 from "./images/statimg.jpg"
+import jai2 from "./images/statimg2.jpg"
 
 function CarouselFadeExample() {
   
@@ -10,7 +13,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}> 
         <img
           className="d-block w-100 img-hgt"
-          src="https://wallpapercave.com/dwp1x/wp11646842.jpg"
+          src={jai}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -33,7 +36,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}>
         <img
           className="d-block w-100 img-hgt"
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Microstructure_of_a_stainless_steel_A961.jpg"
+          src={jai2}
           alt="Third slide"
         />
 

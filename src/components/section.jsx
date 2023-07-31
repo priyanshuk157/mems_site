@@ -2,6 +2,10 @@ import React from 'react'
 // import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
 import Newssection from './news-section'
+import Swiper, { Autoplay, Navigation, Pagination } from 'swiper'
+import { SwiperSlide } from 'swiper/react'
+import { NewReleases } from '@mui/icons-material'
+import Stats from './stats'
 
 
 const section = () => {
@@ -45,7 +49,9 @@ Engage with broader community via outreach programs to promote science & technol
     </div>
     <div className='ranking'>
       <div ><h2>STATISTICS</h2></div>
-   <div className='ranking-main'></div>
+   <div className='ranking-main'>
+   <Stats/>
+   </div>
     </div>
     </div></div>
   

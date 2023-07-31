@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+:root{
+  --Primary: #ffffff;
+}
 
 * {
   margin: 0;
@@ -23,7 +26,13 @@
 
   transition: all 0.5s ease-in-out;
 }
+.drpdwn-btn{
+  font-size: 20px;
+  margin: -25px;
+  color: #005a9c;
+  text-align: left;
 
+}
 .main-nav {
   padding: 40px;
 

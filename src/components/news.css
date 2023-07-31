@@ -37,6 +37,13 @@
     justify-content: center;
     /* align-items: center; */
   }
+  .swiper-cont{
+    display: flex;
+  }
+  .swiper-cont img{
+    height: 8rem;
+    width: 5rem;
+  }
  
   
   .swiper-slide img {

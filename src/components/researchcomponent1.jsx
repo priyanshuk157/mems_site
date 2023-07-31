@@ -28,7 +28,7 @@ const Researchcomponent1 = () => {
       <div className='research-main'>
 
         <div className='research-heads'>
-          <div className=''><h2>Research Areas</h2></div>
+          <div className=''><h2>Research Themes</h2></div>
 
           <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Alloy design, development, and deformation</div>
           <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Surface engineering & Materials degradation</div>
@@ -41,7 +41,7 @@ const Researchcomponent1 = () => {
 
         </div>
         <div className={toggleState === 1 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Themes</div>
+          <div className="research-content-head">Research Areas</div>
           Alloy Design
 Process-Structure-Property (P-S-P) correlations and Materials Modelling
 Thermodynamics & Phase transformation
@@ -57,7 +57,7 @@ Extreme Materials
 
         </div>
         <div className={toggleState === 2 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Themes</div>
+          <div className="research-content-head">Research Areas</div>
           Light weight alloys
 Multi-principal element alloys (MPEAs)
 Metallic glasses
@@ -69,7 +69,7 @@ Cryogenic material
 
         </div>
         <div className={toggleState === 3 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Themes</div>
+          <div className="research-content-head">Research Areas</div>
           Corrosion & prevention
 Oxidation
 Fatigue & Fracture
@@ -81,7 +81,7 @@ Surface treatments
 
         </div>
         <div className={toggleState === 4 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Themes</div>
+          <div className="research-content-head">Research Areas</div>
           New Generation Solar Cell Batteries
 Fuel Cells and Supercapacitors
 Hydrogen Generation and Storage Water Splitting
@@ -95,7 +95,7 @@ Water purification and waste-water treatment
 
         </div>
         <div className={toggleState === 5 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Themes</div>
+          <div className="research-content-head">Research Areas</div>
           Thin films deposition
 Wide bandgap semiconducting oxides
 Optical and transport properties
@@ -110,7 +110,7 @@ Optoelectronics
 
         </div>
         <div className={toggleState === 6 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Themes</div>
+          <div className="research-content-head">Research Areas</div>
           Design and Growth of Nanostructure
 0D,1D, 2D materials and Applications 
 Nano-hetero-architectures

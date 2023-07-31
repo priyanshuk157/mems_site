@@ -20,6 +20,7 @@ const ResearchStaff = () => {
                 </div>
                
                <div className="faculty-head-2"><a href="people"><i><FaAngleLeft/></i></a>Research Staff</div>
+               <div className="faculty-head-2">Non-Technical Support Staffs in MEMS</div>   
 
 
                {/* NOTE :- 
@@ -33,6 +34,46 @@ const ResearchStaff = () => {
                 
 
                <div className="Rstaff">
+               <div className="stfcontainer">
+                    <div className="stfcontainer1">
+                        <div className="stfimage">  <img src={bdwivedi} alt="hb"  /></div>
+                      
+                       <div className="stftext">
+                       <div className="pm-head">Mr. Brajesh Dwivedi</div>
+                       <div className="pc2">
+                        <ul>  <li>Senior Assistant</li>
+              <li>Qualification: B.Com., M.Com., MBA (Finance), 
+PGDMM, PGDHRM, DMSP (Pursuing)
+</li>
+              <li>Email	: memsoffice@iiti.ac.in , brajeshd@iiti.ac.in </li>
+              <li>Contact : +91-731-660-3478</li>
+              <li>Expertise: Secretarial Administrative work, & Procurement</li></ul>
+                     
+              </div>
+                        
+                       </div>
+                    </div>
+                </div>
+                <div className="stfcontainer">
+                    <div className="stfcontainer1">
+                        <div className="stfimage">  <img src={kthapa} alt="kk"  /></div>
+                      
+                       <div className="stftext">
+                       <div className="pm-head">Mr. Kulbahadur Thapa</div>
+                       <div className="pc2">
+                        <ul>  <li>Junior Attendant Grade II</li>
+              <li>Qulification : SSC </li>
+              <li>Email	: kthapa@iiti.ac.in  </li>
+              <li>Contact : +91-731-660-3478</li>
+              <li>Expertise: Office Maintenance & Filling   </li></ul>
+                     
+              </div>
+                        
+                       </div>
+                    </div>
+                </div>
+                <div className="faculty-head-2">Technical Support Staffs in MEMS</div>
+
                
                 <div className="stfcontainer">
                     <div className="stfcontainer1">
@@ -106,44 +147,7 @@ const ResearchStaff = () => {
                        </div>
                     </div>
                 </div>
-                <div className="stfcontainer">
-                    <div className="stfcontainer1">
-                        <div className="stfimage">  <img src={bdwivedi} alt="hb"  /></div>
-                      
-                       <div className="stftext">
-                       <div className="pm-head">Mr. Brajesh Dwivedi</div>
-                       <div className="pc2">
-                        <ul>  <li>Senior Assistant</li>
-              <li>Qualification: B.Com., M.Com., MBA (Finance), 
-PGDMM, PGDHRM, DMSP (Pursuing)
-</li>
-              <li>Email	: memsoffice@iiti.ac.in , brajeshd@iiti.ac.in </li>
-              <li>Contact : +91-731-660-3478</li>
-              <li>Expertise: Secretarial Administrative work, & Procurement</li></ul>
-                     
-              </div>
-                        
-                       </div>
-                    </div>
-                </div>
-                <div className="stfcontainer">
-                    <div className="stfcontainer1">
-                        <div className="stfimage">  <img src={kthapa} alt="kk"  /></div>
-                      
-                       <div className="stftext">
-                       <div className="pm-head">Mr. Kulbahadur Thapa</div>
-                       <div className="pc2">
-                        <ul>  <li>Junior Attendant Grade II</li>
-              <li>Qulification : SSC </li>
-              <li>Email	: kthapa@iiti.ac.in  </li>
-              <li>Contact : +91-731-660-3478</li>
-              <li>Expertise: Office Maintenance & Filling   </li></ul>
-                     
-              </div>
-                        
-                       </div>
-                    </div>
-                </div>
+               
                 </div>
               
                 <Footer/>

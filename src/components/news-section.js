@@ -29,9 +29,10 @@ const Newssection = () => {
         modules={[Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><div className='swiper-cont'>haduhi akdjj kakkad djandla ddalidnald dnladad allia dalndnlanda aldnaind ad aldnian aldahdnad adnalidna da</div></SwiperSlide>
-        <SwiperSlide><div className='swiper-cont'>haduhi</div></SwiperSlide>
-        <SwiperSlide><div className='swiper-cont'>haduhi</div></SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'> <img src='' alt='oky' /> Mr. Subhash Chand Yadav, Research Scholar in the Department of Metallurgical Engineerihng and Materials Science has successfully defended his Thesis</div></SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'>  <img src='' alt='oky' /> MEMS Department, IIT Indore Welcomed Prof. Bhanu Pant, Former Outstanding Scientist and Group Director Materials and Metallurgy Group at Vikram Sarabhai Space Centre, ISRO and Professor College of Engineering, Pune.</div> </SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'> <img src='' alt='oky' /> IIT Indore conducted its 11th Convocation on July 15, 2023 in which Prof. Dr. Volker Epping, President, Leibniz University Hannover Germany graced the occasion as Chief Guest and Shri S. 'Kris' Gopalakrishnan, Chairman Axilor Ventures, Co-founder Infosys and President ISF graced the occasion as Guest of Honor.
+</div></SwiperSlide>
       
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>

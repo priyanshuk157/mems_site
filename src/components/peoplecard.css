@@ -150,7 +150,7 @@ p {
   border: 0px;
 }
 
-.head {
+.head{
   display: flex;
   margin-top: 3rem ;
   justify-content: center;

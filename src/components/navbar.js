@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
+import SplitButton from 'react-bootstrap/SplitButton';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
+import { Button, ButtonGroup } from "react-bootstrap";
+
 
 const Navbar = () => {
   const navRef = useRef();
@@ -64,7 +69,7 @@ const Navbar = () => {
             <div className="logo">
               <div className="mems">
                 <span className="typo">M</span>etallurgical{" "}
-                <span className="typo">E</span>ngneering <br /> and{" "}
+                <span className="typo">E</span>ngineering <br /> and{" "}
                 <span className="typo">M</span>aterials{" "}
                 <span className="typo">S</span>cience
               </div>
@@ -75,7 +80,7 @@ const Navbar = () => {
           <div className="menu-link">
             <ul className="menu-link-ul   " ref={navRef}>
               <li>
-                {" "}
+                {"   "}
                 <a href="/"> about </a>{" "}
               </li>
               <li>
@@ -90,22 +95,37 @@ const Navbar = () => {
                     {" "}
                     <a href="faculty"> Post DOC.</a>{" "}
                   </div>
-                  <div>
-                    {" "}
-                    <div onClick={() => toggleTab(2)}>Staff Members</div>
-                    {/* <div className={subdownStateCheck1} >
-        
-        <div> <a href='faculty'> Faculty Members</a> </div>
-        <div> <a href='faculty'> Post DOC.</a> </div>
-       
-        
-       </div>  */}
-                  </div>
+                 
+                   
+                      
+                    <Dropdown as={ButtonGroup}>
+      <Button  variant="Primary"><div className="drpdwn-btn">Staff</div></Button>
 
-                  <div>
-                    {" "}
-                    <a href="ad"> Students </a>{" "}
-                  </div>
+      <Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1"> <a href="ReasearchStaff">Research Staff</a> </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Departmental Staff</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+     
+                    <Dropdown as={ButtonGroup}>
+      <Button  variant="Primary"><div className="drpdwn-btn">Students</div></Button>
+
+      <Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">PHd</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">UG And PG</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+     
+                    
+                  
+                  
+
+                 
+        
                   <div>
                     {" "}
                     <a href="ad"> Alumni </a>{" "}

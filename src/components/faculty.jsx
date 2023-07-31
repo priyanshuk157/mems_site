@@ -8,6 +8,7 @@ import prof6 from "./profiles/profimages/prof6.jpg";
 import prof13 from "./profiles/profimages/prof13.jpg";
 import prof18 from "./profiles/profimages/prof18.jpg";
 import prof19 from "./profiles/profimages/prof19.jpg";
+import "./peoplecard.css"
 
 const faculty = () => {
   return (

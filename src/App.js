@@ -1,7 +1,6 @@
 import React from 'react'
 // import { ReactDOM } from 'react-dom';
 
-import People from './mainpages/people'
 import Home from './mainpages/Home'
 import {Routes , Route} from 'react-router-dom'
 
@@ -18,6 +17,7 @@ import Researchcomponent3 from './components/researchcomponent3'
 import Researchcomponent4 from './components/researchcomponent4'
 import Researchcomponent5 from './components/researchcomponent5'
 import Researchcomponent6 from './components/researchcomponent6'
+import ReasearchStaff from './components/ResearchStaff'
 import Profile1 from './components/profiles/profile1'
 import Profile2 from './components/profiles/profile2'
 import Profile3 from './components/profiles/profile3'
@@ -55,7 +55,7 @@ const App = () => {
       <div> <Cards/></div> */}
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='people' element={<People/>}></Route>
+        
         <Route path='academics' element={<Academics/>}></Route>
         <Route path='research' element={<Research/>}></Route>
         <Route path='gallery' element={<GalleryPage/>}></Route>
@@ -88,6 +88,7 @@ const App = () => {
  <Route path='researchcomponent4' element={<Researchcomponent4/>}></Route>
  <Route path='researchcomponent5' element={<Researchcomponent5/>}></Route>
  <Route path='researchcomponent6' element={<Researchcomponent6/>}></Route>
+ <Route path='ReasearchStaff' element={<ReasearchStaff/>}></Route>
 
         <Route path='industry' element={<Industryrelation/>}></Route>
       </Routes>
