@@ -20,11 +20,7 @@ const Researchcomponent1 = () => {
     <><div>
       <Navbar />
     </div>
-    <div className="head">
-
-        RESEARCH
-
-      </div>
+   
       <div className='research-main'>
 
         <div className='research-heads'>
@@ -36,6 +32,7 @@ const Researchcomponent1 = () => {
           <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Electronics & Photonics</div>
           <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Nano & Soft materials</div>
           <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy & Environment</div>
+          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Collaboration</div>
          
 
 
@@ -210,7 +207,12 @@ Polymers and polymeric nanocomposites
           </ul>
 
         </div>
-      </div><div>
+      </div>
+       <div>
+       
+    </div>
+      
+      <div>
         <Footer />
       </div></>
 

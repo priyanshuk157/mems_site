@@ -16,7 +16,7 @@ const AcadCard = () => {
       Degree programs offered by the Department of Metallurgical Engineering and Materials Science at IIT Indore revolve around exploring the properties of matter and their practical utilization in various areas of science and engineering.
     </div>
     <div className="acad-body">
-    <Accordion className='acad-content' defaultActiveKey={['0']} alwaysOpen>
+    <Accordion className='acad-content' defaultActiveKey={['-1']} >
       <Accordion.Item eventKey="0">
         <Accordion.Header> <div className="acad-head1">B.Tech. in Metallurgical Engineering and Materials Science (4 Years):</div></Accordion.Header>
         <Accordion.Body>

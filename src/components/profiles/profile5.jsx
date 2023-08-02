@@ -4,6 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaAngleLeft } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
+import prof11 from "./profimages/prof11.jpg"
 
 const profile5 = () => {
   return (
@@ -24,7 +25,7 @@ const profile5 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="http://mems.iiti.ac.in/images/dubey.jpg" alt="sd" />
+            <img src={prof11} alt="sd" />
           </div>
           {/* pc=profile content */}
 

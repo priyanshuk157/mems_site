@@ -64,7 +64,9 @@
 }
 
 .cardtext {
-    margin: 2rem;
+    font-size: 18px;
+    padding:    0px 40px;
+    
 }
 
 .title {

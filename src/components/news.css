@@ -23,10 +23,11 @@
   }
   
   .swiper-slide {
+    margin: px;
  
     padding: 20px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     background: #e4f0fb;
     color: rgb(0, 0, 0);
@@ -39,6 +40,7 @@
   }
   .swiper-cont{
     display: flex;
+    gap: 25px;
   }
   .swiper-cont img{
     height: 8rem;
@@ -47,9 +49,9 @@
  
   
   .swiper-slide img {
-    background-color: #000;
-    display: block;
-    width: 100%;
+   
+  
+    width: 20rem;
     height: 100%;
     object-fit: cover;
   }

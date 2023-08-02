@@ -4,7 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
-import prof3 from "./profimages/prof3.jpg"
+import prof2 from "./profimages/prof2.jpg"
 
 const Profile18 = () => {
   return (
@@ -24,7 +24,7 @@ const Profile18 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src={prof3} alt="sd" />
+            <img src={prof2} alt="sd" />
           </div>
           {/* pc=profile content */}
 

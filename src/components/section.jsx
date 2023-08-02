@@ -2,9 +2,7 @@ import React from 'react'
 // import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
 import Newssection from './news-section'
-import Swiper, { Autoplay, Navigation, Pagination } from 'swiper'
-import { SwiperSlide } from 'swiper/react'
-import { NewReleases } from '@mui/icons-material'
+
 import Stats from './stats'
 
 

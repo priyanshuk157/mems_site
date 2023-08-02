@@ -6,6 +6,7 @@
     height:fit-content   ;
     border-radius: 10px;
     /* box-shadow: 1px 1px 7px #000; */
+    max-width: 1300px;
    
     background-color: var(--lightbg);
   

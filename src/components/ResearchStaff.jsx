@@ -19,7 +19,7 @@ const ResearchStaff = () => {
 
                 </div>
                
-               <div className="faculty-head-2"><a href="people"><i><FaAngleLeft/></i></a>Research Staff</div>
+              
                <div className="faculty-head-2">Non-Technical Support Staffs in MEMS</div>   
 
 

@@ -3,6 +3,9 @@ import './footer.css'
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import {  FaHome,    FaTwitterSquare } from "react-icons/fa";
+
+ 
 
 const footer = () => {
   return (
@@ -23,6 +26,8 @@ Indore, Madhya Pradesh, INDIA
            <div> <i>< FaPhoneAlt/> </i>  : +91-7324-306 819</div> 
             <div><i>< FaEnvelope/></i> : memsoffice@iiti.ac.in</div>
             <div><i>< FaLinkedin/></i> : MEMS IITI</div>
+            <div><i>< FaHome/></i> : MEMS IITI</div>
+            <div><i>< FaTwitterSquare/></i> : MEMS IITI</div>
             
 
              

@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { FaAngleLeft } from "react-icons/fa";
-import prof3 from "./profiles/profimages/prof3.jpg";
+
 import prof4 from "./profiles/profimages/prof4.png";
 import prof6 from "./profiles/profimages/prof6.jpg";
 import prof13 from "./profiles/profimages/prof13.jpg";
 import prof18 from "./profiles/profimages/prof18.jpg";
 import prof19 from "./profiles/profimages/prof19.jpg";
+import prof11 from "./profiles/profimages/prof11.jpg";
+import prof2 from "./profiles/profimages/prof2.jpg";
 import "./peoplecard.css"
 
 const faculty = () => {
@@ -16,14 +17,7 @@ const faculty = () => {
       <div>
         <Navbar />
       </div>
-      <div className="faculty-head-2">
-        <a href="people">
-          <i>
-            <FaAngleLeft />
-          </i>
-        </a>{" "}
-        Faculty Members
-      </div>
+     
       <div className="faculty-main">
         <div className="faculty-width">
           <div className="hodsec  ">
@@ -61,7 +55,7 @@ const faculty = () => {
             </div>
           </div>
           <div className="hodsec  ">
-            <img src={prof3} className="hodimg" alt="okf" />
+            <img src={prof2} className="hodimg" alt="okf" />
 
             <div className="hodtext">
               <div className="hodtext1">
@@ -88,7 +82,7 @@ const faculty = () => {
           </div>
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/dubey.jpg"
+              src={prof11}
               className="hodimg"
               alt="okf"
             />
@@ -316,11 +310,7 @@ const faculty = () => {
         </div>
       </div>
       <div className="faculty-head-2">
-        <a href="people">
-          <i>
-            <FaAngleLeft />
-          </i>
-        </a>{" "}
+       
         Visiting Faculty
       </div>
       <div className="faculty-main">
