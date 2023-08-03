@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
 import "./staff.css"
-import { FaAngleLeft } from "react-icons/fa";
 import mcbairwa from "./staffimages/MaheshChandBairwa.jpg"
 import mdhake from "./staffimages/MayurDhake.jpg"
 import bdwivedi from "./staffimages/BrajeshDwivedi.png"

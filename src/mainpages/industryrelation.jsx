@@ -63,7 +63,7 @@ const industryrelation = () => {
                     <Card.Text className='cardtext'>
                         
                       
-                        <i><FaEnvelope/></i> : <a href="">outreach.mems</a>
+                        <i><FaEnvelope/></i> : <a href="jdjs">outreach.mems</a>
                     </Card.Text>
                     
 

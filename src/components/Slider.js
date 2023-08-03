@@ -24,7 +24,7 @@ function CarouselFadeExample() {
       <Carousel.Item interval={4000}>
         <img
           className="d-block w-100 img-hgt"
-          src="https://www.researchgate.net/profile/Daniel-Krizan-2/publication/259850559/figure/fig2/AS:669347563442199@1536596303810/Microstructure-of-selected-modern-steels-for-automotive-applications-in-comparison-with-a.jpg"
+          src={jai1}
           alt="Second slide"
         />
 
