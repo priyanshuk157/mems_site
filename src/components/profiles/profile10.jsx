@@ -2,183 +2,148 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaAngleLeft } from "react-icons/fa";
-import Table from "react-bootstrap/Table";
+import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import {SiGooglescholar } from "react-icons/si";
+
+import prof3 from "./profimages/prof3.jpg"
+
 
 const profile10 = () => {
   return (
     <>
-      <div>
+       <div>
         <Navbar />
       </div>
 
-      <div className="head4">
+      {/* <div className="head4">
         <i className="back-button">
           <a href="faculty">
-            <FaAngleLeft />
           </a>
         </i>
         <span>PROFILE</span>
-      </div>
-
+      </div> */}
+      <div className="pm-head">Prof. Dhirendra Kumar Rai</div>
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
+            <img src={prof3} alt="sd" />
           </div>
           {/* pc=profile content */}
 
           <div className="pc2">
-            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
+          
 
             <ul>
-              <li>Email : akk@iiti.ac.in</li>
-              <li>Office : pod 305 </li>
-              <li>
-                webpage :{" "}
-                <a href="https://iiti.ac.in/people/~ajaykk/index.html">
-                  {" "}
-                  visit page
-                </a>
-              </li>
-              <li>contact : +91 731 660 3250</li>
+              <li>Assistant Professor </li>
+              <li>Office		: POD-1D, Room No. 418</li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: dkrai@iiti.ac.in</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731660-3278/5118 </li>
+            <div className="fac-links">
+             <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href="  https://scholar.google.com/citations?user=pFwwR8UAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             {/* <a href="https://in.linkedin.com/in/dr-ajay-k-kushwaha-16b46a49?trk=public_post_feed-actor-name "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a> */}
+             
+             
+              
+              
+             
+            </div>
+              
             </ul>
           </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">ACADEMIC BACKGROUND</span>
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IIT, Bombay</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>M.Sc. Physics (Electronics) </td>
-                <td>2006</td>
-              </tr>
-              <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>B.Sc. (Physics & Maths) </td>
-                <td>2003</td>
-              </tr>
-            </tbody>
-          </Table>
-          <br />
+          <span className="pc1-head">RESEARCH INTEREST</span>
+         
+
+          <div>
+            <ul>
+              <li>Energy Storage (Supercapacitors, Batteries)</li>
+              <li>Energy Harvesting (Blue energy, Evaporation Induced generation (EIG)) </li>
+              <li>Electrocatalysis (HER, OER, CO2RR) </li>  
+              {/* <li>Sensors, Corrosion</li> */}
+              <li>CO2 Capture and Utilization (CCU) </li>
+              
+            </ul>
+           
+    
+            
+          </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">POSITIONS HELD</span>
+          <span className="pc1-head">ACADEMIC BACKGROUND</span>
+          
+         
+
+          <ul>
+            <li> Ph.D, Department of Chemistry, Indian Institute of Technology Bombay, 2013</li>
+            <li>Master’s degree, Department of Chemistry, Banaras Hindu University, 2006</li>
+            <li>Bachelor’s degree, Udai Pratap Autonomous College, 2004</li>
+          
+            
+          </ul>
+        </div>
+        <div className="pc1">
+          <span className="pc1-head">PROFESSIONAL EXPERIENCE</span>
+          
           <ul>
             <li>
-              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
-            </li>
-            <li>Completed 2 Research Projects.</li>
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, September 29, 2017 – present             </li>
+            <li>DST Young Scientist, Department of Chemistry, IIT Indore, September 23, 2015 – September 28, 20217</li>
             <li>
-              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
-              44 i10-index.
-            </li>
-            <li>
-              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
-            </li>
-            <li>
-              Given 10 Invited/Contributory talk in national / international
-              conferences.
-            </li>
+            Industrial : Position, Group, Company, From – To ( Year)            </li>
+            
+            
           </ul>
         </div>
 
-        <div className="pc1">
-          <span className="pc1-head">PUBLICATIONS</span>
-          <div>
-            <Table>
-              <thead>
-                <tr>
-                  <th>Sr.No.</th>
-                  <th> Publication Details</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>
-                    G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty,
-                    S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy,
-                    S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced
-                    Materials for Enabling Hydrogen Economy: Functionalized
-                    Graphene�Incorporated Cupric Oxide Catalyst for Efficient
-                    Solar Hydrogen Production , Global Challenges , 2020, 4 (3),
-                    2070031 , Impact Factor: 5.13.
-                  </td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>
-                    N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha,
-                    Sulphur precursor dependent crystallinity and optical
-                    properties of solution grown Cu2FeSnS4 particles , Materials
-                    Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44
-                    .
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>
-                    {" "}
-                    N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents
-                    on structural, morphological and optical properties of
-                    solvothermally grown Cu2FeSnS4 particles , AIP Conference
-                    Proceedings , 2115 (1), 030603 (2019).
-                  </td>
-                </tr>
-              </tbody>
-            </Table>
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">PATENTS</span>
-          <div>
-            <Table>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>
-                    {" "}
-                    Amorphous Metal Oxide films, (Technology is licensed) ;
-                    K.L.G. Goh, H.Q. Le, and Ajay Kushwaha, Patent Publication
-                    Number: 20170259300,US Patent (Patent number: 10668500):
-                    Date of Patent: June 2, 2020
-                  </td>
-                </tr>
-              </tbody>
-            </Table>
-          </div>
-        </div>
 
-        <div className="pc1">
-          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
+        {/* <div className="pc1">
+          <span className="pc1-head">AWARDS AND RECOGNITIONS  </span>
           <div>
-            General Chair: International Conference on Frontiers of Materials
-            Engineering
+         
+
+           <ul>
+            <li>2023, Best Paper Presentation Award : 11th Asia Conference on Mechanical and Materials Engineering, Japan</li>
+            <li>2017, Early Career Research Award : SERB, Gov. of India</li>
+            <li>2016, INSPIRE Faculty Award : DST, Gov. of India</li>
+            <li>2013, Young Scientist Travel Grant: DST, Gov. of India</li>
+            </ul>
           </div>
-        </div>
+        </div> */}
         <div className="pc1">
-          <span className="pc1-head">RESEARCH INTEREST</span>
+          <span className="pc1-head">SELECTED PUBLICATIONS</span>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab
-            sed earum doloribus rem eius id consequuntur reiciendis sunt!
-            Dolorum cumque quaerat natus aliquam aperiam amet ipsam, laudantium
-            officia error?
+          
+            <ul>
+            <li>S. Krishnan, A. K. Gupta, M. K. Singh, N. Guha, and D. K. Rai “Nitrogen-rich Cu-MOF decorated on reduced graphene oxide nanosheets for hybrid supercapacitor applications with enhanced cycling stability” Chemical Engineering Journal, 435 (2022), 135042. (IF: 16.77)</li>
+            <li>M. K. Singh, S. Krishnan, and D. K. Rai“Rational design of Ti3C2x MXene coupled with hierarchical CoS for a flexible supercapattery” Electrochimica Acta, 441, (2023), 141825. (IF: 7.34)
+
+</li>
+            <li>M. K. Singh, A. K. Gupta, S. Krishnan, N. Guha, and D. K. Rai, “A new hierarchically porous Cu-MOF composited with rGO as an efficient hybrid supercapacitor electrode material” Journal of Energy Storage, 43, 103301 (2021).(IF:8.91)
+</li>
+            <li>N. Guha, A. K. Gupta, S. Chatterjee, S. Krishnan, M. K. Singh, and D. K. Rai “Environmentally benign melamine functionalized silica-coated iron oxide for selective CO2 capture and fixation into cyclic carbonate” Journal of CO2 Utilization, 49 (2021) 101575. (IF: 8.32)</li>
+            <li>S. Krishnan, S. Marimuthu, M. K. Singh, and D. K. Rai “Two Dimensional Ti3C2Tx MXene Nanosheets for CO2 Electroreduction in Aqueous Electrolytes” RSC Energy Advances, DOI: 10.1039/D3YA00117B (2023) release)
+</li>
+
+
+            </ul>
+            
           </div>
+        
         </div>
+      
+        {/* <div className="pc1">
+          <span className="pc1-head">SELECTED PATENTS</span>
+        
+          <ul>
+            <li>Amorphous Metal Oxide films, K.L.G. Goh, H.Q. Le, and Ajay Kushwaha,  20170259300,US Patent (Patent number: 10668500).</li>
+          </ul>
+        </div> */}
+      
+       
       </div>
 
       <div>
